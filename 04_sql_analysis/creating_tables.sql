@@ -1,6 +1,10 @@
 CREATE DATABASE logistics_analytics;
 USE logistics_analytics;
 
+
+---------------------------------------------- CREATING LOGISTICS ANALYTICS TABLE -------------------------------------------------
+
+
 CREATE TABLE freight_data (
     shipment_id INT PRIMARY KEY,
     shipment_date DATE,
@@ -15,3 +19,8 @@ CREATE TABLE freight_data (
     delivery_status VARCHAR(50),
     region VARCHAR(50)
 );
+
+
+---------------------------------------------- VERIFYING TABLE ------------------------------------------------------------
+
+SHOW TABLE freight_data;
