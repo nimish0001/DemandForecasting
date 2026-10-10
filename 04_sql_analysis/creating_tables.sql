@@ -23,4 +23,4 @@ CREATE TABLE freight_data (
 
 ---------------------------------------------- VERIFYING TABLE ------------------------------------------------------------
 
-SHOW TABLE;
+SHOW TABLES;
