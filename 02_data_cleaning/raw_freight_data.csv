@@ -1,0 +1,1811 @@
+shipment_id,shipment_date,route,transport_mode,cargo_type,distance_km,weight_kg,demand_units,freight_cost,delivery_days,delivery_status,region
+1001.0,2025-05-10,Lucknow-Delhi,Truck,Textiles,309,4666.0,102,4407.9,3.0,On Time,North
+1002.0,2025-12-31,Mumbai-Pune,Truck,Electronics,225,2296.0,97,3044.4,5.0,On Time,West
+1003.0,2025-11-10,Delhi-Jaipur,Truck,electronics,591,17273.0,153,9682.95,6.0,Delayed,North
+1004.0,2023-05-02,Mumbai-Pune,Air,Food,1632,19959.0,71,60113.85,6.0,Delayed,West
+1005.0,2024-04-11,Mumbai-Pune,Truck,Machinery,1059,11445.0,107,14424.75,1.0,On Time,West
+1006.0,2023-11-27,Mumbai-Pune,Truck,Machinery,1069,1409.0,109,13039.35,6.0,Delayed,West
+1007.0,2023-03-29,Delhi-Jaipur,truck ,Machinery,680,964.0,93,4904.6,2.0,On Time,North
+1008.0,2025-05-21,Kanpur-Varanasi,Rail,Electronics,876,12155.0,110,7955.25,2.0,On Time,North
+1009.0,2023-05-11,Mumbai-Pune,Truck,Machinery,357,5489.0,110,5107.35,1.0,On Time,West
+1010.0,2025-02-08,Delhi-Mumbai,Rail,Machinery,1311,19847.0,127,12154.05,4.0,On Time,West
+1011.0,2023-12-10,Delhi-Jaipur,Rail,Food,329,11816.0,128,4075.4,3.0,On Time,North
+1012.0,2025-03-16,Mumbai-Pune,Rail,Machinery,288,12078.0,106,3827.7,1.0,On Time,West
+1013.0,2024-01-21,Kanpur-Varanasi,Truck,Electronics,1538,3103.0,91,18921.45,4.0,On Time,North
+1014.0,2025-08-13,Delhi-Jaipur,Rail,Electronics,109,14274.0,93,2904.1,2.0,On Time,North
+1015.0,2023-10-04,Lucknow-Kanpur,Truck,Electronics,1237,13872.0,141,16924.8,5.0,On Time,North
+1016.0,2024-04-04,Kanpur-Varanasi,Truck,Food,1199,17715.0,98,17045.25,5.0,On Time,North
+1017.0,2023-01-22,Delhi-Mumbai,Truck,Food,775,8059.0,64,10508.85,2.0,On Time,West
+1018.0,2023-09-10,Mumbai-Pune,Truck,Textiles,601,not available,107,9024.0,1.0,On Time,West
+1019.0,2025-01-17,Lucknow-Kanpur,Truck,Machinery,184,19195.0,107,5087.25,1.0,On Time,North
+1020.0,2025-05-06,Lucknow-Kanpur,Rail,Food,148,6681.0,86,2038.15,2.0,On Time,North
+1021.0,2024-04-19,Delhi-Jaipur,Truck,Electronics,1618,16905.0,74,21951.75,8.0,Delayed,North
+1022.0,2025-12-18,Lucknow-Kanpur,Truck,Electronics,937,10065.0,168,12753.75,1.0,On Time,North
+1023.0,2024-05-25,Delhi-Mumbai,Truck,Food,1107,11860.0,110,15063.0,4.0,On Time,West
+1024.0,2024-11-30,Delhi-Mumbai,Truck,Food,788,15022.0,124,11709.3,1.0,On Time,West
+1025.0,2025-09-02,Lucknow-Delhi,Air,Food,486,1046.0,77,17166.9,1.0,On Time,North
+1026.0,2023-07-09,Delhi-Mumbai,Truck,Textiles,1069,-500.0,75,15575.7,6.0,Delayed,West
+1027.0,2025-08-15,Kanpur-Varanasi,Truck,Electronics,1512,1664.0,113,18393.6,6.0,Delayed,North
+1028.0,2024-11-17,Lucknow-Kanpur,Truck,Textiles,1105,7432.0,134,14374.8,5.0,On Time,North
+1029.0,2025-08-15,Delhi-Mumbai,Truck,Textiles,317,5044.0,80,4560.6,3.0,On Time,West
+1030.0,2024-07-16,Delhi-Jaipur,Truck,Machinery,1104,16157.0,99,15671.55,3.0,On Time,North
+1031.0,2025-04-11,Lucknow-Delhi,Rail,Electronics,1469,13977.0,84,12379.55,5.0,On Time,North
+1032.0,2024-10-08,Lucknow-Kanpur,Air,Electronics,1353,10239.0,169,48890.85,8.0,Delayed,North
+1033.0,2023-01-21,Lucknow-Delhi,Truck,Food,354,1408.0,127,4459.2,2.0,On Time,North
+1034.0,2025-04-20,Lucknow-Kanpur,Rail,Food,335,19470.0,91,5265.5,3.0,On Time,North
+1035.0,2023-06-16,Delhi-Jaipur,Rail,Machinery,1149,16870.0,79,10573.5,4.0,On Time,North
+1036.0,2024-01-23,Lucknow-Delhi,Rail,Textiles,1707,,48,12452.7,3.0,On Time,North
+1037.0,2024-08-23,Mumbai-Pune,Truck,Food,1384,4911.0,63,17344.65,2.0,On Time,West
+1038.0,2023-11-12,Kanpur-Varanasi,Truck,Food,370,6797.0,95,5459.55,1.0,On Time,North
+1039.0,2023-01-14,Kanpur-Varanasi,Truck,Electronics,222,15875.0,103,5045.25,3.0,On Time,North
+1040.0,2023-08-30,Lucknow-Kanpur,Rail,Electronics,755,11139.0,84,6955.85,4.0,On Time,North
+1041.0,2025-02-15,Mumbai-Pune,Rail,Food,1380,1539.0,73,9890.85,6.0,Delayed,West
+1042.0,2024-07-18,Lucknow-Delhi,Truck,Electronics,1779,11734.0,85,23108.1,5.0,On Time,North
+1043.0,2025-06-16,Mumbai-Pune,Truck,Machinery,1544,155.0,99,18551.25,8.0,Delayed,West
+1044.0,2023-04-02,Mumbai-Pune,Air,Food,358,19808.0,111,15501.2,1.0,On Time,West
+1045.0,2025-08-13,Lucknow-Delhi,Rail,Electronics,1047,205.0,56,7359.75,4.0,On Time,North
+1046.0,2024-05-23,Delhi-Jaipur,Air,Machinery,146,3301.0,97,5605.15,1.0,On Time,North
+1047.0,2025-02-14,Mumbai-Pune,Rail,Electronics,962,15284.0,72,9026.6,3.0,On Time,West
+1048.0,2023-02-04,Mumbai-Pune,Truck,Electronics,624,769.0,118,7603.35,5.0,On Time,West
+1049.0,2023-07-25,Delhi-Jaipur,Truck,Electronics,987,12763.0,104,13758.45,3.0,On Time,North
+1050.0,2025-10-22,Mumbai-Pune,Rail,Food,307,not available,107,2308.9,1.0,On Time,West
+1051.0,2025-10-18,Mumbai-Pune,Truck,Textiles,1434,16791.0,110,19726.65,5.0,On Time,West
+1052.0,2024-07-19,Mumbai-Pune,Truck,Electronics,846,18622.0,82,12945.3,3.0,On Time,West
+1053.0,2024-12-03,Kanpur-Varanasi,Rail,Machinery,248,11756.0,71,3499.4,7.0,Delayed,North
+1054.0,2024-02-06,Delhi-Mumbai,Truck,Food,537,15993.0,107,8842.95,4.0,On Time,West
+1055.0,2024-12-30,Delhi-Jaipur,Rail,electronics,254,13189.0,123,3756.35,1.0,On Time,North
+1056.0,2023-06-11,Mumbai-Pune,Truck,Machinery,1213,16593.0,107,17044.95,3.0,On Time,West
+1057.0,2023-07-21,Kanpur-Varanasi,Air,Electronics,457,3732.0,70,16554.8,1.0,On Time,North
+1058.0,2025-09-22,Delhi-Jaipur,Truck,Textiles,1297,5784.0,88,16431.6,3.0,On Time,North
+1059.0,2023-09-27,Lucknow-Kanpur,truck ,Electronics,1340,13366.0,70,18084.9,5.0,On Time,North
+1060.0,2025-03-26,Lucknow-Kanpur,Truck,Machinery,555,18399.0,80,9419.85,5.0,On Time,North
+1061.0,2024-03-31,Mumbai-Pune,Truck,Food,875,17040.0,76,13056.0,5.0,On Time,West
+1062.0,2025-10-13,Kanpur-Varanasi,Rail,Textiles,1732,204.0,156,12154.6,6.0,Delayed,North
+1063.0,2023-10-23,Kanpur-Varanasi,Rail,Food,728,2147.0,112,5418.05,3.0,On Time,North
+1064.0,2024-12-20,Delhi-Jaipur,Truck,Machinery,1322,16629.0,-10,18358.35,5.0,On Time,North
+1065.0,2023-12-04,Delhi-Jaipur,Truck,Electronics,931,17357.0,120,13775.55,3.0,On Time,North
+1066.0,2025-05-28,Kanpur-Varanasi,Truck,Textiles,585,16782.0,75,9537.3,5.0,On Time,North
+1067.0,2025-12-12,Delhi-Jaipur,Truck,Food,632,19722.0,126,10542.3,3.0,On Time,North
+1068.0,2025-03-02,Kanpur-Varanasi,Air,Food,299,,112,11805.55,2.0,On Time,North
+1069.0,2023-08-05,Delhi-Mumbai,Rail,Food,470,15507.0,68,5616.05,1.0,On Time,West
+1070.0,2025-02-02,Kanpur-Varanasi,Rail,Electronics,1113,6482.0,116,8763.3,4.0,On Time,North
+1071.0,2023-07-07,Lucknow-Kanpur,Rail,Textiles,952,18995.0,75,9513.25,5.0,On Time,North
+1072.0,2024-01-15,Delhi-Jaipur,Truck,Electronics,1571,883.0,90,18984.45,4.0,On Time,North
+1073.0,2024-05-07,Kanpur-Varanasi,Air,Electronics,347,470.0,111,12215.5,1.0,On Time,North
+1074.0,2025-11-30,Kanpur-Varanasi,Rail,Electronics,887,16008.0,113,8610.2,5.0,On Time,North
+1075.0,2023-01-15,Delhi-Jaipur,Rail,Machinery,363,586.0,101,2628.9,1.0,On Time,North
+1076.0,2023-03-06,Delhi-Mumbai,Rail,Machinery,1181,14600.0,94,10457.0,6.0,Delayed,West
+1077.0,2024-06-04,Delhi-Mumbai,Truck,Machinery,1425,3296.0,92,17594.4,4.0,On Time,West
+1078.0,2024-10-09,Delhi-Jaipur,Rail,Textiles,130,9652.0,68,2357.8,1.0,On Time,North
+1079.0,2025-12-22,Lucknow-Delhi,Truck,Electronics,1621,2361.0,82,19806.15,4.0,On Time,North
+1080.0,2024-08-15,Delhi-Jaipur,truck ,Electronics,1372,10913.0,101,18100.95,5.0,On Time,North
+1081.0,2024-01-27,Delhi-Jaipur,Truck,Machinery,704,9248.0,121,9835.2,7.0,Delayed,North
+1082.0,2024-02-23,Delhi-Mumbai,Air,Electronics,1394,8672.0,82,50090.8,6.0,Delayed,West
+1083.0,2023-10-16,Delhi-Mumbai,Rail,Electronics,1729,15108.0,124,14369.2,5.0,On Time,West
+1084.0,2024-01-14,Delhi-Jaipur,Rail,Food,1789,13185.0,106,14500.75,8.0,Delayed,North
+1085.0,2023-08-19,Delhi-Jaipur,Rail,Electronics,1517,16722.0,102,13127.3,5.0,On Time,North
+1086.0,2025-10-14,Delhi-Jaipur,Truck,Food,601,6943.0,77,8253.45,5.0,On Time,North
+1087.0,2023-02-10,Delhi-Mumbai,Air,Electronics,1715,1205.0,82,60205.75,7.0,Delayed,West
+1088.0,2025-11-17,Delhi-Jaipur,Truck,Textiles,1207,17870.0,121,17164.5,1.0,On Time,North
+1089.0,2023-05-15,Delhi-Jaipur,Truck,Machinery,1488,10541.0,114,19437.15,4.0,On Time,North
+1090.0,2023-07-20,Mumbai-Pune,Truck,Food,985,9819.0,135,13292.85,5.0,On Time,West
+1091.0,2025-02-18,Lucknow-Delhi,Rail,Machinery,648,18151.0,95,7258.65,3.0,On Time,North
+1092.0,2025-07-18,Lucknow-Kanpur,Rail,Food,1465,2791.0,65,10673.65,4.0,On Time,North
+1093.0,2025-11-22,Lucknow-Delhi,Truck,Food,938,11964.0,140,13050.6,3.0,On Time,North
+1094.0,2025-12-07,Mumbai-Pune,Truck,Food,1530,2096.0,164,18674.4,3.0,On Time,West
+1095.0,2024-05-17,Lucknow-Kanpur,Rail,Textiles,1548,1525.0,102,11064.75,5.0,On Time,North
+1096.0,2024-02-11,Delhi-Jaipur,Truck,Electronics,1216,16478.0,82,17063.7,8.0,Delayed,North
+1097.0,2025-03-15,Mumbai-Pune,Rail,Food,947,6949.0,119,7671.35,5.0,On Time,West
+1098.0,2023-04-09,Delhi-Jaipur,Air,electronics,713,3347.0,113,25457.05,6.0,Delayed,North
+1099.0,2024-11-14,Delhi-Mumbai,Truck,Food,511,19076.0,103,8993.4,4.0,On Time,West
+1100.0,2024-12-26,Kanpur-Varanasi,Truck,Electronics,531,1590.0,140,6610.5,4.0,On Time,North
+1101.0,2025-08-18,Mumbai-Pune,Rail,Food,777,17708.0,108,8095.2,6.0,Delayed,West
+1102.0,2024-09-04,Delhi-Mumbai,Rail,electronics,258,19071.0,124,4666.65,2.0,On Time,West
+1103.0,2024-10-04,Mumbai-Pune,Truck,Electronics,113,19548.0,128,4288.2,1.0,On Time,West
+1104.0,2025-10-25,Mumbai-Pune,Air,Textiles,472,14410.0,121,18681.5,4.0,On Time,West
+1105.0,2024-05-17,Delhi-Mumbai,Truck,Electronics,324,17316.0,125,6485.4,4.0,On Time,West
+1106.0,2025-02-05,Lucknow-Kanpur,Truck,Electronics,1628,15501.0,76,21861.15,5.0,On Time,North
+1107.0,2024-02-02,Lucknow-Delhi,Rail,Machinery,1196,12984.0,109,10319.6,3.0,On Time,North
+1108.0,2025-05-20,Delhi-Jaipur,Rail,Machinery,1372,18924.0,73,12442.6,5.0,On Time,North
+1109.0,2025-03-05,Mumbai-Pune,Truck,Machinery,610,4895.0,121,8054.25,4.0,On Time,West
+1110.0,2024-01-28,Delhi-Jaipur,Rail,Electronics,702,1746.0,95,5175.9,4.0,On Time,North
+1111.0,2023-07-26,Kanpur-Varanasi,Truck,Food,315,16242.0,113,6216.3,1.0,On Time,North
+1112.0,2025-11-04,Delhi-Mumbai,Truck,Textiles,1725,14406.0,143,22860.9,9.0,Delayed,West
+1113.0,2025-06-10,Delhi-Jaipur,Truck,Textiles,1664,16924.0,68,22506.6,5.0,On Time,North
+1114.0,2025-05-13,Delhi-Mumbai,Rail,Textiles,1087,6056.0,128,8517.4,4.0,On Time,West
+1115.0,2025-01-12,Delhi-Jaipur,Truck,Machinery,1343,14028.0,131,18220.2,3.0,On Time,North
+1116.0,2024-07-17,Lucknow-Delhi,truck ,Electronics,939,9821.0,106,12741.15,8.0,Delayed,North
+1117.0,2025-10-17,Lucknow-Delhi,Truck,Machinery,826,11257.0,110,11600.55,4.0,On Time,North
+1118.0,2023-04-06,,Rail,Food,1344,2467.0,94,9778.05,4.0,On Time,North
+1119.0,2024-04-29,Lucknow-Delhi,Rail,Electronics,1512,6796.0,103,11603.4,7.0,Delayed,North
+1120.0,2023-08-19,Lucknow-Delhi,Rail,Textiles,653,5290.0,77,5364.5,4.0,On Time,North
+1121.0,2025-01-18,Lucknow-Delhi,Truck,Machinery,1770,4763.0,134,21954.45,6.0,Delayed,North
+1122.0,2024-06-24,Delhi-Mumbai,Truck,Machinery,1165,7162.0,93,15054.3,6.0,Delayed,West
+1123.0,2025-11-25,Mumbai-Pune,Truck,Food,775,4431.0,60,9964.65,,On Time,West
+1124.0,2024-06-08,Delhi-Jaipur,Rail,Food,972,,96,9731.7,3.0,On Time,North
+1125.0,2024-07-31,Lucknow-Delhi,Air,Machinery,382,11980.0,84,15167.0,1.0,On Time,North
+1126.0,2024-11-12,Delhi-Mumbai,Truck,Food,1181,16346.0,128,16623.9,2.0,On Time,West
+1127.0,2024-07-10,Delhi-Mumbai,Rail,Textiles,933,3362.0,83,7035.3,6.0,Delayed,West
+1128.0,2025-10-09,Delhi-Mumbai,Truck,Food,636,13420.0,151,9645.0,5.0,On Time,West
+1129.0,2024-10-07,Mumbai-Pune,Truck,Food,1196,18591.0,159,17140.65,5.0,On Time,West
+1130.0,2025-03-06,,Truck,Machinery,1022,7136.0,106,13334.4,6.0,Delayed,North
+1131.0,2025-11-17,Mumbai-Pune,Truck,Machinery,1252,,121,,4.0,On Time,West
+1132.0,2023-07-09,Lucknow-Kanpur,Truck,Electronics,1722,4777.0,89,21380.55,6.0,Delayed,North
+1133.0,2024-09-24,Delhi-Mumbai,Truck,Electronics,941,8072.0,100,12502.8,4.0,On Time,West
+1134.0,2024-09-19,Lucknow-Kanpur,Truck,Machinery,1549,15429.0,84,20902.35,5.0,On Time,North
+1135.0,2025-08-30,Kanpur-Varanasi,Rail,Food,1047,4364.0,-10,7983.6,4.0,On Time,North
+1136.0,2024-12-10,Lucknow-Delhi,Truck,electronics,764,3233.0,142,9652.95,5.0,On Time,North
+1137.0,2024-10-10,Lucknow-Delhi,Truck,Electronics,1248,11712.0,170,16732.8,5.0,On Time,North
+1138.0,2023-11-14,Mumbai-Pune,Rail,Electronics,166,17949.0,163,3854.35,3.0,On Time,West
+1139.0,2024-11-14,Delhi-Jaipur,Truck,Electronics,105,18695.0,112,4064.25,3.0,On Time,North
+1140.0,2024-10-25,Lucknow-Kanpur,Truck,Textiles,736,14258.0,151,10970.7,4.0,On Time,North
+1141.0,2024-03-17,Delhi-Jaipur,Rail,Textiles,413,9835.0,81,4366.25,1.0,On Time,North
+1142.0,2024-07-17,Mumbai-Pune,Truck,Electronics,1449,1789.0,103,17656.35,3.0,On Time,West
+1143.0,2025-08-09,Lucknow-Delhi,Truck,Food,664,9863.0,81,9447.45,3.0,On Time,North
+1144.0,2024-11-29,Delhi-Jaipur,Truck,Electronics,0,7827.0,103,21586.05,6.0,Delayed,North
+1145.0,2023-04-23,Delhi-Jaipur,Air,Textiles,925,7864.0,106,33554.6,4.0,On Time,North
+1146.0,2023-01-02,Lucknow-Delhi,Truck,Food,605,13103.0,47,9225.45,3.0,On Time,North
+1147.0,2024-10-03,Lucknow-Kanpur,Rail,Textiles,1205,918.0,84,8572.7,8.0,Delayed,North
+1148.0,2023-08-08,Lucknow-Delhi,Truck,Food,1722,14539.0,87,22844.85,4.0,On Time,North
+1149.0,2025-05-04,Delhi-Jaipur,Truck,electronics,1125,not available,102,15776.55,1.0,On Time,North
+1150.0,2024-01-20,Lucknow-Kanpur,Truck,Food,303,4621.0,93,4329.15,2.0,On Time,North
+1151.0,2025-12-12,Lucknow-Kanpur,Rail,Food,761,1224.0,89,5510.6,3.0,On Time,North
+1152.0,2024-12-30,Lucknow-Delhi,Truck,Food,904,5760.0,109,11712.0,4.0,On Time,North
+1153.0,2023-09-04,Delhi-Jaipur,Truck,Food,503,5741.0,108,,3.0,On Time,North
+1154.0,2025-04-15,Mumbai-Pune,Truck,Machinery,1226,17613.0,112,17353.95,-3.0,Delayed,West
+1155.0,2023-07-22,Delhi-Jaipur,Truck,Textiles,635,1802.0,90,7890.3,1.0,On Time,North
+1156.0,2023-05-03,Delhi-Mumbai,Air,Textiles,1491,18485.0,123,54957.75,4.0,On Time,West
+1157.0,2024-02-05,Kanpur-Varanasi,Truck,Machinery,1335,11239.0,108,17705.85,5.0,On Time,North
+1158.0,2025-02-05,Mumbai-Pune,Truck,Food,676,15802.0,85,10482.3,4.0,On Time,West
+1159.0,2023-10-21,Lucknow-Kanpur,Truck,Food,1332,6623.0,123,16977.45,8.0,Delayed,North
+1160.0,2023-10-07,Mumbai-Pune,Air,Textiles,862,12497.0,94,32044.55,5.0,On Time,West
+1161.0,2025-06-02,Lucknow-Kanpur,Truck,Machinery,216,8211.0,88,3823.65,2.0,On Time,North
+1162.0,2023-07-17,Lucknow-Kanpur,Truck,Food,727,2501.0,110,9099.15,2.0,On Time,North
+1163.0,2025-09-08,Mumbai-Pune,Rail,Food,848,9581.0,114,7373.15,3.0,On Time,West
+1164.0,2025-01-21,Lucknow-Kanpur,Rail,Food,1601,10167.0,128,12732.05,5.0,On Time,North
+1165.0,2023-05-24,Lucknow-Kanpur,Truck,Electronics,204,13476.0,94,4469.4,3.0,On Time,North
+1166.0,2024-08-31,Delhi-Mumbai,Truck,Machinery,594,13924.0,114,9216.6,3.0,On Time,West
+1167.0,2023-07-06,Delhi-Jaipur,Truck,Food,145,13544.0,87,3771.6,1.0,On Time,North
+1168.0,2024-04-08,Delhi-Jaipur,Truck,Electronics,922,12979.0,129,13010.85,3.0,On Time,North
+1169.0,2024-10-21,Kanpur-Varanasi,Truck,Machinery,1454,16212.0,129,19879.8,6.0,Delayed,North
+1170.0,2025-02-02,Kanpur-Varanasi,Truck,Food,1339,639.0,114,16163.85,5.0,On Time,North
+1171.0,2025-08-12,Delhi-Mumbai,Truck,Textiles,1081,11074.0,117,14633.1,5.0,On Time,West
+1172.0,2024-02-07,Kanpur-Varanasi,Truck,Electronics,1059,13946.0,96,,5.0,On Time,North
+1173.0,2023-05-27,Mumbai-Pune,Rail,Electronics,1615,5715.0,104,12162.25,8.0,Delayed,West
+1174.0,2025-05-13,Lucknow-Delhi,Air,Food,944,16116.0,126,35457.4,4.0,On Time,North
+1175.0,2024-05-03,Lucknow-Delhi,Truck,Food,548,,97,7034.4,2.0,On Time,North
+1176.0,2025-07-17,Lucknow-Delhi,Truck,Electronics,635,8177.0,66,,1.0,On Time,North
+1177.0,2024-07-04,Delhi-Mumbai,Truck,Textiles,610,-500.0,129,7893.3,3.0,On Time,West
+1178.0,2023-12-04,Delhi-Mumbai,Air,Textiles,1581,12159.0,118,57158.85,,On Time,West
+1179.0,2025-05-21,Lucknow-Kanpur,Truck,Machinery,1670,5187.0,103,20818.05,5.0,On Time,North
+1180.0,2024-10-02,Lucknow-Delhi,Truck,Food,1659,10438.0,160,21473.7,5.0,On Time,North
+1181.0,2024-04-17,Mumbai-Pune,Truck,Textiles,639,2270.0,88,8008.5,1.0,On Time,West
+1182.0,2023-05-31,Kanpur-Varanasi,Truck,Machinery,1607,3491.0,80,19807.65,4.0,On Time,North
+1183.0,2023-09-20,Mumbai-Pune,Truck,Textiles,115,7042.0,105,2436.3,3.0,On Time,West
+1184.0,2023-05-24,Kanpur-Varanasi,Truck,Food,1694,18100.0,64,23043.0,6.0,Delayed,North
+1185.0,2023-12-12,Lucknow-Delhi,Truck,Machinery,342,13906.0,123,6189.9,2.0,On Time,North
+1186.0,2024-09-15,Lucknow-Delhi,Air,Machinery,1330,14892.0,105,48783.8,5.0,On Time,North
+1187.0,2025-10-13,Lucknow-Delhi,Truck,Machinery,1011,12909.0,123,14068.35,4.0,On Time,North
+1188.0,2025-05-30,Delhi-Mumbai,Rail,Textiles,1394,14955.0,69,12001.25,7.0,Delayed,West
+1189.0,2023-01-02,Kanpur-Varanasi,Helicopter,Food,860,9208.0,132,7401.2,4.0,On Time,North
+1190.0,2025-06-15,Delhi-Mumbai,Truck,Machinery,804,6558.0,92,10631.7,1.0,On Time,West
+1191.0,2023-09-11,Delhi-Mumbai,Truck,Electronics,214,2856.0,129,2996.4,4.0,On Time,West
+1192.0,2024-03-28,Delhi-Jaipur,Truck,electronics,1703,6953.0,95,21478.95,6.0,Delayed,North
+1193.0,2025-11-26,Mumbai-Pune,truck ,Electronics,1422,7809.0,107,18235.35,4.0,On Time,West
+1194.0,2025-10-11,Mumbai-Pune,Rail,Electronics,1606,18420.0,137,14005.0,4.0,On Time,West
+1195.0,2023-01-09,Lucknow-Kanpur,Air,electronics,496,19575.0,96,20296.25,3.0,On Time,North
+1196.0,2025-03-26,,Truck,Machinery,493,12947.0,76,7858.05,2.0,On Time,West
+1197.0,2023-07-27,Kanpur-Varanasi,Truck,Textiles,1198,17452.0,116,16993.8,7.0,Delayed,North
+1198.0,2024-02-08,Delhi-Jaipur,Air,electronics,1077,7397.0,88,38804.55,4.0,On Time,North
+1199.0,2023-06-01,Delhi-Jaipur,truck ,Textiles,1605,16356.0,57,13688.4,4.0,On Time,North
+1200.0,2023-02-23,Mumbai-Pune,Rail,Food,1226,3303.0,127,9077.45,6.0,Delayed,West
+1201.0,2024-09-19,Delhi-Mumbai,Truck,Textiles,396,6599.0,90,5741.85,4.0,On Time,West
+1202.0,2024-08-09,Lucknow-Kanpur,Truck,Electronics,1101,5273.0,79,14002.95,4.0,On Time,North
+1203.0,2023-04-14,Delhi-Mumbai,Rail,Textiles,277,17373.0,65,4544.95,3.0,On Time,West
+1204.0,2023-09-11,Lucknow-Delhi,Rail,Machinery,1338,11750.0,135,11128.5,5.0,On Time,North
+1205.0,2024-05-24,Delhi-Mumbai,Truck,Textiles,1066,9273.0,74,14182.95,4.0,On Time,West
+1206.0,2023-04-09,Lucknow-Delhi,Truck,Food,414,7482.0,101,6090.3,4.0,On Time,North
+1207.0,2023-06-02,Lucknow-Delhi,Truck,Food,1162,901.0,106,14079.15,5.0,On Time,North
+1208.0,2025-07-02,Lucknow-Kanpur,Truck,Electronics,358,8334.0,98,5546.1,2.0,On Time,North
+1209.0,2025-05-27,Kanpur-Varanasi,Truck,Food,unknown,13997.0,99,3371.55,3.0,On Time,North
+1210.0,2023-12-04,Mumbai-Pune,Air,Textiles,148,15297.0,86,7474.55,1.0,On Time,West
+1211.0,2025-04-01,Delhi-Mumbai,Truck,Machinery,1661,19833.0,84,22906.95,9.0,Delayed,West
+1212.0,2025-08-14,Lucknow-Delhi,Rail,Food,260,,93,3330.35,1.0,On Time,North
+1213.0,2023-06-10,Delhi-Mumbai,Truck,Electronics,275,3301.0,76,3795.15,1.0,On Time,West
+1214.0,2025-03-11,Kanpur-Varanasi,Rail,Textiles,1714,16833.0,104,14522.95,6.0,Delayed,North
+1215.0,2024-02-02,Mumbai-Pune,Air,Electronics,1125,10072.0,114,40885.8,4.0,On Time,West
+1216.0,2025-03-26,Kanpur-Varanasi,Truck,Food,1100,683.0,119,13302.45,6.0,Delayed,North
+1217.0,2024-02-05,Mumbai-Pune,Truck,Food,554,12819.0,75,,1.0,On Time,West
+1218.0,2024-10-01,Delhi-Jaipur,Truck,Electronics,1767,3477.0,187,21725.55,6.0,Delayed,North
+1219.0,2025-11-22,Mumbai-Pune,Truck,Textiles,375,14955.0,150,6743.25,1.0,On Time,West
+1220.0,2024-11-18,Lucknow-Kanpur,Rail,Food,597,3501.0,130,4704.15,3.0,On Time,North
+1221.0,2024-04-04,Kanpur-Varanasi,Air,Machinery,1752,13736.0,122,63380.4,6.0,Delayed,North
+1222.0,2025-08-12,Lucknow-Delhi,Truck,Food,775,19669.0,133,12250.35,3.0,On Time,North
+1223.0,2024-04-14,Delhi-Jaipur,Truck,Textiles,1151,15838.0,71,16187.7,3.0,On Time,North
+1224.0,2025-11-11,Lucknow-Kanpur,Truck,Food,0,6872.0,124,18502.8,4.0,On Time,North
+1225.0,2025-01-19,Delhi-Mumbai,Rail,Electronics,1124,19831.0,52,10842.65,5.0,On Time,West
+1226.0,,Kanpur-Varanasi,Truck,Food,1311,10231.0,104,17266.65,6.0,Delayed,North
+1227.0,2023-08-18,Lucknow-Delhi,truck ,Food,155,888.0,97,1993.2,1.0,On Time,North
+1228.0,2024-07-16,Mumbai-Pune,Truck,Textiles,646,16284.0,89,10194.6,2.0,On Time,West
+1229.0,2024-03-13,Lucknow-Delhi,Truck,Electronics,0,2989.0,87,15268.35,5.0,On Time,North
+1230.0,2023-01-27,Delhi-Mumbai,Truck,Textiles,1433,9669.0,59,18646.35,5.0,On Time,West
+1231.0,,Delhi-Jaipur,Rail,Food,unknown,10241.0,97,2481.15,3.0,On Time,North
+1232.0,2025-03-08,Delhi-Jaipur,Truck,Machinery,538,19756.0,129,9419.4,1.0,On Time,North
+1233.0,2023-10-11,Kanpur-Varanasi,Truck,Food,1715,12034.0,115,22385.1,3.0,On Time,North
+1234.0,2025-05-28,Delhi-Jaipur,Rail,Textiles,694,9869.0,109,6338.35,2.0,On Time,North
+1235.0,2025-08-17,Kanpur-Varanasi,Rail,Machinery,1700,7712.0,62,13056.8,5.0,On Time,North
+1236.0,2024-03-28,Kanpur-Varanasi,truck ,Textiles,1448,18976.0,109,20222.4,5.0,On Time,North
+1237.0,2025-10-16,Kanpur-Varanasi,Truck,Textiles,1763,16305.0,120,23601.75,5.0,On Time,North
+1238.0,2025-03-26,Mumbai-Pune,Truck,Electronics,406,14034.0,85,6977.1,3.0,On Time,West
+1239.0,2024-10-20,Lucknow-Kanpur,Truck,Machinery,1657,10195.0,110,21413.25,5.0,On Time,North
+1240.0,2024-06-30,Kanpur-Varanasi,Truck,Food,718,4340.0,83,9267.0,3.0,On Time,North
+1241.0,2025-12-08,Kanpur-Varanasi,Truck,Textiles,1232,18806.0,140,17604.9,5.0,On Time,North
+1242.0,2023-01-17,Lucknow-Kanpur,Truck,Food,1495,10848.0,74,19567.2,6.0,Delayed,North
+1243.0,2023-06-07,Lucknow-Delhi,Rail,Electronics,456,5398.0,83,4001.7,2.0,On Time,North
+1244.0,2024-04-21,Kanpur-Varanasi,Truck,Electronics,280,1961.0,99,3654.15,3.0,On Time,North
+1245.0,2025-12-05,Mumbai-Pune,Rail,Machinery,1479,14242.0,101,12489.3,4.0,On Time,West
+1246.0,2024-06-01,Delhi-Jaipur,Truck,Electronics,1799,7420.0,122,22701.0,8.0,Delayed,North
+1247.0,2023-04-09,Delhi-Jaipur,Air,Electronics,167,11467.0,83,7565.05,1.0,On Time,North
+1248.0,2025-11-26,Delhi-Mumbai,Rail,Food,391,17582.0,113,5374.3,-3.0,On Time,West
+1249.0,2023-10-07,Delhi-Mumbai,Rail,Electronics,791,5347.0,105,6339.05,4.0,On Time,West
+1250.0,2024-05-11,Delhi-Jaipur,Rail,Electronics,280,1834.0,136,2235.1,1.0,On Time,North
+1251.0,2023-10-29,Delhi-Jaipur,Air,Textiles,1589,4763.0,144,56329.45,7.0,Delayed,North
+1252.0,2023-06-30,Mumbai-Pune,Truck,Electronics,533,6009.0,73,7297.35,,Delayed,West
+1253.0,2024-08-29,Lucknow-Kanpur,Truck,Textiles,1587,19900.0,110,22029.0,-3.0,On Time,North
+1254.0,2024-11-30,Delhi-Mumbai,Truck,Electronics,1013,12918.0,135,14093.7,4.0,On Time,West
+1255.0,2025-09-19,Lucknow-Kanpur,Rail,Electronics,1657,17164.0,105,14173.6,3.0,On Time,North
+1256.0,2023-07-10,Mumbai-Pune,Rail,Machinery,165,8263.0,84,2394.45,2.0,On Time,West
+1257.0,2023-09-10,Delhi-Jaipur,Truck,Machinery,1144,18554.0,85,16511.1,3.0,On Time,North
+1258.0,2025-09-07,Kanpur-Varanasi,Truck,Textiles,1735,13458.0,107,22838.7,5.0,On Time,North
+1259.0,2025-07-16,Lucknow-Kanpur,Truck,Electronics,483,6768.0,80,6811.2,1.0,On Time,North
+1260.0,2023-05-08,Delhi-Jaipur,Air,Food,1738,13116.0,136,62797.4,7.0,Delayed,North
+1261.0,2023-01-18,Delhi-Jaipur,Truck,Machinery,1682,8101.0,75,21399.15,7.0,Delayed,North
+1262.0,2024-07-19,Lucknow-Delhi,Truck,Food,138,10021.0,118,3159.15,1.0,On Time,North
+1263.0,2024-07-23,Lucknow-Kanpur,Truck,Machinery,1408,2291.0,88,17239.65,4.0,On Time,North
+1264.0,2024-11-16,Kanpur-Varanasi,Truck,Machinery,921,8959.0,138,12395.85,6.0,Delayed,North
+1265.0,2024-09-17,Lucknow-Kanpur,Rail,Electronics,701,8972.0,117,6252.8,2.0,On Time,North
+1266.0,2025-05-03,Delhi-Jaipur,Rail,Machinery,1720,19330.0,87,14939.5,3.0,On Time,North
+1267.0,2025-08-19,Kanpur-Varanasi,Rail,Food,884,18947.0,106,9030.05,4.0,On Time,North
+1268.0,2023-06-04,,Truck,Machinery,1459,5022.0,41,18261.3,4.0,On Time,West
+1269.0,2024-05-04,Lucknow-Delhi,Truck,Textiles,1311,4492.0,86,16405.8,6.0,Delayed,North
+1270.0,2025-02-23,Delhi-Jaipur,Truck,Electronics,770,19667.0,82,12190.05,3.0,On Time,North
+1271.0,2023-09-03,Delhi-Mumbai,Rail,Electronics,1366,,75,11608.15,6.0,Delayed,West
+1272.0,2025-11-28,Delhi-Mumbai,Truck,Textiles,1196,19651.0,124,17299.65,7.0,Delayed,West
+1273.0,2025-01-28,Lucknow-Delhi,Truck,Textiles,578,19481.0,108,9858.15,1.0,On Time,North
+1274.0,2024-06-21,Mumbai-Pune,Truck,Textiles,660,15115.0,103,10187.25,2.0,On Time,West
+1275.0,2025-07-09,Delhi-Jaipur,Air,Machinery,200,3327.0,94,7499.05,1.0,On Time,North
+1276.0,2024-02-12,Lucknow-Kanpur,Truck,Electronics,613,2124.0,87,7674.6,5.0,On Time,North
+1277.0,2024-06-08,Lucknow-Delhi,Rail,Textiles,275,16813.0,97,4446.95,1.0,On Time,North
+1278.0,2025-04-07,Mumbai-Pune,Truck,Machinery,337,2586.0,102,4431.9,1.0,On Time,West
+1279.0,2025-06-21,Lucknow-Kanpur,Truck,Textiles,1009,,107,12296.25,5.0,On Time,North
+1280.0,2023-02-05,Delhi-Mumbai,Truck,Food,1182,10182.0,116,15711.3,4.0,On Time,West
+1281.0,2024-11-15,Delhi-Mumbai,Truck,Food,1222,4577.0,131,15350.55,5.0,On Time,West
+1282.0,2023-01-20,Lucknow-Kanpur,Truck,Electronics,970,18669.0,82,14440.35,1.0,On Time,North
+1283.0,2023-11-17,Lucknow-Delhi,Truck,Machinery,594,7186.0,113,8205.9,6.0,Delayed,North
+1284.0,2024-05-26,Delhi-Mumbai,Truck,Food,1046,2417.0,89,12914.55,,On Time,West
+1285.0,2024-02-04,Delhi-Jaipur,Air,Food,1637,3721.0,94,57853.15,5.0,On Time,North
+1286.0,2024-10-15,Kanpur-Varanasi,Truck,Machinery,854,4591.0,137,10936.65,3.0,On Time,North
+1287.0,2025-08-29,Lucknow-Kanpur,Rail,Textiles,1420,16016.0,103,12342.4,8.0,Delayed,North
+1288.0,2024-04-15,Lucknow-Kanpur,Truck,Machinery,310,15348.0,99,6022.2,1.0,On Time,North
+1289.0,2025-04-13,Delhi-Mumbai,Rail,Textiles,1246,2611.0,100,9113.65,8.0,Delayed,West
+1290.0,,Lucknow-Delhi,Truck,Food,1352,9646.0,134,17670.9,6.0,Delayed,North
+1291.0,2025-05-03,Delhi-Jaipur,Truck,Food,1717,15712.0,90,22960.8,7.0,Delayed,North
+1292.0,2023-02-20,Lucknow-Delhi,Truck,Food,1779,7948.0,81,22540.2,5.0,On Time,North
+1293.0,2024-07-28,Mumbai-Pune,Truck,Electronics,1511,14374.0,58,20288.1,6.0,Delayed,West
+1294.0,2023-05-30,Mumbai-Pune,Truck,Electronics,unknown,17777.0,86,5534.55,1.0,On Time,West
+1295.0,2023-11-10,Kanpur-Varanasi,Rail,Electronics,640,2565.0,142,4864.75,5.0,On Time,North
+1296.0,2024-07-23,Delhi-Mumbai,Rail,electronics,1514,16404.0,77,13058.6,4.0,On Time,West
+1297.0,2023-11-01,Delhi-Mumbai,Rail,Food,369,15769.0,124,4948.35,2.0,On Time,West
+1298.0,2024-11-12,Delhi-Mumbai,Rail,Food,1135,11394.0,142,9654.1,3.0,On Time,West
+1299.0,2025-04-17,Kanpur-Varanasi,Truck,Machinery,1512,3275.0,110,18635.25,4.0,On Time,North
+1300.0,2025-12-13,Mumbai-Pune,Truck,Electronics,1460,7949.0,102,18712.35,6.0,Delayed,West
+1301.0,2025-09-29,Lucknow-Delhi,Truck,Machinery,605,12573.0,120,9145.95,4.0,On Time,North
+1302.0,2024-03-19,Kanpur-Varanasi,Truck,Electronics,1229,9525.0,123,16176.75,6.0,Delayed,North
+1303.0,2024-09-04,Kanpur-Varanasi,Truck,Food,131,12322.0,77,3420.3,1.0,On Time,North
+1304.0,2025-09-19,Lucknow-Delhi,Truck,Textiles,1197,8544.0,84,15645.6,6.0,Delayed,North
+1305.0,2023-09-21,Delhi-Mumbai,Truck,Electronics,1294,8310.0,124,16774.5,8.0,Delayed,West
+1306.0,2025-12-12,Delhi-Jaipur,Truck,Food,1192,2859.0,126,14732.85,4.0,On Time,North
+1307.0,2025-09-30,Lucknow-Delhi,Rail,Food,912,16191.0,56,8812.65,6.0,Delayed,North
+1308.0,2023-01-05,Mumbai-Pune,Rail,Textiles,461,102.0,72,3242.3,,On Time,West
+1309.0,2025-02-12,Lucknow-Kanpur,Truck,Food,1772,17743.0,95,23925.45,4.0,On Time,North
+1310.0,2025-05-26,Lucknow-Kanpur,Air,Food,1556,8290.0,77,55703.5,5.0,On Time,North
+1311.0,,Kanpur-Varanasi,Air,Electronics,1028,15348.0,92,38282.2,6.0,Delayed,North
+1312.0,2025-06-02,Lucknow-Kanpur,Truck,Electronics,199,5873.0,91,3268.95,1.0,On Time,North
+1313.0,2023-02-16,Delhi-Jaipur,Truck,Textiles,1781,12886.0,129,23304.9,5.0,On Time,North
+1314.0,2025-05-16,Delhi-Mumbai,Truck,Textiles,unknown,19052.0,94,4153.8,2.0,On Time,West
+1315.0,2025-04-02,Mumbai-Pune,Air,Food,1697,15137.0,121,61665.55,6.0,Delayed,West
+1316.0,2025-07-24,Delhi-Jaipur,Rail,Electronics,796,1985.0,116,5869.75,-3.0,On Time,North
+1317.0,2024-10-17,Mumbai-Pune,Truck,Textiles,1152,7160.0,167,14898.0,5.0,On Time,West
+1318.0,2023-09-26,Mumbai-Pune,Truck,Textiles,1237,16431.0,106,17308.65,5.0,On Time,West
+1319.0,2024-01-05,Delhi-Mumbai,truck ,Machinery,561,7944.0,61,7923.6,2.0,On Time,West
+1320.0,2024-09-27,Kanpur-Varanasi,Truck,Textiles,1020,13550.0,109,14272.5,4.0,On Time,North
+1321.0,2024-10-18,Lucknow-Kanpur,Truck,Food,1266,9591.0,157,16630.65,3.0,On Time,North
+1322.0,2023-04-30,Delhi-Mumbai,Rail,Electronics,489,18822.0,98,6246.3,4.0,On Time,West
+1323.0,2025-04-10,Delhi-Jaipur,Rail,Textiles,731,9368.0,135,6522.2,2.0,On Time,North
+1324.0,2025-12-17,Kanpur-Varanasi,Rail,Machinery,781,9239.0,152,6852.85,5.0,On Time,North
+1325.0,2025-01-10,Delhi-Jaipur,Rail,Electronics,256,6891.0,111,2825.65,1.0,On Time,North
+1326.0,2023-04-27,Kanpur-Varanasi,Rail,Textiles,434,7271.0,122,4128.65,3.0,On Time,North
+1327.0,2025-03-01,Delhi-Jaipur,Truck,Machinery,359,19215.0,107,7190.25,1.0,On Time,North
+1328.0,2025-10-09,Delhi-Mumbai,Truck,Textiles,181,17353.0,65,4774.95,1.0,On Time,West
+1329.0,2025-12-17,Kanpur-Varanasi,Truck,Electronics,853,193.0,117,10264.95,1.0,On Time,North
+1330.0,2024-09-25,,Rail,Electronics,1564,3087.0,124,11411.05,4.0,On Time,North
+1331.0,2024-05-27,Mumbai-Pune,Truck,Electronics,1295,12947.0,84,17482.05,4.0,On Time,West
+1332.0,2025-03-12,Mumbai-Pune,Rail,Food,1354,10067.0,96,10988.05,5.0,On Time,West
+1333.0,2024-07-13,Lucknow-Delhi,Truck,Textiles,819,16318.0,71,12275.7,5.0,On Time,North
+1334.0,2024-05-02,Delhi-Jaipur,Truck,Food,174,10552.0,136,3670.8,-3.0,On Time,North
+1335.0,2025-06-15,Mumbai-Pune,Truck,Electronics,1393,8727.0,120,18025.05,4.0,On Time,West
+1336.0,2024-12-04,Lucknow-Delhi,Truck,Machinery,725,5047.0,107,9457.05,1.0,On Time,North
+1337.0,2024-08-03,Mumbai-Pune,Rail,electronics,161,6751.0,93,2139.65,2.0,On Time,West
+1338.0,2025-02-28,Delhi-Jaipur,Rail,electronics,973,3244.0,86,7297.6,6.0,Delayed,North
+1339.0,2025-05-10,Kanpur-Varanasi,Truck,Textiles,419,16560.0,112,7512.0,4.0,On Time,North
+1340.0,2023-09-04,Lucknow-Kanpur,Truck,Machinery,201,9059.0,110,3770.85,3.0,On Time,North
+1341.0,2023-06-03,Delhi-Jaipur,Truck,Food,1552,8397.0,105,19883.55,6.0,Delayed,North
+1342.0,2025-09-23,Delhi-Mumbai,Truck,Electronics,973,6794.0,107,12695.1,6.0,Delayed,West
+1343.0,2024-11-27,Mumbai-Pune,Truck,Food,1053,15935.0,206,15026.25,5.0,On Time,West
+1344.0,2025-12-28,Mumbai-Pune,Rail,Textiles,354,19357.0,103,5381.55,3.0,On Time,West
+1345.0,2025-12-06,Kanpur-Varanasi,Truck,Textiles,1655,3446.0,86,20376.9,5.0,On Time,North
+1346.0,2025-10-05,Delhi-Mumbai,Truck,Textiles,669,19632.0,120,10972.8,1.0,On Time,West
+1347.0,2023-04-04,Kanpur-Varanasi,Truck,Textiles,211,11440.0,69,4248.0,1.0,On Time,North
+1348.0,2025-08-15,Delhi-Mumbai,Truck,Electronics,1084,344.0,63,13059.6,4.0,On Time,West
+1349.0,2025-10-08,Lucknow-Kanpur,Truck,Food,1436,2725.0,104,,5.0,On Time,North
+1350.0,2024-03-28,Mumbai-Pune,Truck,Electronics,1097,3949.0,82,13756.35,7.0,Delayed,West
+1351.0,2025-06-30,Mumbai-Pune,Truck,Electronics,560,9697.0,73,8174.55,3.0,On Time,West
+1352.0,2023-08-06,Lucknow-Kanpur,Truck,Electronics,807,7837.0,99,10859.55,5.0,On Time,North
+1353.0,2024-04-18,Lucknow-Delhi,Truck,Textiles,986,14124.0,90,13950.6,3.0,On Time,North
+1354.0,2024-03-07,Kanpur-Varanasi,Truck,electronics,unknown,12100.0,96,20835.0,5.0,on time ,North
+1355.0,2023-12-07,Lucknow-Kanpur,Truck,Textiles,1215,8433.0,153,15844.95,2.0,On Time,North
+1356.0,2024-07-04,Kanpur-Varanasi,Air,Food,1175,17376.0,76,43731.4,3.0,On Time,North
+1357.0,2023-12-23,Delhi-Jaipur,Truck,Machinery,619,7410.0,123,8539.5,4.0,On Time,North
+1358.0,2023-01-23,Mumbai-Pune,Truck,Textiles,911,2499.0,107,11306.85,4.0,On Time,West
+1359.0,2024-06-05,Kanpur-Varanasi,Truck,electronics,1221,4740.0,55,15363.0,6.0,Delayed,North
+1360.0,2025-03-12,Delhi-Mumbai,Truck,Textiles,335,19444.0,52,6936.6,2.0,On Time,West
+1361.0,2025-01-31,Kanpur-Varanasi,Truck,Textiles,1497,10491.0,107,19537.65,5.0,On Time,North
+1362.0,2024-03-17,Delhi-Jaipur,Rail,Electronics,1704,17953.0,110,14620.95,9.0,Delayed,North
+1363.0,2025-02-07,Mumbai-Pune,Rail,Electronics,1026,10992.0,141,8830.8,4.0,On Time,West
+1364.0,2025-10-12,Lucknow-Kanpur,Truck,Electronics,656,11297.0,134,9566.55,,On Time,North
+1365.0,2024-05-30,Delhi-Jaipur,Truck,Food,748,13150.0,116,10948.5,3.0,On Time,North
+1366.0,2025-11-05,Mumbai-Pune,Truck,Machinery,333,3474.0,125,4517.1,3.0,On Time,West
+1367.0,2025-03-02,Kanpur-Varanasi,Rail,Machinery,1155,13011.0,106,10036.65,6.0,Delayed,North
+1368.0,2023-12-02,Lucknow-Delhi,Truck,Food,1412,8947.0,173,18286.05,5.0,On Time,North
+1369.0,2023-09-15,Lucknow-Delhi,Truck,Textiles,1761,14885.0,58,23364.75,2.0,On Time,North
+1370.0,2024-05-11,Delhi-Mumbai,Truck,Food,678,11060.0,108,,3.0,On Time,West
+1371.0,2025-06-14,Mumbai-Pune,Truck,Textiles,641,13635.0,128,9737.25,5.0,On Time,West
+1372.0,2023-06-09,Lucknow-Delhi,Truck,Food,213,8334.0,95,3806.1,2.0,On Time,North
+1373.0,2025-05-01,Lucknow-Kanpur,Truck,Food,303,10603.0,133,5226.45,3.0,On Time,North
+1374.0,2024-11-20,Mumbai-Pune,Truck,Food,1152,5222.0,114,14607.3,2.0,On Time,West
+1375.0,2024-01-15,Lucknow-Kanpur,Rail,Machinery,742,9952.0,99,6686.8,2.0,On Time,North
+1376.0,2025-15-40,Lucknow-Kanpur,Truck,Electronics,573,5487.0,91,7699.05,3.0,On Time,North
+1377.0,2024-11-21,Lucknow-Delhi,Truck,Food,796,7731.0,72,10711.65,4.0,On Time,North
+1378.0,2025-12-02,Mumbai-Pune,Rail,Machinery,352,7326.0,100,3562.9,4.0,On Time,West
+1379.0,2023-10-12,Kanpur-Varanasi,truck ,Electronics,1004,5208.0,101,12829.2,4.0,On Time,North
+1380.0,2024-02-01,Delhi-Jaipur,Truck,Unknown Cargo,485,18708.0,116,8626.2,3.0,On Time,North
+1381.0,2023-01-12,Lucknow-Delhi,Truck,Food,161,2210.0,117,2263.5,1.0,On Time,North
+1382.0,2024-05-13,Lucknow-Delhi,Truck,Textiles,614,1057.0,106,752655.0,1.0,On Time,North
+1383.0,2025-01-23,Kanpur-Varanasi,Rail,Textiles,529,7246.0,116,4789.9,1.0,On Time,North
+1384.0,2023-02-04,Mumbai-Pune,truck ,Textiles,679,660.0,97,8247.0,4.0,On Time,West
+1385.0,2024-12-27,Mumbai-Pune,Truck,Food,1660,,161,20131.8,6.0,Delayed,West
+1386.0,2025-04-28,Lucknow-Kanpur,Truck,Textiles,1264,18305.0,100,17913.75,4.0,On Time,North
+1387.0,2023-03-31,Kanpur-Varanasi,Truck,Machinery,842,11695.0,101,11858.25,1.0,On Time,North
+1388.0,2025-02-14,Kanpur-Varanasi,Rail,Machinery,unknown,5474.0,95,10782.1,6.0,Delayed,North
+1389.0,2024-08-27,Mumbai-Pune,Truck,Machinery,774,2751.0,102,9700.65,3.0,On Time,West
+1390.0,2025-08-27,Lucknow-Kanpur,Truck,Machinery,410,10106.0,82,6435.9,3.0,On Time,North
+1391.0,2025-10-18,Lucknow-Delhi,Rail,Electronics,570,10033.0,155,5494.95,5.0,On Time,North
+1392.0,2024-02-22,Delhi-Mumbai,Truck,electronics,1516,16272.0,77,20632.8,2.0,On Time,West
+1393.0,2023-04-25,Delhi-Jaipur,Rail,Textiles,1765,2977.0,78,12801.55,5.0,On Time,North
+1394.0,2024-09-08,Lucknow-Delhi,Rail,Food,1568,4183.0,114,11603.45,5.0,On Time,North
+1395.0,2025-04-05,Mumbai-Pune,Rail,Textiles,908,845.0,98,6482.75,6.0,Delayed,West
+1396.0,2024-02-17,Delhi-Jaipur,Truck,Machinery,271,8849.0,91,4579.35,1.0,On Time,North
+1397.0,2024-12-29,Delhi-Mumbai,Truck,Electronics,675,17425.0,153,10713.75,6.0,Delayed,West
+1398.0,2025-10-17,Delhi-Mumbai,Rail,Machinery,130,18780.0,114,,2.0,On Time,West
+1399.0,2025-01-30,Lucknow-Kanpur,Truck,Food,146,17423.0,96,4365.45,1.0,On Time,North
+1400.0,2024-11-06,Delhi-Jaipur,Truck,Textiles,229,18094.0,166,5462.1,1.0,On Time,North
+1401.0,2024-04-01,Lucknow-Kanpur,Rail,Food,451,1825.0,131,3430.75,2.0,On Time,North
+1402.0,2025-07-08,Lucknow-Delhi,Rail,Food,1077,12313.0,118,9385.95,6.0,Delayed,North
+1403.0,2023-07-11,Kanpur-Varanasi,Truck,Food,1745,9628.0,85,22384.2,4.0,On Time,North
+1404.0,2025-01-08,Kanpur-Varanasi,Truck,Textiles,1704,14262.0,125,22587.3,6.0,Delayed,North
+1405.0,2025-09-04,Kanpur-Varanasi,Truck,Machinery,157,8953.0,81,3226.95,1.0,On Time,North
+1406.0,2025-10-05,Delhi-Jaipur,Rail,Food,unknown,7287.0,106,9696.05,3.0,On Time,North
+1407.0,2023-04-06,Kanpur-Varanasi,Air,Textiles,911,132.0,53,31904.8,7.0,Delayed,North
+1408.0,2024-10-24,Lucknow-Delhi,Truck,Electronics,1453,14993.0,173,19684.95,6.0,Delayed,North
+1409.0,2023-02-06,Lucknow-Kanpur,Truck,Textiles,867,14508.0,83,12580.2,,On Time,North
+1410.0,2023-10-06,Delhi-Jaipur,truck ,Electronics,782,15260.0,127,7763.0,5.0,On Time,North
+1411.0,2023-08-05,Lucknow-Kanpur,Truck,Textiles,1506,3514.0,74,18599.1,3.0,On Time,North
+1412.0,2025-05-16,Delhi-Jaipur,Truck,Machinery,1285,17640.0,114,18066.0,7.0,Delayed,North
+1413.0,2025-05-22,Lucknow-Kanpur,Air,Food,1096,19610.0,92,41301.5,1.0,On Time,North
+1414.0,2025-15-40,Delhi-Mumbai,Truck,Machinery,385,12220.0,74,6453.0,1.0,On Time,West
+1415.0,2024-08-18,Lucknow-Kanpur,Truck,Textiles,1194,1643.0,98,14574.45,4.0,On Time,North
+1416.0,2024-12-29,Kanpur-Varanasi,Truck,Food,1577,371.0,93,18979.65,6.0,Delayed,North
+1417.0,2024-02-01,Delhi-Mumbai,Truck,Electronics,985,5395.0,83,12629.25,4.0,On Time,West
+1418.0,2024-11-29,Lucknow-Kanpur,Rail,Textiles,1690,15063.0,75,14089.45,6.0,Delayed,North
+1419.0,2025-11-08,Delhi-Jaipur,Truck,Unknown Cargo,496,11680.0,93,7704.0,2.0,On Time,North
+1420.0,2023-06-26,Delhi-Jaipur,Air,Electronics,1638,19193.0,93,60208.95,4.0,On Time,North
+1421.0,2024-01-31,Delhi-Jaipur,Truck,Electronics,125,12697.0,61,3404.55,1.0,On Time,North
+1422.0,2024-03-20,Mumbai-Pune,truck ,Machinery,412,12145.0,70,6765.75,3.0,On Time,West
+1423.0,2023-03-17,Lucknow-Delhi,Truck,Textiles,225,13703.0,100,4755.45,3.0,On Time,North
+1424.0,2023-09-22,Delhi-Jaipur,Truck,Electronics,1531,10037.0,89,19877.55,8.0,Delayed,North
+1425.0,2024-03-30,Delhi-Mumbai,Truck,Food,1688,14930.0,140,22495.5,5.0,On Time,West
+1426.0,2024-12-18,Delhi-Jaipur,truck ,Electronics,1321,6822.0,178,16875.3,,Delayed,North
+1427.0,2025-01-04,Mumbai-Pune,Truck,Electronics,910,,83,12165.15,3.0,On Time,West
+1428.0,2025-04-30,Kanpur-Varanasi,Truck,Machinery,287,4244.0,111,4080.6,4.0,On Time,North
+1429.0,2023-05-24,Delhi-Mumbai,Rail,Machinery,797,5706.0,115,6434.9,5.0,On Time,West
+1430.0,2025-06-03,Mumbai-Pune,Rail,Food,909,6866.0,79,7392.9,4.0,On Time,West
+1431.0,2025-12-28,Kanpur-Varanasi,Rail,Machinery,815,17214.0,91,8287.1,3.0,On Time,North
+1432.0,2024-01-31,Delhi-Mumbai,Truck,Electronics,1607,16028.0,100,21688.2,7.0,Delayed,West
+1433.0,2025-11-14,Lucknow-Kanpur,Truck,Electronics,549,1748.0,126,6850.2,4.0,On Time,North
+1434.0,2025-08-05,Lucknow-Delhi,Rail,Machinery,622,2230.0,82,4688.5,2.0,On Time,North
+1435.0,2025-06-09,Lucknow-Delhi,Truck,Electronics,1477,14492.0,98,19897.8,3.0,On Time,North
+1436.0,2024-07-22,Mumbai-Pune,Truck,Electronics,1085,10688.0,76,14623.2,4.0,On Time,West
+1437.0,2025-11-28,Kanpur-Varanasi,Rail,Food,757,4466.0,100,5968.9,5.0,On Time,North
+1438.0,2023-04-19,Lucknow-Delhi,Rail,Machinery,696,1606.0,102,5112.9,5.0,On Time,North
+1439.0,2025-12-01,Kanpur-Varanasi,Truck,Electronics,199,18642.0,140,5184.3,1.0,On Time,North
+1440.0,2025-07-23,Kanpur-Varanasi,Truck,Machinery,715,19400.0,69,11490.0,1.0,On Time,North
+1441.0,2024-02-02,Mumbai-Pune,Rail,Food,1047,15322.0,119,9627.3,6.0,Delayed,West
+1442.0,2024-09-25,Mumbai-Pune,Truck,Machinery,1681,12463.0,65,22041.45,4.0,On Time,West
+1443.0,2025-01-02,,Rail,Electronics,655,19713.0,88,7541.95,4.0,On Time,West
+1444.0,2023-08-23,Lucknow-Delhi,Rail,Machinery,377,11895.0,85,4423.25,1.0,On Time,North
+1445.0,2024-10-19,Mumbai-Pune,Rail,Electronics,1749,9958.0,113,13736.7,8.0,Delayed,West
+1446.0,2025-01-20,Lucknow-Delhi,Truck,Electronics,590,12716.0,89,8987.4,2.0,On Time,North
+1447.0,2024-08-10,Mumbai-Pune,Truck,Electronics,354,4236.0,124,4883.4,4.0,On Time,West
+1448.0,2025-10-29,Delhi-Jaipur,Rail,Food,480,13578.0,108,5396.7,3.0,On Time,North
+1449.0,2025-08-11,Kanpur-Varanasi,Truck,Machinery,991,11261.0,134,13581.15,4.0,On Time,North
+1450.0,2024-05-06,Mumbai-Pune,Rail,Food,641,2789.0,109,4905.35,1.0,On Time,West
+1451.0,2025-07-01,Delhi-Mumbai,Truck,Machinery,1387,-500.0,92,17080.5,2.0,On Time,West
+1452.0,2023-06-19,Kanpur-Varanasi,Truck,Food,1733,11763.0,99,22560.45,6.0,Delayed,North
+1453.0,2025-08-03,Kanpur-Varanasi,Rail,Textiles,924,6252.0,136,7405.8,4.0,On Time,North
+1454.0,2025-03-05,Mumbai-Pune,Rail,Electronics,978,112.0,80,6862.8,2.0,,West
+1455.0,2024-09-25,Lucknow-Kanpur,Air,Electronics,1452,11262.0,78,52509.3,4.0,On Time,North
+1456.0,2023-01-29,Mumbai-Pune,Rail,Food,unknown,8099.0,85,9880.85,5.0,On Time,West
+1457.0,2023-12-05,Kanpur-Varanasi,Truck,Textiles,1399,7319.0,131,17885.85,6.0,Delayed,North
+1458.0,2024-05-14,Delhi-Mumbai,Rail,Electronics,1611,5428.0,65,12091.2,5.0,On Time,West
+1459.0,2024-05-25,Kanpur-Varanasi,Rail,Machinery,380,3721.0,100,3218.15,3.0,On Time,North
+1460.0,2023-08-05,Delhi-Mumbai,Truck,Food,1398,11765.0,120,18540.75,3.0,On Time,West
+1461.0,2025-12-29,Lucknow-Delhi,Truck,Electronics,872,11414.0,134,12176.1,3.0,On Time,North
+1462.0,2024-03-20,Delhi-Jaipur,Truck,Electronics,942,752.0,94,11416.8,6.0,Delayed,North
+1463.0,2025-05-25,Kanpur-Varanasi,Truck,Food,818,16282.0,88,12258.3,3.0,On Time,North
+1464.0,2023-06-16,Mumbai-Pune,Rail,Food,427,8912.0,106,4325.8,2.0,On Time,West
+1465.0,2023-04-01,Lucknow-Delhi,Truck,Machinery,310,3890.0,83,4303.5,5.0,On Time,North
+1466.0,2024-12-14,Delhi-Jaipur,Truck,Machinery,826,15759.0,178,12275.85,1.0,On Time,North
+1467.0,2023-02-08,Mumbai-Pune,Truck,Electronics,1022,1745.0,139,12525.75,5.0,On Time,West
+1468.0,2023-06-22,Lucknow-Kanpur,Truck,Electronics,651,10535.0,95,9392.25,5.0,On Time,North
+1469.0,2024-10-14,Mumbai-Pune,Truck,Food,125,3788.0,130,2068.2,1.0,On Time,West
+1470.0,2025-01-23,Delhi-Mumbai,Truck,Electronics,126,7789.0,121,2680.35,3.0,On Time,West
+1471.0,2025-12-17,Delhi-Mumbai,Air,Electronics,801,1479.0,158,28256.85,2.0,On Time,West
+1472.0,2024-04-20,Lucknow-Kanpur,Truck,Food,1206,4343.0,84,15123.45,3.0,On Time,North
+1473.0,2024-03-31,Lucknow-Delhi,Truck,Electronics,781,10337.0,89,10922.55,4.0,On Time,North
+1474.0,2025-04-08,Delhi-Jaipur,Truck,Electronics,512,16430.0,74,8608.5,4.0,On Time,North
+1475.0,2025-06-13,Mumbai-Pune,Rail,Textiles,266,19137.0,97,4732.55,3.0,On Time,West
+1476.0,2025-10-21,Delhi-Mumbai,Truck,Machinery,268,5711.0,147,4072.65,4.0,On Time,West
+1477.0,2024-01-22,Lucknow-Delhi,Rail,Food,328,12616.0,73,4188.4,2.0,On Time,North
+1478.0,2023-12-14,Lucknow-Kanpur,Rail,Textiles,1732,13986.0,118,14221.9,8.0,Delayed,North
+1479.0,2023-07-09,Kanpur-Varanasi,Rail,Machinery,466,13816.0,66,5334.4,2.0,On Time,North
+1480.0,2024-05-19,Delhi-Mumbai,Truck,Machinery,627,6012.0,82,8425.8,4.0,On Time,West
+1481.0,2025-04-03,Lucknow-Kanpur,Rail,Machinery,890,6549.0,111,7212.35,4.0,On Time,North
+1482.0,2025-07-17,Mumbai-Pune,Truck,Textiles,1770,1825.0,77,21513.75,7.0,on time ,West
+1483.0,,Delhi-Jaipur,Air,Textiles,1661,15970.0,85,60530.5,6.0,Delayed,North
+1484.0,2023-05-14,Delhi-Mumbai,Truck,Machinery,623,9404.0,67,8886.6,1.0,On Time,West
+1485.0,2023-02-27,Delhi-Mumbai,Truck,Electronics,1195,7622.0,104,15483.3,3.0,On Time,West
+1486.0,2024-11-15,Mumbai-Pune,Truck,Electronics,1768,13763.0,129,23280.45,6.0,Delayed,West
+1487.0,2024-11-02,Kanpur-Varanasi,Truck,Textiles,205,4884.0,111,3192.6,1.0,,North
+1488.0,2023-06-22,Lucknow-Delhi,Rail,Textiles,831,9572.0,87,7252.8,5.0,On Time,North
+1489.0,2025-03-25,Delhi-Jaipur,Truck,Textiles,1064,17716.0,104,15425.4,5.0,On Time,North
+1490.0,2023-03-21,Delhi-Mumbai,Truck,Machinery,1405,10155.0,84,18383.25,6.0,Delayed,West
+1491.0,2025-06-04,Delhi-Jaipur,Truck,Electronics,232,12776.0,63,4700.4,1.0,On Time,North
+1492.0,2023-07-22,Delhi-Mumbai,Rail,Textiles,633,7546.0,123,5562.9,5.0,On Time,West
+1493.0,2025-02-02,Delhi-Jaipur,Rail,Textiles,1074,4825.0,87,8241.75,7.0,Delayed,North
+1494.0,2023-02-16,Lucknow-Kanpur,Rail,Food,368,14869.0,98,4806.35,2.0,On Time,North
+1495.0,2024-10-17,Delhi-Mumbai,Rail,Machinery,1535,1509.0,156,10971.35,6.0,Delayed,West
+1496.0,2024-04-15,Delhi-Jaipur,Truck,Food,772,8305.0,171,10509.75,4.0,On Time,North
+1497.0,2025-08-28,Lucknow-Delhi,Truck,Electronics,1742,16465.0,68,23373.75,7.0,Delayed,North
+1498.0,2025-11-01,Lucknow-Kanpur,Rail,Food,890,356.0,142,6283.4,3.0,On Time,North
+1499.0,2025-01-05,Lucknow-Kanpur,Truck,Food,117,18205.0,86,4134.75,1.0,On Time,North
+1500.0,2025-02-22,Lucknow-Delhi,Truck,Food,216,15804.0,89,4962.6,3.0,On Time,North
+1501.0,2025-08-25,Delhi-Jaipur,Truck,Machinery,897,17907.0,77,13450.05,7.0,Delayed,North
+1502.0,2023-12-24,Mumbai-Pune,Truck,Electronics,1267,3090.0,101,15667.5,3.0,On Time,West
+1503.0,2025-08-29,Lucknow-Delhi,Truck,Food,650,1295.0,89,7994.25,3.0,On Time,North
+1504.0,2024-10-29,Delhi-Jaipur,Rail,Machinery,1028,1344.0,92,7397.6,2.0,On Time,North
+1505.0,2024-01-08,Lucknow-Delhi,Truck,Electronics,1789,11515.0,119,23195.25,8.0,Delayed,North
+1506.0,2025-10-28,Lucknow-Delhi,Truck,Textiles,852,6866.0,131,11253.9,3.0,On Time,North
+1507.0,2024-11-06,Delhi-Mumbai,Truck,Food,521,11762.0,141,8016.3,1.0,On Time,West
+1508.0,2023-03-31,Delhi-Jaipur,Rail,Electronics,1492,16310.0,91,12890.5,6.0,Delayed,North
+1509.0,2024-11-28,Mumbai-Pune,Truck,Food,745,17790.0,120,11608.5,6.0,Delayed,West
+1510.0,2024-06-23,Delhi-Mumbai,Rail,Textiles,657,10413.0,95,6160.95,4.0,On Time,West
+1511.0,2025-01-01,Lucknow-Delhi,Rail,Electronics,149,2502.0,77,1418.3,2.0,On Time,North
+1512.0,2025-05-18,Kanpur-Varanasi,Truck,Machinery,777,16980.0,93,11871.0,4.0,On Time,North
+1513.0,2023-02-10,Lucknow-Delhi,Air,Electronics,205,19883.0,83,10157.45,4.0,On Time,North
+1514.0,2025-01-09,Lucknow-Delhi,Air,Machinery,1339,13375.0,82,48871.25,4.0,On Time,North
+1515.0,2024-05-16,Delhi-Jaipur,Rail,Electronics,757,15015.0,58,7551.25,3.0,On Time,North
+1516.0,2025-08-16,Delhi-Jaipur,Rail,Machinery,1548,1009.0,114,10987.35,5.0,On Time,North
+1517.0,2025-07-17,Delhi-Mumbai,Truck,Textiles,1195,15906.0,78,16725.9,3.0,On Time,West
+1518.0,2024-04-05,Mumbai-Pune,Truck,Textiles,1087,472.0,123,13114.8,4.0,On Time,West
+1519.0,2025-01-01,Delhi-Mumbai,truck ,Textiles,941,1444.0,121,11508.6,5.0,On Time,West
+1520.0,2025-01-21,Lucknow-Kanpur,Truck,Electronics,545,8615.0,74,7832.25,3.0,On Time,North
+1521.0,,Lucknow-Delhi,Air,Textiles,1309,2531.0,70,46194.65,6.0,Delayed,North
+1522.0,2025-06-27,Kanpur-Varanasi,Truck,Food,169,19268.0,136,4918.2,2.0,On Time,North
+1523.0,2024-01-25,Lucknow-Delhi,Rail,Textiles,249,10685.0,135,3345.75,2.0,On Time,North
+1524.0,2025-06-01,Lucknow-Delhi,truck ,Machinery,1369,15562.0,89,11917.3,4.0,On Time,North
+1525.0,2023-09-13,Delhi-Mumbai,Rail,Machinery,873,1795.0,105,6380.25,3.0,On Time,West
+1526.0,2024-12-09,Kanpur-Varanasi,Air,Machinery,1661,2007.0,114,58436.05,6.0,Delayed,North
+1527.0,2024-03-25,Kanpur-Varanasi,Truck,Electronics,1775,17264.0,109,23889.6,6.0,Delayed,North
+1528.0,2023-01-10,Kanpur-Varanasi,Truck,Food,1222,1119.0,86,14831.85,5.0,,North
+1529.0,2025-04-03,Delhi-Mumbai,Truck,Textiles,1401,11557.0,59,18545.55,5.0,On Time,West
+1530.0,2025-03-08,Lucknow-Delhi,Truck,Food,1686,1503.0,74,20457.45,5.0,on time ,North
+1531.0,2025-05-26,Delhi-Mumbai,Truck,Food,1786,17910.0,100,24118.5,11.0,Delayed,West
+1532.0,2025-10-25,Delhi-Jaipur,Truck,Machinery,1043,8955.0,101,13859.25,5.0,On Time,North
+1533.0,2025-10-12,Delhi-Jaipur,Rail,Machinery,554,5968.0,128,4773.2,3.0,On Time,North
+1534.0,2024-01-09,Delhi-Mumbai,Truck,Machinery,1227,10939.0,79,16364.85,4.0,On Time,West
+1535.0,2025-12-24,Kanpur-Varanasi,Truck,Electronics,1045,110.0,110,12556.5,3.0,On Time,North
+1536.0,2023-05-26,Lucknow-Delhi,Rail,Food,700,6430.0,117,5864.5,3.0,On Time,North
+1537.0,2023-08-12,Delhi-Mumbai,Truck,Food,752,15161.0,94,11298.15,4.0,On Time,West
+1538.0,2023-06-26,Delhi-Mumbai,Helicopter,Electronics,824,9330.0,90,11287.5,1.0,On Time,West
+1539.0,2025-05-02,Delhi-Mumbai,Rail,Electronics,332,19309.0,118,5220.35,1.0,On Time,West
+1540.0,2023-03-04,Lucknow-Kanpur,Truck,Electronics,1517,7564.0,110,19338.6,4.0,On Time,North
+1541.0,2025-04-06,Delhi-Jaipur,Rail,Food,1624,14846.0,129,13594.9,6.0,Delayed,North
+1542.0,2025-03-05,Kanpur-Varanasi,Truck,Food,350,3103.0,91,4665.45,2.0,On Time,North
+1543.0,2024-11-19,Mumbai-Pune,Rail,Machinery,1644,7295.0,119,12602.25,8.0,Delayed,West
+1544.0,2023-04-15,Kanpur-Varanasi,Truck,Machinery,178,19572.0,74,5071.8,1.0,On Time,North
+1545.0,2024-05-25,Mumbai-Pune,Truck,Food,1175,13762.0,91,16164.3,3.0,On Time,West
+1546.0,2024-01-20,Lucknow-Kanpur,Truck,Machinery,997,13839.0,119,14039.85,6.0,Delayed,North
+1547.0,2024-02-09,Delhi-Mumbai,Rail,Electronics,1020,15688.0,126,9493.2,4.0,On Time,West
+1548.0,2025-04-02,Lucknow-Kanpur,truck ,Textiles,880,1889.0,119,10843.35,5.0,On Time,North
+1549.0,2024-06-01,Lucknow-Kanpur,Truck,Machinery,325,19520.0,58,6828.0,5.0,,North
+1550.0,2024-04-20,Lucknow-Delhi,Air,Food,1174,7698.0,122,42244.7,3.0,On Time,North
+1551.0,2024-12-09,Delhi-Jaipur,Rail,Machinery,1309,4938.0,82,9903.7,5.0,On Time,North
+1552.0,2025-02-09,,Truck,Machinery,1157,5972.0,118,14779.8,4.0,On Time,West
+1553.0,2025-11-12,Delhi-Mumbai,Rail,Machinery,902,11467.0,120,8034.05,1.0,On Time,West
+1554.0,2025-09-23,Mumbai-Pune,Truck,Textiles,841,4399.0,114,10751.85,3.0,On Time,West
+1555.0,2025-15-40,Kanpur-Varanasi,Truck,Electronics,230,17457.0,95,5378.55,3.0,On Time,North
+1556.0,2024-12-14,Mumbai-Pune,Truck,Food,1122,7183.0,160,14541.45,5.0,On Time,West
+1557.0,2023-03-24,Kanpur-Varanasi,Air,Textiles,731,5594.0,71,26424.1,4.0,On Time,North
+1558.0,2024-04-01,Delhi-Jaipur,Air,Food,1566,11417.0,87,56522.55,5.0,On Time,North
+1559.0,2023-01-01,Kanpur-Varanasi,Truck,Food,937,19890.0,80,14227.5,3.0,On Time,North
+1560.0,2023-02-20,Mumbai-Pune,Truck,Food,858,3229.0,65,10780.35,5.0,On Time,West
+1561.0,2024-11-15,Mumbai-Pune,Truck,Textiles,1555,204.0,132,18690.6,5.0,On Time,West
+1562.0,2024-12-17,Kanpur-Varanasi,Air,Electronics,803,7533.0,177,29234.95,4.0,On Time,North
+1563.0,2024-03-24,Lucknow-Kanpur,Air,Food,596,7789.0,153,22028.35,3.0,On Time,North
+1564.0,2025-05-30,Delhi-Jaipur,Truck,Electronics,1526,3667.0,102,18862.05,8.0,Delayed,North
+1565.0,2024-05-02,Lucknow-Delhi,truck ,Electronics,422,17665.0,122,5603.75,4.0,On Time,North
+1566.0,2023-02-03,Delhi-Mumbai,Rail,Machinery,1333,4744.0,105,10042.6,3.0,On Time,West
+1567.0,2023-04-05,Mumbai-Pune,Truck,Textiles,714,15066.0,110,10827.9,1.0,On Time,West
+1568.0,2025-12-31,Delhi-Mumbai,Truck,Textiles,428,11430.0,121,6850.5,3.0,On Time,West
+1569.0,2023-06-03,Lucknow-Delhi,Truck,Machinery,1495,4494.0,94,18614.1,5.0,On Time,North
+1570.0,2023-09-07,Delhi-Mumbai,Rail,Machinery,1583,3634.0,111,11626.1,5.0,On Time,West
+1571.0,2024-11-04,Lucknow-Delhi,Rail,Electronics,232,12488.0,115,3497.2,3.0,On Time,North
+1572.0,2024-03-13,Kanpur-Varanasi,Truck,Food,934,11419.0,98,12920.85,4.0,On Time,North
+1573.0,2023-04-28,Lucknow-Kanpur,Air,Textiles,750,6575.0,99,27236.25,3.0,On Time,North
+1574.0,2025-02-09,Mumbai-Pune,Truck,Food,220,18258.0,117,5378.7,3.0,On Time,West
+1575.0,2023-09-25,Lucknow-Delhi,Truck,Food,705,14828.0,79,10684.2,2.0,On Time,North
+1576.0,2025-12-13,Delhi-Mumbai,Rail,Machinery,1575,12106.0,129,12840.9,8.0,Delayed,West
+1577.0,2023-08-24,Mumbai-Pune,Rail,Food,1064,16250.0,124,,3.0,On Time,West
+1578.0,2024-01-24,Lucknow-Kanpur,Truck,Electronics,228,not available,123,2817.9,3.0,On Time,North
+1579.0,2025-09-16,Kanpur-Varanasi,Truck,Machinery,1214,208.0,127,14599.2,7.0,Delayed,North
+1580.0,2025-02-01,Mumbai-Pune,Truck,Food,1727,3339.0,100,21224.85,4.0,On Time,West
+1581.0,2024-02-05,Lucknow-Delhi,Truck,Machinery,1698,6031.0,106,21280.65,5.0,On Time,North
+1582.0,2024-09-15,Lucknow-Kanpur,Truck,Electronics,128,4153.0,120,2158.95,3.0,On Time,North
+1583.0,2025-02-05,Delhi-Mumbai,Truck,Electronics,821,13846.0,131,11928.9,5.0,On Time,West
+1584.0,2025-07-07,Lucknow-Kanpur,Rail,Food,1647,1345.0,55,11730.75,5.0,On Time,North
+1585.0,2025-05-02,Lucknow-Kanpur,Truck,Machinery,432,19204.0,74,8064.6,1.0,On Time,North
+1586.0,2024-07-31,Delhi-Jaipur,Rail,Food,1420,13939.0,114,12030.85,6.0,Delayed,North
+1587.0,2023-03-16,Lucknow-Kanpur,Rail,electronics,1253,12956.0,94,10714.4,6.0,Delayed,North
+1588.0,2024-03-10,Lucknow-Kanpur,Truck,Machinery,1416,5205.0,87,17772.75,3.0,On Time,North
+1589.0,2023-04-13,Mumbai-Pune,Truck,Food,1296,3022.0,75,16005.3,3.0,On Time,West
+1590.0,2025-02-02,Delhi-Mumbai,Rail,Electronics,1043,2613.0,89,7692.95,4.0,On Time,West
+1591.0,2025-01-07,Mumbai-Pune,Truck,Machinery,1147,2901.0,72,14199.15,5.0,On Time,West
+1592.0,2025-03-16,Mumbai-Pune,Rail,Machinery,1222,13995.0,142,10653.25,4.0,On Time,West
+1593.0,2023-04-08,Lucknow-Delhi,Rail,Machinery,1529,7081.0,100,11765.15,6.0,Delayed,North
+1594.0,2025-03-08,Mumbai-Pune,Rail,Machinery,455,8321.0,99,4433.15,1.0,,West
+1595.0,2025-05-08,Delhi-Jaipur,Air,Food,238,6138.0,112,9250.7,1.0,On Time,North
+1596.0,2024-03-10,Delhi-Jaipur,Truck,Food,1626,15182.0,119,21789.3,5.0,On Time,North
+1597.0,2024-03-22,Lucknow-Delhi,Truck,Electronics,1297,14748.0,119,17776.2,5.0,On Time,North
+1598.0,2023-09-06,Kanpur-Varanasi,Truck,Textiles,128,464.0,121,1605.6,1.0,On Time,North
+1599.0,2023-06-15,Delhi-Mumbai,truck ,Textiles,1030,1900.0,79,12645.0,2.0,On Time,West
+1600.0,2025-09-10,Delhi-Mumbai,Truck,Electronics,595,14210.0,94,9271.5,1.0,On Time,West
+1601.0,2025-10-16,Mumbai-Pune,Truck,Textiles,1113,6058.0,150,14264.7,3.0,On Time,West
+1602.0,2024-06-25,Mumbai-Pune,truck ,Electronics,754,9196.0,81,27769.4,5.0,On Time,West
+1603.0,2025-01-28,Kanpur-Varanasi,Truck,Unknown Cargo,927,7536.0,100,12254.4,6.0,Delayed,North
+1604.0,2023-03-22,Mumbai-Pune,Truck,Machinery,450,12738.0,108,7310.7,4.0,On Time,West
+1605.0,2023-05-13,Delhi-Mumbai,Truck,Machinery,653,279.0,116,7877.85,2.0,On Time,West
+1606.0,2025-03-07,Lucknow-Kanpur,Truck,Food,398,3973.0,64,5371.95,1.0,On Time,North
+1607.0,2025-06-18,Delhi-Jaipur,Truck,Machinery,1315,17670.0,103,18430.5,6.0,Delayed,North
+,2023-05-18,Lucknow-Kanpur,Truck,Machinery,1795,15555.0,95,23873.25,7.0,Delayed,North
+1609.0,2023-07-03,Lucknow-Kanpur,Truck,Textiles,163,17257.0,103,4544.55,2.0,On Time,North
+1610.0,2025-02-23,,truck ,Food,854,12897.0,116,12182.55,1.0,On Time,West
+1611.0,2025-09-10,Lucknow-Kanpur,Rail,Textiles,869,4560.0,132,6767.0,2.0,On Time,North
+1612.0,2023-03-10,Kanpur-Varanasi,Rail,Textiles,1787,15416.0,127,14821.4,6.0,Delayed,North
+1613.0,2024-06-29,Lucknow-Delhi,Rail,Machinery,1338,452.0,114,9433.8,6.0,Delayed,North
+1614.0,2023-02-22,Mumbai-Pune,Truck,Machinery,933,5444.0,129,12012.6,5.0,On Time,West
+1615.0,2023-07-24,Lucknow-Delhi,Rail,Food,265,4607.0,95,2546.05,2.0,On Time,North
+1616.0,2023-05-06,Delhi-Jaipur,Rail,Machinery,1666,,101,12401.5,6.0,Delayed,North
+1617.0,2023-02-12,Mumbai-Pune,Truck,Machinery,1355,11320.0,117,17958.0,5.0,On Time,West
+1618.0,2023-04-21,Lucknow-Kanpur,Rail,Food,1664,217.0,115,11680.55,7.0,Delayed,North
+1619.0,2025-01-30,Delhi-Jaipur,Truck,Machinery,1318,16965.0,94,18360.75,5.0,On Time,North
+1620.0,2025-04-27,Mumbai-Pune,Rail,Textiles,605,4387.0,108,4893.05,3.0,On Time,West
+1621.0,2023-04-05,Kanpur-Varanasi,Air,Food,1457,4577.0,99,51681.55,5.0,On Time,North
+1622.0,2025-06-18,Kanpur-Varanasi,Truck,Machinery,892,6633.0,75,11698.95,4.0,On Time,North
+1623.0,2023-12-26,Kanpur-Varanasi,Rail,Electronics,1427,16727.0,164,12498.05,6.0,Delayed,North
+1624.0,2025-06-18,Kanpur-Varanasi,Truck,Food,932,12855.0,91,13112.25,4.0,On Time,North
+1625.0,2023-10-08,Lucknow-Kanpur,Air,Food,1560,965.0,183,54744.75,6.0,Delayed,North
+1626.0,2024-10-28,Lucknow-Delhi,Truck,Electronics,1446,11273.0,88,19042.95,7.0,Delayed,North
+1627.0,2023-04-03,Mumbai-Pune,Rail,Machinery,1625,5429.0,89,12189.35,6.0,Delayed,West
+1628.0,2024-11-02,Lucknow-Kanpur,Truck,Machinery,957,703.0,131,11589.45,3.0,On Time,North
+1629.0,2023-03-02,Kanpur-Varanasi,Truck,Food,1516,5856.0,123,19070.4,7.0,Delayed,North
+1630.0,2024-09-25,Lucknow-Delhi,Truck,Food,905,11354.0,108,12563.1,2.0,On Time,North
+1631.0,2025-12-10,Delhi-Jaipur,Air,Machinery,1722,4118.0,138,60887.7,4.0,On Time,North
+1632.0,2025-10-25,Delhi-Jaipur,Rail,Machinery,1272,5292.0,101,9697.8,5.0,On Time,North
+1633.0,2024-08-26,Delhi-Jaipur,Rail,Textiles,860,2115.0,69,6337.25,4.0,On Time,North
+1634.0,2024-11-12,Kanpur-Varanasi,Air,Food,932,9950.0,138,34112.5,2.0,On Time,North
+1635.0,2024-06-17,Delhi-Jaipur,Truck,Food,1528,3480.0,65,18858.0,5.0,On Time,North
+1636.0,2025-04-17,Delhi-Mumbai,truck ,Electronics,382,3870.0,89,5164.5,1.0,On Time,West
+1637.0,2024-10-06,Mumbai-Pune,Truck,Textiles,1485,5929.0,143,18709.35,5.0,On Time,West
+1638.0,2023-08-21,Mumbai-Pune,Truck,Machinery,478,1713.0,72,5992.95,4.0,On Time,West
+1639.0,2024-06-07,Kanpur-Varanasi,Truck,Textiles,297,13247.0,119,5551.05,3.0,On Time,North
+1640.0,2023-12-12,Delhi-Mumbai,Truck,Machinery,1114,15645.0,162,15714.75,4.0,On Time,West
+1641.0,2025-12-05,Lucknow-Kanpur,Truck,Machinery,1123,18363.0,89,16230.45,3.0,On Time,North
+1642.0,2024-06-29,Lucknow-Kanpur,Truck,Textiles,655,5472.0,73,8680.8,1.0,On Time,North
+1643.0,2025-03-04,Delhi-Jaipur,Truck,Food,455,10638.0,54,7055.7,4.0,on time ,North
+1644.0,2023-09-06,Lucknow-Delhi,Truck,Machinery,1663,248.0,84,19993.2,7.0,Delayed,North
+1645.0,2025-15-40,Lucknow-Kanpur,Air,Textiles,1552,1854.0,115,54598.1,4.0,On Time,North
+1646.0,2023-08-02,Lucknow-Delhi,Rail,Electronics,0,7478.0,83,9101.7,5.0,On Time,North
+1647.0,2023-08-27,Mumbai-Pune,Air,Textiles,738,13691.0,98,27883.65,3.0,On Time,West
+1648.0,2025-12-15,Lucknow-Delhi,Truck,Electronics,478,9471.0,90,7156.65,2.0,On Time,North
+1649.0,2023-12-16,Mumbai-Pune,Truck,Machinery,779,12879.0,151,11279.85,4.0,On Time,West
+1650.0,2023-04-17,Delhi-Mumbai,Rail,Textiles,605,9895.0,89,5719.25,2.0,On Time,West
+1651.0,2025-04-10,Delhi-Mumbai,Truck,Textiles,998,19536.0,100,14906.4,3.0,On Time,West
+1652.0,2023-02-17,Kanpur-Varanasi,Truck,Electronics,175,5792.0,98,2968.8,2.0,On Time,North
+1653.0,2023-12-03,Kanpur-Varanasi,Truck,Textiles,330,4318.0,97,4607.7,1.0,On Time,North
+1654.0,2025-11-15,Delhi-Jaipur,Truck,Textiles,1061,4903.0,100,13467.45,5.0,On Time,North
+1655.0,2025-03-14,Lucknow-Kanpur,Truck,Machinery,1371,18861.0,119,19281.15,8.0,Delayed,North
+1656.0,2023-01-08,Delhi-Jaipur,Truck,Textiles,401,11772.0,108,6577.8,1.0,On Time,North
+1657.0,2024-09-16,Mumbai-Pune,Rail,Food,825,3282.0,121,6267.3,1.0,On Time,West
+1658.0,2024-12-19,Delhi-Jaipur,Truck,Electronics,314,11109.0,138,5434.35,1.0,On Time,North
+1659.0,2023-10-30,Lucknow-Delhi,Truck,Textiles,1281,14428.0,134,17536.2,4.0,On Time,North
+1660.0,,Mumbai-Pune,Rail,Electronics,168,19644.0,65,4122.6,1.0,On Time,West
+1661.0,2023-02-25,Kanpur-Varanasi,Truck,Electronics,492,2686.0,95,6306.9,3.0,On Time,North
+1662.0,2024-12-26,Delhi-Mumbai,Truck,Electronics,1208,2748.0,129,14908.2,5.0,On Time,West
+1663.0,2024-06-09,Kanpur-Varanasi,Rail,Textiles,366,7413.0,125,3673.95,1.0,On Time,North
+1664.0,2024-04-18,Lucknow-Kanpur,Truck,Textiles,1192,18201.0,114,17034.15,2.0,On Time,North
+1665.0,2023-01-28,Mumbai-Pune,Truck,Electronics,710,12644.0,131,10416.6,3.0,On Time,West
+1666.0,2023-03-19,Mumbai-Pune,Truck,Food,1470,7507.0,112,18766.05,5.0,On Time,West
+1667.0,2023-12-31,Lucknow-Delhi,Truck,Electronics,1108,17354.0,112,15899.1,4.0,On Time,North
+1668.0,2024-10-27,Lucknow-Kanpur,Truck,Food,1061,,133,15032.1,2.0,On Time,North
+1669.0,2024-06-09,Delhi-Mumbai,Rail,Electronics,827,15112.0,94,8055.8,4.0,On Time,West
+1670.0,2024-11-29,Mumbai-Pune,Truck,Machinery,772,9835.0,106,10739.25,5.0,On Time,West
+1671.0,2025-06-01,Mumbai-Pune,Truck,Electronics,522,13525.0,83,8292.75,3.0,On Time,West
+1672.0,2025-10-27,Lucknow-Delhi,Truck,Electronics,1729,15798.0,-10,23117.7,5.0,On Time,North
+1673.0,2025-10-23,Delhi-Jaipur,Truck,Textiles,1297,15421.0,172,17877.15,5.0,On Time,North
+1674.0,2025-07-07,Delhi-Mumbai,Truck,Food,214,12746.0,53,,1.0,On Time,West
+1675.0,2025-01-19,Kanpur-Varanasi,Truck,Machinery,319,19724.0,124,6786.6,3.0,On Time,North
+1676.0,2023-12-29,Lucknow-Kanpur,Truck,Food,130,4993.0,106,2308.95,1.0,On Time,North
+1677.0,2025-03-16,Mumbai-Pune,Truck,Machinery,1646,9576.0,73,21188.4,3.0,On Time,West
+1678.0,2025-01-08,Mumbai-Pune,Truck,Electronics,1466,17370.0,124,20197.5,5.0,On Time,West
+1679.0,2025-11-04,Kanpur-Varanasi,Truck,Textiles,1500,18742.0,149,20811.3,6.0,Delayed,North
+1680.0,2024-04-29,Delhi-Mumbai,Helicopter,Textiles,1253,4482.0,125,9443.3,4.0,On Time,West
+1681.0,,Delhi-Jaipur,Truck,Food,716,1885.0,116,8874.75,3.0,On Time,North
+1682.0,2024-12-14,Mumbai-Pune,Truck,Textiles,638,13130.0,184,9625.5,1.0,On Time,West
+1683.0,2025-11-28,Delhi-Mumbai,Truck,Food,838,11835.0,145,11831.25,4.0,On Time,West
+1684.0,2023-03-27,Kanpur-Varanasi,Rail,Food,1125,16779.0,97,10391.85,3.0,On Time,North
+1685.0,2023-05-06,Lucknow-Delhi,Truck,Machinery,970,10345.0,107,13191.75,1.0,On Time,North
+1686.0,2025-03-22,Delhi-Jaipur,Rail,Food,200,2697.0,125,1804.55,1.0,On Time,North
+1687.0,2024-06-20,Lucknow-Kanpur,Rail,Machinery,1656,17164.0,76,14166.6,7.0,on time ,North
+1688.0,2023-05-25,Mumbai-Pune,Rail,Textiles,1181,424.0,87,8330.6,4.0,On Time,West
+1689.0,2023-01-25,Delhi-Mumbai,Truck,Food,1512,15260.0,94,20433.0,8.0,Delayed,West
+1690.0,2023-03-08,Lucknow-Delhi,Truck,Food,791,12714.0,58,11399.1,4.0,On Time,North
+1691.0,2023-08-21,Lucknow-Kanpur,Rail,Electronics,1040,1086.0,92,7442.9,4.0,On Time,North
+1692.0,2023-04-19,Delhi-Mumbai,Air,Food,440,19602.0,62,18340.3,2.0,On Time,West
+1693.0,2023-04-21,Delhi-Mumbai,Rail,Food,960,860.0,101,6849.0,4.0,On Time,West
+1694.0,2023-08-16,Lucknow-Kanpur,Truck,Electronics,1143,11985.0,106,15513.75,4.0,On Time,North
+1695.0,2023-04-21,Lucknow-Delhi,Truck,Electronics,1378,9328.0,90,17935.2,4.0,On Time,North
+1696.0,2023-02-03,Kanpur-Varanasi,Truck,Textiles,1440,17390.0,134,,6.0,Delayed,North
+1697.0,2024-09-14,Lucknow-Delhi,Rail,Food,137,5599.0,71,1798.85,1.0,On Time,North
+1698.0,2025-01-17,Delhi-Jaipur,Truck,Textiles,759,464.0,124,9177.6,2.0,On Time,North
+1699.0,2024-08-17,Mumbai-Pune,Truck,Textiles,1660,19897.0,102,22904.55,4.0,On Time,West
+1700.0,2024-02-29,Lucknow-Kanpur,Rail,Electronics,1509,8127.0,66,11782.05,8.0,Delayed,North
+1701.0,2024-09-04,Kanpur-Varanasi,Truck,Machinery,1756,13632.0,154,23116.8,7.0,Delayed,North
+1702.0,2024-11-22,Lucknow-Kanpur,Rail,Textiles,1027,14508.0,128,9365.2,4.0,On Time,North
+1703.0,2023-11-11,Lucknow-Kanpur,Truck,Machinery,1149,16205.0,107,16218.75,3.0,On Time,North
+1704.0,2025-05-26,Lucknow-Delhi,Truck,Food,553,8039.0,72,7841.85,4.0,On Time,North
+1705.0,2024-10-23,Mumbai-Pune,Truck,Electronics,1446,14036.0,124,19457.4,5.0,On Time,West
+1706.0,2023-10-04,Delhi-Jaipur,Rail,Food,836,9361.0,127,7256.15,4.0,On Time,North
+1707.0,2024-09-15,Delhi-Mumbai,Truck,Food,1636,15963.0,102,22026.45,4.0,On Time,West
+1708.0,2024-05-30,Delhi-Mumbai,Truck,Electronics,918,12661.0,94,12915.15,,On Time,West
+1709.0,2025-04-22,Lucknow-Kanpur,Air,Food,872,10547.0,113,32102.05,3.0,On Time,North
+1710.0,2023-12-16,Mumbai-Pune,Truck,Electronics,112,14272.0,120,3484.8,1.0,On Time,West
+1711.0,2025-04-02,Kanpur-Varanasi,Truck,Machinery,1014,11978.0,61,13964.7,5.0,On Time,North
+1712.0,2025-01-28,Lucknow-Delhi,Truck,Food,1683,12511.0,97,22072.65,4.0,On Time,North
+1713.0,2025-06-17,Mumbai-Pune,Truck,Electronics,1020,19565.0,47,15174.75,5.0,On Time,West
+1714.0,2023-08-31,Mumbai-Pune,Truck,Textiles,924,5548.0,96,,5.0,On Time,West
+1715.0,2024-06-26,Lucknow-Delhi,Truck,Food,470,19742.0,72,8601.3,1.0,on time ,North
+1716.0,2025-11-29,Lucknow-Kanpur,Truck,Machinery,1414,2207.0,134,17299.05,4.0,On Time,North
+1717.0,2023-08-17,Mumbai-Pune,Truck,Electronics,431,8028.0,114,6376.2,2.0,On Time,West
+1718.0,2024-07-01,Delhi-Mumbai,Rail,Food,1729,15334.0,73,14403.1,6.0,Delayed,West
+1719.0,2025-07-08,Lucknow-Delhi,Truck,Food,360,19417.0,109,7232.55,2.0,On Time,North
+1720.0,2023-01-06,Kanpur-Varanasi,Truck,Food,1328,16410.0,91,18397.5,5.0,On Time,North
+1721.0,2024-04-12,Delhi-Jaipur,Truck,Machinery,796,19313.0,135,12448.95,6.0,Delayed,North
+1722.0,2023-03-16,Lucknow-Kanpur,Truck,Electronics,786,13628.0,93,11476.2,2.0,On Time,North
+1723.0,2023-01-04,Lucknow-Delhi,Truck,Textiles,1049,13413.0,83,14599.95,1.0,On Time,North
+1724.0,2024-10-07,Delhi-Jaipur,Truck,Textiles,486,1659.0,148,6080.85,4.0,On Time,North
+1725.0,2023-04-28,Delhi-Jaipur,Rail,Textiles,920,18225.0,91,9173.75,6.0,Delayed,North
+1726.0,2025-05-30,Kanpur-Varanasi,Truck,Electronics,567,15267.0,83,9094.05,3.0,On Time,North
+1727.0,2024-05-18,Mumbai-Pune,Air,Textiles,1538,15443.0,90,56146.45,4.0,On Time,West
+1728.0,2025-08-04,Kanpur-Varanasi,Air,Machinery,168,5930.0,89,6769.5,1.0,On Time,North
+1729.0,2024-07-27,Mumbai-Pune,Truck,Electronics,1595,7623.0,114,20283.45,4.0,On Time,West
+1730.0,2023-07-13,Mumbai-Pune,Truck,Food,1227,17109.0,55,17290.35,5.0,On Time,West
+1731.0,2025-04-26,Lucknow-Delhi,Truck,Machinery,1284,18174.0,100,18134.1,3.0,On Time,North
+1732.0,2024-12-15,Lucknow-Delhi,Rail,Food,299,15624.0,146,4436.6,1.0,On Time,North
+1733.0,,Lucknow-Kanpur,Truck,Textiles,315,13385.0,135,5787.75,1.0,On Time,North
+1734.0,2023-06-22,Mumbai-Pune,Truck,Machinery,311,11073.0,114,5392.95,2.0,On Time,West
+1735.0,2023-11-22,Delhi-Jaipur,Truck,Electronics,607,3106.0,128,7749.9,2.0,,North
+1736.0,2025-04-15,Delhi-Mumbai,Rail,Machinery,115,4402.0,96,1465.3,2.0,On Time,West
+1737.0,2024-12-24,Lucknow-Kanpur,Rail,Food,1621,17572.0,145,13982.8,6.0,Delayed,North
+1738.0,2023-08-13,Lucknow-Delhi,truck ,Electronics,983,4711.0,92,12502.65,2.0,On Time,North
+1739.0,2024-06-15,Kanpur-Varanasi,Rail,Machinery,431,9472.0,83,4437.8,3.0,On Time,North
+1740.0,2023-04-23,Lucknow-Kanpur,Truck,Machinery,816,14180.0,110,11919.0,3.0,On Time,North
+1741.0,2023-05-20,Lucknow-Kanpur,Truck,Machinery,650,15182.0,87,1007729.9999999999,1.0,On Time,North
+1742.0,2024-07-12,Lucknow-Kanpur,Rail,Machinery,1724,14741.0,79,14279.15,9.0,Delayed,North
+1743.0,2023-01-01,Lucknow-Kanpur,Truck,Electronics,1041,,89,14020.95,5.0,On Time,North
+1744.0,2023-03-31,Delhi-Mumbai,Truck,Food,355,8478.0,127,5531.7,2.0,On Time,West
+1745.0,2024-10-15,Kanpur-Varanasi,Truck,Machinery,1091,1697.0,46,13346.55,6.0,Delayed,North
+1746.0,2023-11-16,Kanpur-Varanasi,Rail,Electronics,827,11700.0,140,7544.0,6.0,Delayed,North
+1747.0,2023-05-19,Kanpur-Varanasi,Rail,Food,979,3847.0,101,7430.05,4.0,On Time,North
+1748.0,2025-04-24,Mumbai-Pune,Truck,Machinery,914,13979.0,66,13064.85,4.0,On Time,West
+1749.0,2023-09-16,Delhi-Jaipur,Rail,Food,1295,19154.0,106,11938.1,3.0,On Time,North
+1750.0,2025-06-20,Kanpur-Varanasi,Truck,Food,748,13117.0,99,10943.55,3.0,On Time,North
+1751.0,2024-11-20,Lucknow-Kanpur,Truck,Electronics,1099,19064.0,145,,4.0,On Time,North
+1752.0,2023-01-10,Lucknow-Kanpur,Truck,Food,1621,7532.0,47,20581.8,6.0,Delayed,North
+1753.0,2023-09-18,Kanpur-Varanasi,Truck,Electronics,570,18990.0,127,9688.5,3.0,On Time,North
+1754.0,2023-06-21,Kanpur-Varanasi,Truck,Machinery,1507,4825.0,77,18807.75,,Delayed,North
+1755.0,2025-06-16,Lucknow-Kanpur,Air,Food,789,10537.0,102,29195.55,4.0,On Time,North
+1756.0,2023-01-13,Mumbai-Pune,Truck,Food,1712,13369.0,115,22549.35,4.0,On Time,West
+1757.0,2023-11-17,,truck ,Textiles,799,13192.0,107,11566.8,2.0,On Time,North
+1758.0,2023-11-25,Lucknow-Delhi,Truck,Machinery,606,7102.0,147,8337.3,2.0,On Time,North
+1759.0,2025-02-23,Kanpur-Varanasi,Truck,Machinery,1091,6231.0,92,14026.65,4.0,On Time,North
+1760.0,2025-02-15,Delhi-Mumbai,Air,Textiles,1109,13361.0,59,40819.15,6.0,Delayed,West
+1761.0,2025-06-29,Kanpur-Varanasi,Truck,Textiles,1650,12712.0,111,21706.8,4.0,On Time,North
+1762.0,2023-11-14,Kanpur-Varanasi,Truck,Electronics,903,4637.0,110,11531.55,3.0,On Time,North
+1763.0,2023-08-24,Lucknow-Delhi,Rail,Electronics,930,13191.0,75,8488.65,5.0,On Time,North
+1764.0,2023-11-30,Lucknow-Kanpur,Truck,Food,1448,2435.0,120,17741.25,5.0,on time ,North
+1765.0,2024-01-11,Kanpur-Varanasi,Truck,Food,313,,105,4419.15,3.0,On Time,North
+1766.0,2025-15-40,Lucknow-Kanpur,Truck,Food,1331,13354.0,89,17975.1,5.0,On Time,North
+1767.0,2024-05-27,Lucknow-Kanpur,Truck,Food,268,19469.0,111,6136.35,2.0,On Time,North
+1768.0,2025-07-06,Delhi-Mumbai,Air,Electronics,1453,659.0,66,50953.85,5.0,On Time,West
+1769.0,2025-05-22,Lucknow-Kanpur,Rail,Machinery,1403,813.0,85,9942.95,6.0,Delayed,North
+1770.0,2023-09-27,Lucknow-Delhi,Truck,Food,1077,4693.0,98,13627.95,2.0,On Time,North
+1771.0,2025-03-08,Mumbai-Pune,Rail,Machinery,1428,15284.0,138,12288.6,5.0,On Time,West
+1772.0,2024-12-25,Mumbai-Pune,Truck,Food,245,15361.0,127,5244.15,2.0,,West
+1773.0,2023-01-05,Delhi-Jaipur,Truck,Textiles,615,,122,7433.4,4.0,On Time,North
+1774.0,2025-04-30,Kanpur-Varanasi,Truck,Food,1213,not available,101,16757.1,7.0,Delayed,North
+1775.0,2023-03-19,Lucknow-Delhi,Truck,Food,552,137.0,90,6644.55,2.0,On Time,North
+1776.0,2024-07-27,Lucknow-Kanpur,Truck,Food,159,10364.0,86,3462.6,,On Time,North
+1777.0,2023-05-12,Mumbai-Pune,Truck,Electronics,1434,12797.0,97,19127.55,,On Time,West
+1778.0,2024-08-23,Lucknow-Delhi,Air,Textiles,627,8752.0,101,23257.8,5.0,On Time,North
+1779.0,2025-12-01,Mumbai-Pune,Truck,Food,1350,16030.0,166,18604.5,6.0,Delayed,West
+1780.0,2023-03-30,Lucknow-Kanpur,Truck,Food,1123,1932.0,107,13765.8,3.0,On Time,North
+1781.0,2024-02-06,Mumbai-Pune,Truck,Machinery,573,15617.0,124,9218.55,3.0,On Time,West
+1782.0,2023-10-23,Kanpur-Varanasi,Truck,Textiles,1664,5267.0,105,20758.05,6.0,Delayed,North
+1783.0,2024-09-07,Kanpur-Varanasi,Truck,Food,1786,532.0,92,21511.8,7.0,Delayed,North
+1784.0,2025-03-10,Delhi-Jaipur,Truck,Machinery,856,4251.0,86,10909.65,3.0,On Time,North
+1785.0,2024-02-26,Delhi-Jaipur,Rail,Machinery,881,15012.0,106,8418.8,3.0,On Time,North
+1786.0,2025-11-12,Mumbai-Pune,Truck,Electronics,1202,6511.0,121,15400.65,6.0,Delayed,West
+1787.0,2024-07-28,Lucknow-Delhi,Truck,Machinery,532,18235.0,103,9119.25,2.0,On Time,North
+1788.0,2023-05-23,Kanpur-Varanasi,Truck,Food,1276,356.0,81,15365.4,6.0,Delayed,North
+1789.0,2025-09-19,Lucknow-Delhi,Truck,Electronics,500,771.0,101,6115.65,2.0,On Time,North
+1790.0,2024-10-26,Lucknow-Delhi,Truck,Electronics,1402,589.0,148,16912.35,8.0,Delayed,North
+1791.0,2023-05-25,Mumbai-Pune,Rail,Food,156,6989.0,59,2140.35,1.0,On Time,West
+1792.0,2025-10-03,Lucknow-Delhi,Truck,Textiles,1102,12006.0,185,15024.9,3.0,On Time,North
+1793.0,2024-05-17,Kanpur-Varanasi,Truck,Machinery,285,18580.0,94,6207.0,4.0,on time ,North
+1794.0,2025-03-31,Lucknow-Kanpur,Truck,Electronics,497,18166.0,59,8688.9,2.0,On Time,North
+1795.0,2023-04-14,Delhi-Jaipur,Truck,Textiles,704,12703.0,103,10353.45,5.0,On Time,North
+1796.0,2025-11-28,Lucknow-Kanpur,Truck,Food,887,2560.0,131,11028.0,5.0,on time ,North
+1797.0,2023-07-17,Lucknow-Delhi,Rail,Machinery,257,4629.0,89,2493.35,2.0,On Time,North
+1798.0,2024-08-01,Lucknow-Kanpur,Truck,Machinery,1482,2075.0,108,18095.25,3.0,On Time,North
+1799.0,2024-01-26,Kanpur-Varanasi,Rail,Electronics,1563,3316.0,115,11438.4,,On Time,North
+1800.0,2024-07-07,Kanpur-Varanasi,Truck,Machinery,688,14367.0,95,10411.05,3.0,On Time,North
+1801.0,2025-11-04,Lucknow-Delhi,Rail,Machinery,565,,142,5407.15,4.0,On Time,North
+1802.0,2024-04-22,Mumbai-Pune,Truck,Machinery,1786,4615.0,98,22124.25,8.0,Delayed,West
+1803.0,2025-07-11,Lucknow-Kanpur,Rail,Machinery,545,12148.0,122,5637.2,2.0,On Time,North
+1804.0,2024-02-24,Mumbai-Pune,Truck,Food,900,9876.0,70,12281.4,5.0,On Time,West
+,2023-06-06,,Air,Textiles,1611,3063.0,93,56844.45,7.0,Delayed,West
+1806.0,2024-07-03,Delhi-Mumbai,Truck,Food,1653,6886.0,91,20868.9,7.0,Delayed,West
+1807.0,2025-10-17,Lucknow-Delhi,Truck,Food,1196,13966.0,151,16446.9,5.0,On Time,North
+1808.0,2025-09-23,Delhi-Jaipur,Truck,Electronics,1028,6300.0,83,13281.0,1.0,On Time,North
+1809.0,2025-08-08,Kanpur-Varanasi,Rail,Machinery,116,17460.0,59,3431.0,1.0,On Time,North
+1810.0,2023-10-16,Kanpur-Varanasi,Truck,Food,1654,7445.0,134,20964.75,4.0,On Time,North
+1811.0,2023-07-15,Lucknow-Delhi,Rail,Machinery,830,145.0,95,5831.75,3.0,On Time,North
+1812.0,2024-08-20,Delhi-Jaipur,Truck,Food,425,1293.0,117,5293.95,4.0,On Time,North
+1813.0,2024-05-31,Kanpur-Varanasi,Truck,Food,1094,-500.0,75,13819.8,5.0,On Time,North
+1814.0,2025-05-14,Lucknow-Delhi,Truck,Electronics,1755,16730.0,123,23569.5,8.0,Delayed,North
+1815.0,2025-03-16,Kanpur-Varanasi,Air,Textiles,712,19703.0,147,27875.45,4.0,On Time,North
+1816.0,2025-03-25,Mumbai-Pune,Rail,Textiles,645,9083.0,92,5877.45,1.0,On Time,West
+1817.0,2023-08-16,Lucknow-Kanpur,Air,Food,695,736.0,67,24435.4,1.0,On Time,North
+1818.0,2023-08-04,Lucknow-Kanpur,Truck,Electronics,1020,3875.0,83,12821.25,4.0,On Time,North
+1819.0,2025-08-05,Kanpur-Varanasi,Truck,Machinery,941,2521.0,90,11670.15,3.0,On Time,North
+1820.0,2023-01-15,Delhi-Mumbai,Rail,Machinery,1325,13125.0,111,11243.75,3.0,On Time,West
+1821.0,2023-02-16,Delhi-Jaipur,Truck,Food,443,,88,6723.0,1.0,On Time,North
+1822.0,2023-11-20,Delhi-Jaipur,Rail,Textiles,1646,4283.0,170,12164.45,5.0,On Time,North
+1823.0,2025-04-23,Delhi-Jaipur,Air,Electronics,958,11451.0,78,35247.65,3.0,On Time,North
+1824.0,2023-05-10,Mumbai-Pune,Rail,Textiles,1523,17196.0,65,13240.4,6.0,Delayed,West
+1825.0,2023-04-05,Delhi-Jaipur,Rail,Machinery,1341,5423.0,122,10200.45,5.0,On Time,North
+1826.0,2024-09-18,Lucknow-Kanpur,Truck,Textiles,544,12988.0,55,8476.2,5.0,On Time,North
+1827.0,2025-01-24,Mumbai-Pune,Truck,Machinery,321,3744.0,96,4413.6,1.0,On Time,West
+1828.0,2025-03-04,Lucknow-Delhi,Air,Electronics,1506,16242.0,162,55146.3,7.0,Delayed,North
+1829.0,2023-03-10,Delhi-Jaipur,Truck,Electronics,691,7873.0,100,,3.0,On Time,North
+1830.0,2023-01-11,Delhi-Jaipur,Rail,Food,1130,10878.0,78,,5.0,On Time,North
+1831.0,2025-05-21,Lucknow-Delhi,Rail,Food,1395,12601.0,99,11655.15,4.0,On Time,North
+1832.0,2024-07-03,Delhi-Jaipur,Truck,Textiles,1117,14509.0,89,15580.35,6.0,Delayed,North
+,2024-12-12,Lucknow-Delhi,Air,Electronics,115,2208.0,134,4356.2,2.0,On Time,North
+1834.0,2023-01-23,Mumbai-Pune,Truck,Electronics,1547,3714.0,113,19121.1,4.0,On Time,West
+1835.0,2025-03-25,Lucknow-Kanpur,Truck,Food,623,10351.0,79,9028.65,3.0,On Time,North
+1836.0,2023-12-12,Lucknow-Delhi,Truck,Machinery,902,11778.0,174,12590.7,3.0,On Time,North
+1837.0,2023-10-29,Delhi-Mumbai,Truck,Textiles,120,14467.0,136,3610.05,2.0,On Time,West
+1838.0,2023-12-29,Lucknow-Delhi,Truck,Textiles,327,4432.0,149,4588.8,1.0,On Time,North
+1839.0,2024-01-31,Delhi-Jaipur,Truck,Food,0,12102.0,87,15099.3,4.0,On Time,North
+1840.0,2023-08-06,Mumbai-Pune,Rail,Electronics,1411,,113,12247.0,6.0,Delayed,West
+1841.0,2023-05-21,Kanpur-Varanasi,Air,Food,908,13869.0,-10,33860.35,4.0,On Time,North
+1842.0,2025-08-15,Mumbai-Pune,Truck,Food,1257,7063.0,95,16143.45,7.0,Delayed,West
+1843.0,2025-09-11,Kanpur-Varanasi,Truck,Food,1406,7938.0,81,18062.7,6.0,Delayed,North
+1844.0,2025-09-19,Lucknow-Delhi,Air,Food,503,12499.0,80,19479.85,2.0,On Time,North
+1845.0,2025-04-07,Lucknow-Kanpur,Truck,Machinery,1788,12343.0,114,23307.45,6.0,Delayed,North
+1846.0,2024-11-13,Delhi-Mumbai,Truck,Machinery,1189,1945.0,118,14559.75,5.0,On Time,West
+1847.0,2025-09-30,Mumbai-Pune,Truck,Electronics,1772,14042.0,83,23370.3,7.0,Delayed,West
+1848.0,2023-12-22,Delhi-Jaipur,Truck,Food,0,16866.0,113,23253.9,3.0,On Time,North
+1849.0,2025-10-04,Kanpur-Varanasi,Truck,Machinery,536,4212.0,148,7063.8,2.0,On Time,North
+1850.0,2025-06-06,Delhi-Jaipur,Air,Electronics,928,12880.0,79,34412.0,1.0,On Time,North
+1851.0,2023-05-07,Lucknow-Kanpur,Truck,Food,1033,15790.0,98,14764.5,6.0,Delayed,North
+1852.0,2025-10-05,Kanpur-Varanasi,Truck,Textiles,358,10188.0,130,5824.2,2.0,On Time,North
+1853.0,2024-08-26,Mumbai-Pune,Truck,electronics,202,1609.0,55,2665.35,1.0,On Time,West
+1854.0,2025-10-10,Lucknow-Delhi,Truck,Electronics,1092,12504.0,92,14979.6,5.0,On Time,North
+1855.0,2023-02-20,Delhi-Jaipur,Rail,Textiles,1690,1678.0,107,12081.7,6.0,Delayed,North
+1856.0,2025-11-18,Lucknow-Kanpur,Rail,Food,868,17363.0,111,8680.45,2.0,On Time,North
+1857.0,2025-02-17,Mumbai-Pune,Rail,Food,1224,18646.0,121,11364.9,4.0,On Time,West
+1858.0,2025-03-24,Mumbai-Pune,Truck,Food,1321,14206.0,119,17982.9,4.0,On Time,West
+1859.0,2024-02-24,Mumbai-Pune,Air,Machinery,912,9940.0,114,33411.0,1.0,On Time,West
+1860.0,2025-09-09,Mumbai-Pune,Rail,Electronics,325,13031.0,136,4229.65,1.0,On Time,West
+1861.0,2025-04-04,Kanpur-Varanasi,Rail,Textiles,1042,1459.0,98,7512.85,4.0,On Time,North
+1862.0,2025-10-21,,Truck,Electronics,562,4342.0,147,7395.3,2.0,On Time,West
+1863.0,2024-07-20,Delhi-Jaipur,Truck,Machinery,336,16564.0,79,6516.6,1.0,On Time,North
+1864.0,2024-01-06,Lucknow-Kanpur,Truck,Electronics,1149,19216.0,149,16670.4,6.0,Delayed,North
+1865.0,2025-07-24,Kanpur-Varanasi,Rail,Machinery,1244,2809.0,126,,-3.0,On Time,North
+1866.0,,Mumbai-Pune,Truck,Food,605,18906.0,130,10095.9,3.0,On Time,West
+1867.0,2025-08-26,Delhi-Mumbai,truck ,Textiles,1305,12891.0,97,17593.65,5.0,On Time,West
+1868.0,2023-07-21,Delhi-Mumbai,Rail,Food,913,17151.0,114,8963.65,2.0,On Time,West
+1869.0,2023-11-09,Lucknow-Kanpur,Rail,Electronics,866,18980.0,126,8909.0,4.0,On Time,North
+1870.0,2023-04-27,Lucknow-Delhi,Air,Food,733,3599.0,87,26194.85,3.0,On Time,North
+1871.0,2025-07-25,Lucknow-Delhi,Truck,Textiles,1666,11790.0,106,21760.5,4.0,On Time,North
+1872.0,2024-07-28,Kanpur-Varanasi,Rail,Food,1438,8180.0,91,11293.0,6.0,Delayed,North
+1873.0,2023-09-01,Kanpur-Varanasi,Truck,Textiles,1090,1289.0,104,13273.35,6.0,Delayed,North
+1874.0,2024-06-20,Kanpur-Varanasi,Truck,Textiles,717,14008.0,75,,4.0,On Time,North
+1875.0,2023-03-16,Lucknow-Delhi,Truck,Food,372,12851.0,66,6391.65,3.0,On Time,North
+1876.0,2024-01-21,Delhi-Mumbai,Truck,Machinery,331,14814.0,105,6194.1,1.0,On Time,West
+1877.0,2024-04-19,Lucknow-Delhi,Truck,Electronics,1543,1125.0,118,18684.75,3.0,On Time,North
+1878.0,2024-02-22,Delhi-Jaipur,Rail,Machinery,867,171.0,95,6094.65,6.0,Delayed,North
+1879.0,2023-12-13,Mumbai-Pune,Truck,Machinery,1565,5646.0,167,19626.9,9.0,Delayed,West
+1880.0,2024-10-01,Kanpur-Varanasi,Rail,Food,595,2785.0,112,4582.75,5.0,On Time,North
+1881.0,2025-07-27,Delhi-Mumbai,Truck,Electronics,1147,-500.0,71,15186.75,4.0,on time ,West
+1882.0,2025-08-12,Lucknow-Kanpur,Truck,Electronics,1232,18332.0,89,17533.8,3.0,On Time,North
+1883.0,2025-05-25,Lucknow-Kanpur,Truck,Machinery,601,10676.0,98,8813.4,1.0,On Time,North
+1884.0,2025-02-01,Mumbai-Pune,Truck,Food,124,2122.0,115,1806.3,1.0,On Time,West
+1885.0,2024-10-25,Delhi-Mumbai,Truck,Electronics,1310,15931.0,110,18109.65,5.0,on time ,West
+1886.0,2023-01-25,Lucknow-Delhi,Truck,Machinery,387,13040.0,127,6600.0,5.0,On Time,North
+1887.0,2024-12-10,Lucknow-Delhi,Truck,Electronics,1751,17782.0,181,23679.3,6.0,Delayed,North
+1888.0,2023-06-26,Delhi-Jaipur,Truck,Food,437,4202.0,89,5874.3,3.0,On Time,North
+1889.0,2023-10-12,Delhi-Jaipur,Truck,Food,1160,17388.0,162,16528.2,6.0,Delayed,North
+1890.0,2023-03-04,Lucknow-Delhi,Air,Food,236,3126.0,79,8728.9,1.0,On Time,North
+1891.0,2025-09-29,Lucknow-Kanpur,Truck,Electronics,607,6809.0,122,8305.35,6.0,,North
+1892.0,2024-10-23,Kanpur-Varanasi,Rail,Textiles,326,6069.0,157,3192.35,5.0,on time ,North
+1893.0,2024-10-27,Lucknow-Kanpur,Rail,Electronics,419,2720.0,152,3341.0,2.0,On Time,North
+1894.0,2023-06-05,Delhi-Jaipur,Air,Textiles,1015,2746.0,90,35936.9,3.0,On Time,North
+1895.0,2025-12-08,Mumbai-Pune,Rail,Food,1305,4965.0,53,9879.75,6.0,Delayed,West
+1896.0,2025-08-24,Lucknow-Delhi,Truck,Machinery,185,2389.0,78,2578.35,1.0,On Time,North
+1897.0,2025-04-28,Delhi-Jaipur,Rail,Textiles,1590,7470.0,87,12250.5,4.0,On Time,North
+1898.0,2024-11-19,Delhi-Jaipur,Rail,Food,1025,13954.0,105,9268.1,6.0,Delayed,North
+1899.0,2023-05-28,Kanpur-Varanasi,Truck,Food,152,9777.0,102,3290.55,3.0,On Time,North
+1900.0,2023-12-08,Lucknow-Delhi,Truck,Textiles,959,11443.0,119,13224.45,4.0,On Time,North
+1901.0,2024-04-20,Kanpur-Varanasi,Truck,Machinery,966,17924.0,84,14280.6,2.0,On Time,North
+1902.0,2025-12-22,Lucknow-Delhi,Rail,Food,1358,865.0,102,9635.75,3.0,On Time,North
+1903.0,2024-07-14,Kanpur-Varanasi,Rail,Textiles,532,12771.0,77,5639.65,3.0,On Time,North
+1904.0,2023-11-23,Lucknow-Kanpur,Truck,Machinery,1619,16258.0,159,21866.7,5.0,On Time,North
+1905.0,2025-09-16,Mumbai-Pune,Truck,Machinery,1098,4192.0,87,13804.8,4.0,On Time,West
+1906.0,2023-08-03,Mumbai-Pune,Truck,Food,199,13075.0,81,4349.25,3.0,On Time,West
+1907.0,2024-03-10,Lucknow-Delhi,Truck,Electronics,1089,9441.0,91,14484.15,5.0,On Time,North
+1908.0,2025-08-09,Delhi-Mumbai,Air,Electronics,698,12434.0,96,26295.1,5.0,On Time,West
+1909.0,2024-12-23,Delhi-Jaipur,Truck,Food,unknown,16177.0,142,8450.55,1.0,On Time,North
+1910.0,2023-02-01,Delhi-Jaipur,Truck,Machinery,495,15935.0,39,8330.25,2.0,On Time,North
+1911.0,2024-10-31,Lucknow-Delhi,Truck,Food,1650,2766.0,157,20214.9,7.0,on time ,North
+1912.0,2023-10-12,Kanpur-Varanasi,Rail,Textiles,514,6068.0,167,4508.2,3.0,On Time,North
+1913.0,2024-03-04,Delhi-Mumbai,Truck,Electronics,1038,7741.0,79,13617.15,6.0,Delayed,West
+1914.0,2023-10-13,Lucknow-Kanpur,Rail,Textiles,1736,18665.0,105,14951.75,7.0,Delayed,North
+1915.0,2025-11-08,Kanpur-Varanasi,Truck,Food,776,9934.0,118,10802.1,6.0,Delayed,North
+1916.0,2023-01-18,Kanpur-Varanasi,Truck,Food,562,3988.0,85,7342.2,3.0,On Time,North
+1917.0,2025-02-07,Lucknow-Delhi,Truck,Machinery,unknown,940.0,104,7821.0,4.0,On Time,North
+1918.0,2024-08-12,Lucknow-Delhi,Truck,Machinery,1749,13973.0,55,23083.95,6.0,Delayed,North
+1919.0,2025-10-06,Delhi-Jaipur,Truck,Machinery,1742,10946.0,101,22545.9,6.0,Delayed,North
+1920.0,2023-07-13,Lucknow-Delhi,Air,Textiles,1487,5999.0,118,52944.85,7.0,Delayed,North
+1921.0,2024-05-16,Lucknow-Delhi,Rail,Machinery,1253,665.0,81,8870.75,7.0,Delayed,North
+1922.0,2025-09-14,Lucknow-Delhi,Air,Food,183,6105.0,125,7320.75,3.0,On Time,North
+1923.0,2023-04-24,Delhi-Jaipur,Truck,Machinery,370,9256.0,107,5828.4,2.0,On Time,North
+1924.0,2025-08-04,Lucknow-Kanpur,Air,Electronics,343,10574.0,57,13591.1,4.0,On Time,North
+1925.0,2025-04-10,Lucknow-Kanpur,Truck,Machinery,487,9287.0,113,7237.05,1.0,On Time,North
+1926.0,2025-07-13,Lucknow-Delhi,Truck,Textiles,313,7326.0,88,4854.9,1.0,On Time,North
+1927.0,2023-02-24,Delhi-Jaipur,Truck,Electronics,917,9479.0,91,12425.85,5.0,On Time,North
+1928.0,2025-03-10,Lucknow-Kanpur,Truck,Electronics,1289,5990.0,105,16366.5,5.0,On Time,North
+1929.0,2025-02-16,Kanpur-Varanasi,Rail,Electronics,158,13213.0,109,3087.95,2.0,On Time,North
+1930.0,2023-06-11,Lucknow-Kanpur,Truck,Textiles,1725,4411.0,103,21361.65,6.0,Delayed,North
+1931.0,2023-03-28,Lucknow-Kanpur,Truck,Food,982,,124,13515.9,5.0,On Time,North
+1932.0,2023-02-24,Delhi-Jaipur,Truck,electronics,942,8948.0,108,12646.2,2.0,On Time,North
+1933.0,2025-10-28,Kanpur-Varanasi,Truck,Electronics,1023,19466.0,94,15195.9,5.0,On Time,North
+1934.0,2025-04-12,Delhi-Jaipur,Truck,Electronics,1627,6183.0,91,20451.45,7.0,Delayed,North
+1935.0,2023-11-09,Lucknow-Delhi,Truck,electronics,222,12698.0,207,4568.7,3.0,On Time,North
+1936.0,2025-01-28,Mumbai-Pune,Rail,Food,1771,17040.0,114,14953.0,9.0,Delayed,West
+1937.0,2024-03-18,Lucknow-Kanpur,Rail,Food,1536,19503.0,147,13677.45,6.0,Delayed,North
+1938.0,2023-11-24,Mumbai-Pune,Truck,electronics,1262,2680.0,166,15546.0,5.0,On Time,West
+1939.0,2025-12-13,Delhi-Jaipur,Truck,Food,1352,13944.0,136,18315.6,3.0,On Time,North
+1940.0,2025-01-30,Delhi-Jaipur,Truck,Machinery,1397,9653.0,106,18211.95,4.0,On Time,North
+1941.0,2024-08-01,Delhi-Jaipur,Rail,Textiles,538,9486.0,89,5188.9,2.0,On Time,North
+1942.0,2025-12-10,Mumbai-Pune,Truck,Textiles,1121,19622.0,85,16395.3,6.0,Delayed,West
+1943.0,2025-10-03,Delhi-Jaipur,Truck,Machinery,661,14735.0,130,10142.25,2.0,On Time,North
+1944.0,2023-04-06,Lucknow-Delhi,Truck,Machinery,217,771.0,124,2719.65,3.0,On Time,North
+1945.0,2025-03-24,Delhi-Jaipur,truck ,Machinery,1004,877.0,88,12179.55,4.0,On Time,North
+1946.0,2024-05-05,Delhi-Mumbai,Truck,Textiles,1606,3122.0,108,19740.3,5.0,On Time,West
+1947.0,2024-03-27,Mumbai-Pune,Rail,Textiles,494,18344.0,117,6209.6,3.0,On Time,West
+1948.0,2023-06-14,Delhi-Mumbai,Truck,Textiles,975,19623.0,74,14643.45,3.0,On Time,West
+1949.0,2023-07-01,Delhi-Jaipur,Truck,Machinery,1583,13917.0,82,21083.55,5.0,On Time,North
+1950.0,2024-04-13,Lucknow-Delhi,Rail,Machinery,1034,14360.0,80,9392.0,1.0,On Time,North
+1951.0,2025-06-28,Lucknow-Kanpur,Rail,Electronics,1201,1174.0,75,8583.1,4.0,On Time,North
+1952.0,2025-01-04,Kanpur-Varanasi,Truck,Food,1051,,74,14113.2,3.0,On Time,North
+1953.0,2025-04-02,Kanpur-Varanasi,Truck,Electronics,1535,9575.0,82,19856.25,5.0,On Time,North
+1954.0,2025-08-01,Delhi-Jaipur,Truck,Machinery,174,12978.0,116,4034.7,2.0,On Time,North
+1955.0,2023-01-07,Lucknow-Delhi,Air,Textiles,394,15220.0,82,16073.0,,On Time,North
+1956.0,2023-11-26,Mumbai-Pune,Truck,Machinery,120,2086.0,133,1752.9,2.0,On Time,West
+1957.0,2025-02-13,Delhi-Mumbai,Air,Food,1294,10925.0,90,46928.75,6.0,Delayed,West
+1958.0,2023-05-31,Delhi-Mumbai,Rail,Electronics,1138,9293.0,124,9359.95,5.0,On Time,West
+1959.0,2023-05-27,Delhi-Mumbai,truck ,Electronics,1334,17530.0,126,18637.5,4.0,On Time,West
+1960.0,2025-07-03,Mumbai-Pune,Truck,Textiles,unknown,2276.0,106,8249.4,2.0,On Time,West
+1961.0,2024-11-30,Kanpur-Varanasi,Truck,Electronics,1209,18822.0,138,17331.3,5.0,On Time,North
+1962.0,2023-03-23,Lucknow-Delhi,Truck,Electronics,1272,10147.0,95,16786.05,5.0,On Time,North
+1963.0,2024-05-28,Mumbai-Pune,Truck,Machinery,471,,76,8199.6,4.0,On Time,West
+1964.0,2025-03-25,Delhi-Mumbai,Rail,Electronics,1603,18717.0,139,14028.55,7.0,Delayed,West
+1965.0,2024-12-09,Delhi-Jaipur,Air,Electronics,917,4708.0,110,32801.2,3.0,On Time,North
+1966.0,2025-01-15,Lucknow-Kanpur,Truck,Unknown Cargo,1274,12006.0,113,17088.9,4.0,On Time,North
+1967.0,2025-10-19,Mumbai-Pune,Rail,Textiles,1264,7334.0,158,9948.1,6.0,Delayed,West
+1968.0,2024-12-07,Mumbai-Pune,Truck,Textiles,1192,6710.0,116,15310.5,6.0,Delayed,West
+1969.0,2024-04-15,Lucknow-Delhi,Truck,Machinery,1383,10624.0,121,18189.6,6.0,Delayed,North
+1970.0,2024-01-31,Lucknow-Delhi,Truck,Electronics,945,17084.0,115,13902.6,4.0,On Time,North
+1971.0,2023-09-18,Mumbai-Pune,Truck,Textiles,620,13511.0,135,9466.65,1.0,On Time,West
+1972.0,2025-03-15,Delhi-Mumbai,Air,Textiles,1756,9280.0,91,62852.0,5.0,On Time,West
+1973.0,2025-07-22,Lucknow-Kanpur,Rail,Machinery,470,15325.0,67,5588.75,3.0,On Time,North
+1974.0,2025-06-23,Lucknow-Delhi,Truck,Food,1542,10173.0,81,2002995.0,6.0,Delayed,North
+1975.0,2025-12-12,Delhi-Mumbai,Truck,Electronics,200,4583.0,135,3087.45,1.0,On Time,West
+1976.0,2025-07-28,Delhi-Jaipur,Truck,Textiles,760,6001.0,91,10020.15,3.0,,North
+1977.0,2025-05-03,Lucknow-Delhi,Truck,Machinery,1781,6229.0,92,22306.35,7.0,Delayed,North
+1978.0,2024-08-15,Delhi-Mumbai,Rail,Machinery,1067,18238.0,56,10204.7,2.0,On Time,West
+1979.0,2024-12-14,Delhi-Mumbai,Rail,Machinery,342,18948.0,142,5236.2,4.0,On Time,West
+1980.0,2024-09-23,Lucknow-Kanpur,Truck,Textiles,852,10515.0,139,11801.25,3.0,On Time,North
+1981.0,2023-02-28,,Truck,Electronics,611,4582.0,109,8019.3,5.0,On Time,North
+1982.0,2023-05-08,Delhi-Jaipur,Truck,Food,948,9786.0,112,12843.9,3.0,On Time,North
+1983.0,2025-01-05,Delhi-Mumbai,Truck,Electronics,654,7500.0,111,8973.0,1.0,On Time,West
+1984.0,2024-12-21,Kanpur-Varanasi,truck ,Machinery,1218,6906.0,140,15651.9,4.0,On Time,North
+1985.0,2024-06-09,Delhi-Mumbai,Truck,Machinery,325,10616.0,107,5492.4,2.0,On Time,West
+1986.0,2024-06-04,Lucknow-Kanpur,Rail,Food,1641,7496.0,97,12611.4,5.0,On Time,North
+1987.0,2024-07-05,Kanpur-Varanasi,Rail,Unknown Cargo,313,7438.0,84,3306.7,2.0,On Time,North
+1988.0,2023-08-25,Lucknow-Delhi,Truck,Machinery,817,10050.0,76,11311.5,4.0,On Time,North
+1989.0,2024-05-08,Lucknow-Delhi,Truck,Machinery,166,12600.0,95,3882.0,1.0,On Time,North
+1990.0,2023-01-04,Mumbai-Pune,Truck,Electronics,495,11645.0,106,7686.75,2.0,On Time,West
+1991.0,2024-10-27,Lucknow-Kanpur,Truck,Machinery,711,5341.0,122,9333.15,1.0,On Time,North
+1992.0,2024-03-17,Mumbai-Pune,Rail,Electronics,1135,4795.0,106,866425.0,5.0,On Time,West
+1993.0,2023-01-29,Kanpur-Varanasi,Truck,Machinery,1360,11630.0,109,18064.5,5.0,On Time,North
+1994.0,2024-09-01,Lucknow-Kanpur,Truck,Electronics,869,14412.0,117,12589.8,6.0,Delayed,North
+1995.0,2025-03-15,Delhi-Jaipur,Truck,Food,1522,19072.0,126,21124.8,4.0,On Time,North
+1996.0,2023-03-16,Delhi-Mumbai,Helicopter,Machinery,506,14418.0,102,5704.7,1.0,On Time,West
+1997.0,2025-04-17,Delhi-Jaipur,Truck,Food,1024,18266.0,74,15027.9,5.0,On Time,North
+1998.0,2023-05-08,Kanpur-Varanasi,Truck,Machinery,1603,11424.0,93,20949.6,6.0,Delayed,North
+1999.0,2023-02-11,Lucknow-Kanpur,Truck,Machinery,746,3318.0,101,9449.7,2.0,On Time,North
+2000.0,2023-02-10,Kanpur-Varanasi,Rail,Textiles,321,4116.0,63,2864.4,1.0,On Time,North
+2001.0,2025-07-22,Delhi-Mumbai,Air,Electronics,1279,2937.0,115,45205.55,7.0,Delayed,West
+2002.0,2023-02-03,Lucknow-Delhi,truck ,electronics,753,16412.0,103,11497.8,5.0,On Time,North
+2003.0,2025-11-06,Lucknow-Delhi,Rail,Food,527,7134.0,140,4759.1,1.0,On Time,North
+2004.0,2025-09-24,Kanpur-Varanasi,Air,Food,1281,7409.0,127,45946.35,4.0,On Time,North
+2005.0,2024-08-10,Mumbai-Pune,Air,Electronics,1076,14479.0,79,39831.85,7.0,Delayed,West
+2006.0,,Lucknow-Kanpur,Truck,Textiles,1539,4339.0,145,19118.85,5.0,On Time,North
+2007.0,2023-01-27,Lucknow-Kanpur,Truck,Food,1105,12228.0,98,15094.2,3.0,On Time,North
+2008.0,2024-10-07,Lucknow-Delhi,Truck,Electronics,1449,15956.0,125,19781.4,5.0,On Time,North
+2009.0,2024-12-31,Delhi-Jaipur,Rail,Machinery,470,9711.0,110,4746.65,1.0,On Time,North
+2010.0,2023-06-17,Delhi-Mumbai,Truck,Food,1467,4250.0,120,18241.5,3.0,On Time,West
+2011.0,2024-09-01,Delhi-Jaipur,Rail,Food,1385,11209.0,92,11376.35,7.0,Delayed,North
+2012.0,2023-09-25,Delhi-Jaipur,Truck,Textiles,1406,1546.0,114,17103.9,2.0,On Time,North
+2013.0,2025-03-31,Kanpur-Varanasi,Rail,Food,949,12036.0,62,8448.4,4.0,On Time,North
+2014.0,2024-03-30,Lucknow-Delhi,Rail,Food,955,11136.0,124,8355.4,5.0,On Time,North
+2015.0,2025-06-24,Lucknow-Delhi,Truck,Machinery,328,6568.0,109,4921.2,1.0,On Time,North
+2016.0,2025-07-10,Lucknow-Delhi,Rail,Electronics,379,14121.0,92,4771.15,1.0,On Time,North
+2017.0,,Kanpur-Varanasi,Truck,Electronics,1413,4275.0,95,17597.25,7.0,Delayed,North
+2018.0,2024-12-02,Mumbai-Pune,Rail,Textiles,1170,15490.0,140,10513.5,5.0,On Time,West
+2019.0,2024-09-25,Delhi-Jaipur,Truck,Machinery,1074,5180.0,146,13665.0,3.0,On Time,North
+2020.0,2023-05-10,Kanpur-Varanasi,Truck,Electronics,1337,15571.0,65,18379.65,7.0,on time ,North
+2021.0,2025-10-16,Lucknow-Kanpur,Air,Machinery,857,14993.0,150,32243.95,5.0,On Time,North
+2022.0,2025-03-29,Delhi-Mumbai,Truck,Electronics,1147,17348.0,82,16366.2,5.0,On Time,West
+2023.0,,Mumbai-Pune,Rail,Machinery,420,16109.0,129,5356.35,1.0,On Time,West
+2024.0,2025-03-04,Lucknow-Kanpur,Truck,Textiles,373,6317.0,95,5423.55,1.0,On Time,North
+2025.0,2023-01-29,Delhi-Jaipur,Truck,Food,655,5772.0,91,8725.8,3.0,On Time,North
+2026.0,2023-05-29,Lucknow-Delhi,Truck,Textiles,943,1602.0,100,11556.3,3.0,On Time,North
+2027.0,2023-01-11,Delhi-Jaipur,Truck,electronics,1436,1510.0,77,17458.5,7.0,Delayed,North
+2028.0,2024-11-06,Kanpur-Varanasi,Truck,Textiles,1486,3870.0,157,18412.5,3.0,,North
+2029.0,2023-07-06,Delhi-Mumbai,Truck,electronics,767,10197.0,58,10733.55,1.0,On Time,West
+2030.0,2025-03-17,Kanpur-Varanasi,Truck,Textiles,1099,4101.0,111,13803.15,4.0,,North
+2031.0,,Mumbai-Pune,Truck,Electronics,479,19967.0,93,8743.05,2.0,On Time,West
+2032.0,2023-04-08,Mumbai-Pune,Air,Electronics,810,698.0,77,28454.7,2.0,On Time,West
+2033.0,2023-02-24,Delhi-Mumbai,Air,Textiles,1797,11076.0,104,64556.4,3.0,On Time,West
+2034.0,2024-09-14,Lucknow-Kanpur,Truck,Food,1593,19525.0,69,22044.75,6.0,Delayed,North
+2035.0,2024-10-25,Lucknow-Kanpur,Rail,Textiles,845,6491.0,131,6888.65,3.0,On Time,North
+2036.0,2025-01-27,Mumbai-Pune,Truck,Food,774,16550.0,72,11770.5,4.0,On Time,West
+2037.0,2024-02-10,Mumbai-Pune,Rail,Machinery,215,15008.0,109,3756.2,2.0,On Time,West
+2038.0,2023-03-10,Lucknow-Delhi,Rail,Food,704,11690.0,82,6681.5,3.0,On Time,North
+2039.0,2025-01-20,Lucknow-Kanpur,Air,Machinery,1165,16379.0,91,43231.85,-3.0,Delayed,North
+2040.0,2025-08-15,Delhi-Mumbai,Truck,Textiles,478,2850.0,95,6163.5,1.0,On Time,West
+2041.0,2023-12-31,Lucknow-Kanpur,Rail,Food,1329,10016.0,110,10805.4,6.0,Delayed,North
+2042.0,2024-04-26,Lucknow-Delhi,Truck,Machinery,565,6906.0,99,7815.9,1.0,On Time,North
+2043.0,2023-07-20,Kanpur-Varanasi,truck ,Machinery,379,6529.0,63,14244.35,1.0,On Time,North
+2044.0,2023-06-03,Mumbai-Pune,Truck,electronics,1771,8223.0,101,22485.45,4.0,On Time,West
+2045.0,2023-03-14,Mumbai-Pune,Truck,Electronics,717,18115.0,135,11321.25,4.0,On Time,West
+2046.0,2024-12-13,Lucknow-Delhi,Rail,Textiles,217,6552.0,203,2501.8,2.0,On Time,North
+2047.0,2023-10-23,Delhi-Mumbai,Rail,Machinery,1360,17258.0,132,12108.7,5.0,On Time,West
+2048.0,2025-11-06,Mumbai-Pune,Truck,Food,408,15556.0,150,7229.4,1.0,On Time,West
+2049.0,2023-03-02,Delhi-Jaipur,Air,Machinery,1579,4119.0,64,55882.85,5.0,On Time,North
+2050.0,2025-07-27,Mumbai-Pune,Truck,Electronics,1598,12519.0,117,21053.85,4.0,On Time,West
+2051.0,2023-02-11,Delhi-Jaipur,Truck,Textiles,199,1029.0,116,2542.35,2.0,On Time,North
+2052.0,2023-01-25,Lucknow-Delhi,Truck,Electronics,360,19496.0,90,7244.4,1.0,On Time,North
+2053.0,2025-11-28,Lucknow-Delhi,Truck,Electronics,1092,6364.0,162,14058.6,6.0,Delayed,North
+2054.0,2023-05-11,Mumbai-Pune,Truck,Electronics,1428,8073.0,95,18346.95,3.0,On Time,West
+2055.0,2023-04-18,Lucknow-Kanpur,Truck,Food,1477,9797.0,91,19193.55,4.0,On Time,North
+2056.0,2023-06-21,Delhi-Jaipur,Truck,Textiles,385,11236.0,99,6305.4,5.0,on time ,North
+2057.0,2023-04-12,Delhi-Mumbai,Truck,Textiles,427,19303.0,79,8019.45,2.0,On Time,West
+2058.0,2025-05-15,Mumbai-Pune,Truck,Food,1226,1284.0,120,14904.6,3.0,,West
+2059.0,2024-06-07,Delhi-Mumbai,Rail,Textiles,162,17011.0,71,3685.65,2.0,On Time,West
+2060.0,2023-10-02,Mumbai-Pune,Rail,Electronics,786,1016.0,103,5654.4,3.0,On Time,West
+2061.0,2025-12-03,Lucknow-Kanpur,Truck,electronics,1405,3674.0,106,17411.1,4.0,On Time,North
+2062.0,2025-03-27,Lucknow-Kanpur,Truck,Food,1564,3419.0,115,19280.85,4.0,On Time,North
+2063.0,2025-08-14,Lucknow-Kanpur,Truck,Electronics,1416,17890.0,79,19675.5,9.0,Delayed,North
+2064.0,2025-11-06,Kanpur-Varanasi,Truck,Food,837,17725.0,95,12702.75,3.0,On Time,North
+2065.0,2023-11-26,Lucknow-Kanpur,Rail,Machinery,1130,5306.0,114,8705.9,1.0,On Time,North
+2066.0,2023-01-12,Lucknow-Delhi,Truck,Electronics,738,19617.0,99,,5.0,On Time,North
+2067.0,2023-08-04,Lucknow-Delhi,Truck,Electronics,1035,17282.0,69,15012.3,5.0,On Time,North
+2068.0,2023-12-05,Kanpur-Varanasi,Truck,Textiles,1215,18007.0,100,17281.05,3.0,On Time,North
+2069.0,2024-10-22,Delhi-Jaipur,Truck,Electronics,1313,5028.0,185,16510.2,3.0,On Time,North
+2070.0,2024-01-09,Delhi-Mumbai,Rail,Food,575,16205.0,83,6455.75,4.0,On Time,West
+2071.0,2025-09-02,Mumbai-Pune,Air,Textiles,1634,2988.0,94,57638.2,5.0,On Time,West
+2072.0,2024-12-10,Mumbai-Pune,Truck,Machinery,1585,2790.0,120,19438.5,3.0,On Time,West
+2073.0,2024-04-10,Kanpur-Varanasi,Truck,Food,152,4191.0,92,2452.65,4.0,On Time,North
+2074.0,,Lucknow-Delhi,Rail,Machinery,853,14060.0,112,8080.0,3.0,On Time,North
+2075.0,2023-02-16,Mumbai-Pune,Air,Machinery,585,790.0,119,20593.5,5.0,On Time,West
+2076.0,2025-02-16,Lucknow-Delhi,Truck,Machinery,1767,-500.0,94,21443.25,8.0,Delayed,North
+2077.0,2025-11-05,Delhi-Jaipur,Truck,Electronics,1613,11185.0,98,21033.75,4.0,On Time,North
+2078.0,2024-12-11,Delhi-Mumbai,Truck,Food,1487,17376.0,163,20450.4,7.0,Delayed,West
+2079.0,2024-02-05,Delhi-Jaipur,Truck,Food,1235,10820.0,98,16443.0,4.0,On Time,North
+2080.0,2025-09-07,Kanpur-Varanasi,Truck,Electronics,508,5973.0,135,6991.95,1.0,On Time,North
+2081.0,2023-09-07,Lucknow-Kanpur,Truck,Textiles,1130,4603.0,55,14250.45,4.0,On Time,North
+2082.0,2024-01-26,Lucknow-Kanpur,Truck,Machinery,767,11820.0,104,10977.0,4.0,On Time,North
+2083.0,2023-12-01,Lucknow-Kanpur,truck ,Food,1320,14064.0,180,17949.6,4.0,On Time,North
+2084.0,2024-09-20,Delhi-Jaipur,truck ,Electronics,934,997.0,93,6687.55,3.0,On Time,North
+2085.0,2023-05-17,Mumbai-Pune,Truck,Machinery,975,17194.0,95,14279.1,6.0,Delayed,West
+2086.0,2025-06-01,Delhi-Mumbai,Truck,Textiles,466,3795.0,95,6161.25,2.0,On Time,West
+2087.0,2024-11-18,Lucknow-Kanpur,Truck,Textiles,1101,2786.0,115,13629.9,3.0,On Time,North
+2088.0,2025-04-06,Kanpur-Varanasi,Truck,Machinery,349,5878.0,94,5069.7,3.0,On Time,North
+2089.0,2024-12-27,Kanpur-Varanasi,Air,Unknown Cargo,1718,15250.0,121,62417.5,6.0,Delayed,North
+2090.0,2024-08-16,Lucknow-Kanpur,Truck,Food,1363,16899.0,79,18890.85,1.0,On Time,North
+2091.0,2025-09-16,Lucknow-Kanpur,Truck,Food,479,9763.0,125,7212.45,3.0,On Time,North
+2092.0,2024-01-07,Delhi-Mumbai,Rail,Food,971,4280.0,109,7439.0,4.0,On Time,West
+2093.0,2025-07-23,Lucknow-Kanpur,Truck,Textiles,934,4362.0,95,11862.3,4.0,On Time,North
+2094.0,2025-09-21,Delhi-Mumbai,Air,Food,1594,2615.0,116,56182.25,7.0,Delayed,West
+2095.0,2024-02-06,Kanpur-Varanasi,Truck,Electronics,874,11336.0,95,12188.4,2.0,On Time,North
+2096.0,2024-09-06,Lucknow-Kanpur,Truck,Food,1018,14204.0,85,14346.6,4.0,On Time,North
+2097.0,2025-09-21,Delhi-Jaipur,Truck,Food,554,6716.0,88,7655.4,1.0,On Time,North
+,2024-09-11,Delhi-Jaipur,Truck,Textiles,465,17476.0,100,,3.0,On Time,North
+2099.0,2023-07-07,Kanpur-Varanasi,Rail,Food,1413,4470.0,71,10561.5,8.0,Delayed,North
+2100.0,2023-05-11,Delhi-Mumbai,Rail,electronics,502,18257.0,90,6252.55,1.0,On Time,West
+2101.0,2025-03-15,Delhi-Jaipur,Truck,Electronics,157,not available,90,2471.4,1.0,On Time,North
+2102.0,2025-07-24,Delhi-Mumbai,Truck,Unknown Cargo,620,1856.0,128,7718.4,2.0,On Time,West
+2103.0,2025-09-12,Delhi-Jaipur,Rail,Electronics,1427,2473.0,45,10359.95,5.0,On Time,North
+2104.0,2023-07-02,Delhi-Jaipur,Air,Machinery,1238,2676.0,87,43731.4,3.0,On Time,North
+2105.0,2025-09-09,Delhi-Mumbai,Truck,Textiles,309,4284.0,135,4350.6,3.0,On Time,West
+2106.0,2023-12-30,Mumbai-Pune,Truck,Textiles,1164,2497.0,133,14342.55,6.0,Delayed,West
+2107.0,2023-02-08,Delhi-Jaipur,Truck,Food,915,12774.0,115,12896.1,4.0,On Time,North
+2108.0,2024-05-11,Lucknow-Kanpur,Rail,Electronics,272,10426.0,102,3467.9,1.0,On Time,North
+2109.0,2025-09-08,Kanpur-Varanasi,Truck,Machinery,333,10646.0,87,5592.9,3.0,On Time,North
+2110.0,2025-07-09,Mumbai-Pune,Truck,Machinery,892,4635.0,50,11399.25,5.0,On Time,West
+2111.0,2024-12-22,Delhi-Mumbai,Rail,Textiles,1713,14699.0,135,14195.85,7.0,Delayed,West
+2112.0,2023-01-16,Mumbai-Pune,Truck,Food,1743,9268.0,84,22306.2,7.0,Delayed,West
+2113.0,2024-05-07,Lucknow-Delhi,Truck,Textiles,892,17218.0,84,13286.7,4.0,On Time,North
+2114.0,2025-06-12,Lucknow-Delhi,truck ,Textiles,1526,732.0,81,18421.8,7.0,Delayed,North
+2115.0,2023-11-07,Delhi-Jaipur,Truck,Textiles,1162,13380.0,175,15951.0,7.0,Delayed,North
+2116.0,2025-01-08,Delhi-Jaipur,Truck,Textiles,218,14846.0,148,4842.9,1.0,On Time,North
+2117.0,2024-06-29,Lucknow-Kanpur,Truck,Machinery,434,4368.0,94,5863.2,4.0,On Time,North
+2118.0,2024-02-18,Kanpur-Varanasi,Truck,Machinery,1459,19385.0,91,20415.75,5.0,On Time,North
+2119.0,2023-09-08,Mumbai-Pune,Truck,electronics,1662,18147.0,76,22666.05,6.0,Delayed,West
+2120.0,2025-01-28,Lucknow-Delhi,Rail,Textiles,1739,15421.0,109,14486.15,4.0,On Time,North
+2121.0,2025-11-28,Delhi-Jaipur,Rail,Food,1197,10307.0,176,9925.05,4.0,On Time,North
+2122.0,2025-03-24,Kanpur-Varanasi,Truck,Textiles,1314,5691.0,95,16621.65,3.0,On Time,North
+2123.0,2023-01-29,Mumbai-Pune,Truck,Machinery,423,16326.0,52,7524.9,2.0,On Time,West
+2124.0,2025-08-15,Delhi-Jaipur,Truck,Electronics,1110,1154.0,102,13493.1,3.0,On Time,North
+2125.0,2024-04-21,Delhi-Jaipur,Truck,Machinery,1270,8672.0,120,16540.8,4.0,On Time,North
+2126.0,2023-11-14,Lucknow-Delhi,Truck,Food,383,13679.0,89,6647.85,1.0,On Time,North
+2127.0,2023-09-02,Lucknow-Delhi,Rail,Machinery,unknown,19566.0,104,5118.9,2.0,On Time,North
+2128.0,2025-01-17,Delhi-Jaipur,Truck,Electronics,1758,10683.0,109,22698.45,4.0,On Time,North
+2129.0,2024-11-27,Delhi-Mumbai,Truck,Textiles,1028,8107.0,128,13552.05,2.0,On Time,West
+2130.0,2023-09-29,Delhi-Jaipur,Truck,Electronics,851,16003.0,84,12612.45,4.0,On Time,North
+2131.0,2024-01-12,Kanpur-Varanasi,Rail,Textiles,1517,9884.0,120,12101.6,4.0,On Time,North
+2132.0,2023-09-23,Delhi-Jaipur,truck ,Textiles,438,4361.0,92,5910.15,4.0,On Time,North
+2133.0,2025-07-14,Lucknow-Kanpur,Truck,Machinery,1145,2489.0,63,14113.35,5.0,On Time,North
+2134.0,2025-07-09,Lucknow-Kanpur,Truck,Machinery,204,14039.0,53,4553.85,2.0,On Time,North
+2135.0,,Lucknow-Kanpur,Rail,Machinery,1589,11319.0,163,12820.85,8.0,Delayed,North
+2136.0,2024-01-24,Delhi-Mumbai,Rail,Food,1582,9499.0,112,12498.85,5.0,On Time,West
+2137.0,2024-07-30,Delhi-Mumbai,Truck,Machinery,1555,644.0,92,18756.6,5.0,On Time,West
+2138.0,2023-01-03,Delhi-Jaipur,Truck,Food,869,2339.0,91,10778.85,5.0,On Time,North
+2139.0,2024-01-11,Lucknow-Kanpur,Truck,Machinery,815,10659.0,89,11378.85,4.0,On Time,North
+2140.0,2023-11-20,Delhi-Mumbai,Truck,Textiles,1742,2727.0,102,21313.05,6.0,Delayed,West
+2141.0,2023-05-26,Lucknow-Delhi,Rail,Food,862,6718.0,91,7041.7,6.0,Delayed,North
+2142.0,2023-10-20,Delhi-Jaipur,Rail,Electronics,1344,12223.0,75,11241.45,5.0,On Time,North
+2143.0,2024-03-07,Kanpur-Varanasi,Rail,Food,478,6880.0,85,4378.0,2.0,On Time,North
+2144.0,2025-15-40,Mumbai-Pune,Rail,Food,1345,8115.0,122,10632.25,5.0,On Time,West
+2145.0,2025-08-06,Delhi-Jaipur,Truck,Electronics,1381,3230.0,101,17056.5,4.0,On Time,North
+2146.0,2024-08-07,Mumbai-Pune,Truck,Food,812,16580.0,89,12231.0,3.0,on time ,West
+2147.0,2024-02-03,Lucknow-Kanpur,Rail,Textiles,1490,14931.0,116,12669.65,7.0,Delayed,North
+2148.0,2025-03-27,Mumbai-Pune,Truck,Machinery,1472,2808.0,127,18085.2,6.0,Delayed,West
+2149.0,2025-08-21,Lucknow-Kanpur,Rail,Electronics,324,5497.0,109,3092.55,2.0,On Time,North
+2150.0,2023-07-06,Lucknow-Delhi,Truck,Machinery,837,11628.0,98,11788.2,3.0,On Time,North
+2151.0,2023-03-02,Mumbai-Pune,Truck,Textiles,335,16940.0,100,6561.0,2.0,On Time,West
+2152.0,2025-07-27,Delhi-Jaipur,Air,Electronics,282,6014.0,72,10772.1,3.0,On Time,North
+2153.0,2024-12-10,Lucknow-Kanpur,Truck,Machinery,811,4468.0,149,10402.2,4.0,On Time,North
+2154.0,2025-03-17,Delhi-Jaipur,Air,Machinery,543,11279.0,134,20696.85,2.0,On Time,North
+2155.0,2023-01-11,Delhi-Mumbai,Air,Textiles,722,12176.0,107,27096.4,4.0,On Time,West
+2156.0,2025-12-21,Lucknow-Kanpur,Rail,Machinery,1129,18421.0,180,10666.15,5.0,On Time,North
+2157.0,2023-08-14,Mumbai-Pune,truck ,Textiles,1359,14048.0,63,11620.2,3.0,On Time,West
+2158.0,2024-07-17,Lucknow-Kanpur,Truck,Food,1250,17630.0,69,17644.5,5.0,On Time,North
+2159.0,2025-02-10,Delhi-Jaipur,truck ,Textiles,1227,13924.0,117,10677.6,1.0,On Time,North
+2160.0,2025-06-03,Lucknow-Delhi,Truck,Food,848,4399.0,95,10835.85,4.0,On Time,North
+2161.0,2023-08-14,Lucknow-Kanpur,Truck,Electronics,1603,14220.0,114,21369.0,7.0,Delayed,North
+2162.0,2025-04-04,Mumbai-Pune,Truck,Machinery,254,8218.0,100,4280.7,3.0,On Time,West
+2163.0,2023-08-06,Delhi-Mumbai,Truck,Textiles,356,10856.0,74,5900.4,1.0,On Time,West
+2164.0,2025-07-25,Kanpur-Varanasi,Truck,Textiles,334,8053.0,86,5215.95,2.0,On Time,North
+2165.0,2025-01-22,Lucknow-Delhi,Truck,Machinery,599,4884.0,69,,5.0,On Time,North
+2166.0,2024-05-20,Delhi-Mumbai,Truck,Machinery,388,15285.0,77,6948.75,4.0,On Time,West
+2167.0,2023-09-16,Lucknow-Kanpur,Rail,Electronics,609,9124.0,119,5631.6,3.0,On Time,North
+2168.0,2023-02-23,Delhi-Jaipur,Truck,Electronics,1675,14774.0,117,22316.1,6.0,Delayed,North
+2169.0,2025-12-06,Delhi-Jaipur,Air,Textiles,808,17945.0,139,30971.75,5.0,On Time,North
+2170.0,2024-12-27,Mumbai-Pune,Rail,Electronics,884,11808.0,85,7959.2,1.0,On Time,West
+2171.0,2024-11-19,Delhi-Jaipur,Rail,Food,993,1259.0,121,7139.85,3.0,On Time,North
+2172.0,2025-11-09,Lucknow-Delhi,Truck,Electronics,875,486.0,98,10572.9,6.0,Delayed,North
+2173.0,2024-02-23,Delhi-Jaipur,Rail,Electronics,1692,7292.0,124,12937.8,7.0,Delayed,North
+2174.0,2024-11-20,Mumbai-Pune,Truck,Textiles,397,10845.0,115,6390.75,3.0,On Time,West
+2175.0,2025-15-40,Kanpur-Varanasi,Rail,Food,1733,10010.0,78,13632.5,4.0,On Time,North
+2176.0,2023-03-03,Lucknow-Kanpur,Truck,Electronics,236,3509.0,101,3358.35,2.0,On Time,North
+2177.0,2023-08-04,Lucknow-Kanpur,Rail,Food,475,17173.0,78,5900.95,1.0,On Time,North
+2178.0,2023-01-03,Delhi-Jaipur,Air,Food,186,13280.0,130,8502.0,2.0,On Time,North
+2179.0,2023-06-09,Delhi-Mumbai,Truck,Food,1542,17436.0,77,21119.4,4.0,On Time,West
+2180.0,2025-02-19,Lucknow-Kanpur,Truck,Machinery,1322,6242.0,72,16800.3,3.0,On Time,North
+2181.0,2025-06-11,Kanpur-Varanasi,Rail,Machinery,1586,6067.0,51,12012.05,2.0,On Time,North
+2182.0,2023-11-25,Delhi-Jaipur,Truck,Machinery,536,7305.0,129,7527.75,4.0,On Time,North
+2183.0,2024-08-02,Mumbai-Pune,Rail,Machinery,1433,16106.0,80,12446.9,4.0,On Time,West
+2184.0,2025-08-09,Kanpur-Varanasi,Truck,Textiles,1719,12209.0,64,22459.35,6.0,Delayed,North
+2185.0,2024-09-26,Delhi-Jaipur,Truck,Electronics,1404,13134.0,124,18818.1,5.0,On Time,North
+2186.0,2025-09-14,Kanpur-Varanasi,Air,electronics,1446,2584.0,113,50997.6,4.0,On Time,North
+2187.0,2025-07-09,Lucknow-Kanpur,Rail,Textiles,863,1954.0,89,6334.1,2.0,On Time,North
+2188.0,2025-01-07,Mumbai-Pune,Rail,Electronics,801,11731.0,127,7366.65,2.0,On Time,West
+2189.0,2023-06-19,Delhi-Jaipur,Truck,Machinery,1041,19715.0,102,15449.25,3.0,on time ,North
+2190.0,2024-06-04,Lucknow-Delhi,Rail,Electronics,251,2697.0,75,2161.55,-3.0,On Time,North
+2191.0,2023-02-09,Mumbai-Pune,Truck,Machinery,1425,7929.0,79,18289.35,4.0,On Time,West
+2192.0,2025-08-12,Lucknow-Delhi,Truck,Textiles,1401,8286.0,105,18054.9,8.0,Delayed,North
+2193.0,2025-09-10,Kanpur-Varanasi,Rail,Food,1774,4083.0,108,13030.45,8.0,Delayed,North
+2194.0,2025-09-01,Delhi-Mumbai,Truck,Food,1131,6784.0,103,14589.6,5.0,On Time,West
+2195.0,2023-02-07,Mumbai-Pune,Truck,Electronics,906,10483.0,83,12444.45,3.0,On Time,West
+2196.0,2023-11-24,Kanpur-Varanasi,Truck,Textiles,334,17140.0,146,6579.0,4.0,On Time,North
+2197.0,2025-07-02,Lucknow-Delhi,Rail,Food,774,12104.0,76,7233.6,3.0,On Time,North
+2198.0,2024-03-29,Lucknow-Kanpur,Truck,Machinery,660,12203.0,98,9750.45,3.0,On Time,North
+2199.0,2023-02-06,Lucknow-Kanpur,Rail,Food,1425,6412.0,129,10936.8,5.0,On Time,North
+2200.0,2025-08-30,Delhi-Mumbai,Truck,Electronics,137,8038.0,78,2849.7,2.0,On Time,West
+2201.0,2025-03-06,Mumbai-Pune,Truck,Electronics,1259,,69,16616.1,6.0,Delayed,West
+2202.0,2025-08-30,Mumbai-Pune,Rail,Textiles,921,19769.0,71,9412.35,3.0,On Time,West
+2203.0,2024-08-15,Mumbai-Pune,Truck,Electronics,520,9877.0,108,7721.55,2.0,On Time,West
+2204.0,2025-11-29,Kanpur-Varanasi,Truck,Food,1342,3663.0,137,16653.45,6.0,Delayed,North
+2205.0,2023-08-12,Delhi-Mumbai,Truck,Food,447,5141.0,88,6135.15,3.0,On Time,West
+2206.0,2023-11-14,Mumbai-Pune,Truck,Food,1669,11392.0,117,21736.8,5.0,On Time,West
+2207.0,2023-12-15,Kanpur-Varanasi,Rail,Food,1202,8126.0,143,9632.9,2.0,On Time,North
+2208.0,2023-04-25,Lucknow-Kanpur,Truck,Textiles,847,14023.0,83,12267.45,-3.0,On Time,North
+2209.0,2024-11-28,Lucknow-Delhi,Rail,Machinery,372,not available,138,5563.2,3.0,On Time,North
+2210.0,2025-11-29,Kanpur-Varanasi,Truck,Machinery,1284,17524.0,111,18036.6,7.0,Delayed,North
+2211.0,2023-02-09,Lucknow-Kanpur,Truck,Textiles,407,18757.0,82,7697.55,1.0,On Time,North
+2212.0,2023-08-04,Lucknow-Kanpur,Air,Electronics,1497,3729.0,79,52954.35,5.0,On Time,North
+2213.0,2023-12-02,Lucknow-Delhi,Truck,Machinery,1075,2214.0,120,13232.1,3.0,On Time,North
+2214.0,2023-04-02,Lucknow-Kanpur,Truck,Electronics,832,1777.0,99,10250.55,5.0,on time ,North
+2215.0,2023-12-19,Delhi-Mumbai,Truck,Machinery,1132,3194.0,136,14063.1,4.0,On Time,West
+2216.0,2024-07-24,Lucknow-Delhi,truck ,Electronics,543,2384.0,24,6873.6,,On Time,North
+2217.0,2025-03-26,Lucknow-Kanpur,Truck,Textiles,1236,5152.0,84,15604.8,5.0,On Time,North
+2218.0,2025-02-19,Delhi-Jaipur,Truck,Food,1328,18073.0,92,18646.95,4.0,On Time,North
+2219.0,2023-12-29,Kanpur-Varanasi,Truck,electronics,504,19004.0,169,8898.6,1.0,On Time,North
+2220.0,2024-07-10,Lucknow-Kanpur,Truck,Food,952,12147.0,71,13246.05,2.0,On Time,North
+2221.0,2023-12-22,Delhi-Mumbai,Truck,Electronics,1320,794.0,134,15959.1,7.0,Delayed,West
+2222.0,2023-07-10,Mumbai-Pune,Truck,Electronics,877,15688.0,117,12877.2,4.0,On Time,West
+2223.0,2024-02-26,Lucknow-Kanpur,Truck,Electronics,214,13155.0,74,4541.25,2.0,On Time,North
+2224.0,2024-11-30,Mumbai-Pune,Rail,Electronics,1244,16180.0,140,11135.0,4.0,On Time,West
+2225.0,2023-01-07,Delhi-Jaipur,Air,Electronics,1776,6804.0,84,63180.6,7.0,Delayed,North
+2226.0,2023-05-13,Lucknow-Kanpur,Truck,Food,164,7468.0,90,3088.2,2.0,On Time,North
+2227.0,2024-07-10,Lucknow-Delhi,Rail,Electronics,1399,2071.0,76,10103.65,5.0,On Time,North
+2228.0,2025-04-05,Mumbai-Pune,Truck,Food,924,14693.0,85,13291.95,4.0,On Time,West
+2229.0,2025-01-30,Delhi-Jaipur,Truck,Textiles,338,8155.0,154,5279.25,3.0,On Time,North
+2230.0,2025-11-20,Lucknow-Delhi,Truck,Machinery,401,11541.0,152,6543.15,2.0,On Time,North
+2231.0,2024-06-18,Lucknow-Delhi,Truck,Electronics,1515,14777.0,110,20396.55,4.0,On Time,North
+2232.0,2024-03-01,Lucknow-Delhi,Truck,Machinery,1645,1968.0,110,20035.2,5.0,On Time,North
+2233.0,2024-11-02,Lucknow-Delhi,Truck,Food,1068,18155.0,88,15539.25,1.0,On Time,North
+2234.0,2023-12-29,Lucknow-Kanpur,Truck,electronics,468,1828.0,140,5890.2,5.0,On Time,North
+2235.0,2023-03-23,Kanpur-Varanasi,Air,Textiles,332,7732.0,121,12779.8,3.0,On Time,North
+2236.0,2023-12-22,Lucknow-Kanpur,Truck,Textiles,294,12143.0,108,5349.45,1.0,On Time,North
+2237.0,2024-08-11,Lucknow-Kanpur,Truck,Machinery,1006,6503.0,107,13047.45,3.0,On Time,North
+2238.0,2023-10-22,Delhi-Jaipur,Rail,Food,1135,15832.0,148,10319.8,,On Time,North
+2239.0,2025-12-05,Delhi-Jaipur,Truck,Electronics,1020,18626.0,178,15033.9,6.0,Delayed,North
+2240.0,2023-01-17,Kanpur-Varanasi,Truck,Electronics,788,9440.0,92,10872.0,1.0,On Time,North
+2241.0,2023-12-26,Delhi-Jaipur,Rail,Food,276,6284.0,101,2874.6,2.0,On Time,North
+2242.0,2025-05-15,Delhi-Mumbai,Air,Machinery,unknown,353.0,93,11112.95,2.0,On Time,West
+2243.0,2024-11-30,Kanpur-Varanasi,Rail,Electronics,1134,4202.0,167,8568.3,5.0,On Time,North
+2244.0,2024-03-23,Delhi-Jaipur,Rail,Food,1569,3642.0,63,11529.3,5.0,On Time,North
+2245.0,2025-05-05,Kanpur-Varanasi,Rail,Electronics,729,19259.0,59,7991.85,1.0,On Time,North
+2246.0,2023-12-31,Lucknow-Kanpur,Air,Textiles,263,6312.0,132,10151.8,1.0,On Time,North
+2247.0,2024-11-05,Lucknow-Kanpur,Truck,Electronics,1674,4737.0,118,20798.55,4.0,On Time,North
+2248.0,2025-10-04,Kanpur-Varanasi,Truck,Machinery,152,11625.0,130,3567.75,2.0,On Time,North
+2249.0,2024-04-11,Delhi-Mumbai,Truck,Food,317,11571.0,119,5539.65,4.0,On Time,West
+2250.0,2024-02-18,Delhi-Mumbai,Truck,Machinery,1098,12600.0,89,15066.0,2.0,On Time,West
+2251.0,2024-08-08,Kanpur-Varanasi,Rail,Food,923,15347.0,56,8763.05,2.0,on time ,North
+2252.0,2025-09-20,Delhi-Jaipur,Truck,Textiles,1483,10632.0,141,19390.8,4.0,On Time,North
+2253.0,2024-07-25,Mumbai-Pune,Truck,Food,484,13618.0,72,7850.7,2.0,On Time,West
+2254.0,2023-12-01,Delhi-Mumbai,Helicopter,Electronics,155,6576.0,102,2846.4,3.0,On Time,West
+2255.0,2023-02-06,Lucknow-Delhi,Rail,Electronics,217,19632.0,122,4463.8,1.0,On Time,North
+2256.0,2025-09-15,Lucknow-Kanpur,Truck,Textiles,999,19843.0,92,14964.45,4.0,On Time,North
+2257.0,2023-10-05,Kanpur-Varanasi,Rail,Food,1376,1104.0,128,9797.6,4.0,On Time,North
+2258.0,2025-07-04,Lucknow-Delhi,Truck,Textiles,897,10386.0,99,12321.9,4.0,On Time,North
+2259.0,2024-04-28,Kanpur-Varanasi,Truck,Electronics,0,4817.0,122,11270.55,5.0,On Time,North
+2260.0,2024-12-31,Lucknow-Kanpur,Truck,Machinery,1115,3371.0,121,13885.65,3.0,On Time,North
+2261.0,2023-07-11,Lucknow-Kanpur,Truck,Textiles,902,12814.0,117,12746.1,5.0,On Time,North
+2262.0,2025-11-06,Delhi-Mumbai,Rail,Machinery,944,309.0,74,6654.35,4.0,On Time,West
+2263.0,2024-06-07,Delhi-Mumbai,Air,Machinery,1303,5639.0,104,46450.85,6.0,Delayed,West
+2264.0,2025-07-06,Lucknow-Delhi,Truck,Food,1538,16637.0,75,20951.55,5.0,On Time,North
+2265.0,2024-02-05,Kanpur-Varanasi,truck ,Textiles,1358,8706.0,127,17601.9,5.0,On Time,North
+2266.0,2025-06-04,Lucknow-Kanpur,Truck,Machinery,954,11716.0,93,13205.4,4.0,On Time,North
+2267.0,2024-12-05,Lucknow-Delhi,Rail,Machinery,807,1384.0,113,5856.6,3.0,On Time,North
+2268.0,2023-01-22,Mumbai-Pune,Rail,Food,1203,3248.0,113,8908.2,5.0,On Time,West
+2269.0,2024-04-18,Lucknow-Delhi,Truck,Food,1770,868.0,118,21370.2,7.0,Delayed,North
+2270.0,2023-07-29,Delhi-Jaipur,Truck,Electronics,121,5707.0,102,2308.05,1.0,On Time,North
+2271.0,2023-11-02,Lucknow-Delhi,Rail,Machinery,1600,19686.0,103,14152.9,8.0,Delayed,North
+2272.0,2024-12-04,Delhi-Jaipur,Truck,Electronics,942,19271.0,117,14194.65,1.0,On Time,North
+2273.0,2024-11-17,Delhi-Jaipur,Truck,Machinery,1563,18694.0,130,21560.1,4.0,On Time,North
+2274.0,2023-10-12,Delhi-Jaipur,Truck,Electronics,1693,7499.0,129,21440.85,6.0,Delayed,North
+2275.0,2024-12-16,Mumbai-Pune,Truck,Food,1216,458.0,149,14660.7,5.0,On Time,West
+2276.0,2025-02-01,Lucknow-Delhi,Rail,Textiles,291,949.0,60,2179.35,4.0,On Time,North
+2277.0,2025-08-05,Lucknow-Delhi,Air,Food,1118,7598.0,96,40269.7,1.0,,North
+2278.0,2024-01-16,Mumbai-Pune,Truck,Electronics,1226,4622.0,94,15405.3,4.0,On Time,West
+2279.0,2024-04-04,Lucknow-Kanpur,Truck,Electronics,495,19028.0,-10,8794.2,1.0,On Time,North
+2280.0,2025-10-27,Delhi-Mumbai,Truck,Textiles,1130,12873.0,111,15490.95,4.0,On Time,West
+2281.0,2023-01-29,Lucknow-Delhi,Truck,Machinery,739,18315.0,96,11615.25,4.0,On Time,North
+2282.0,2025-06-25,Delhi-Mumbai,Truck,Electronics,1118,17956.0,25,16109.4,7.0,Delayed,West
+2283.0,2025-11-22,Kanpur-Varanasi,Truck,Electronics,666,9728.0,112,9451.2,3.0,On Time,North
+2284.0,2025-05-28,Kanpur-Varanasi,Truck,Electronics,330,429.0,82,4024.35,4.0,On Time,North
+2285.0,2023-03-20,Mumbai-Pune,Truck,Textiles,973,5951.0,111,12568.65,5.0,On Time,West
+2286.0,2025-08-04,,Truck,Food,673,,76,9145.8,2.0,On Time,North
+2287.0,2024-04-03,Kanpur-Varanasi,Truck,Electronics,339,15426.0,96,6381.9,1.0,On Time,North
+2288.0,2024-07-23,Lucknow-Kanpur,Truck,Textiles,189,5366.0,118,3072.9,2.0,On Time,North
+2289.0,2025-01-07,Lucknow-Kanpur,Truck,Electronics,331,4454.0,120,4640.1,1.0,On Time,North
+2290.0,2024-05-30,Lucknow-Kanpur,truck ,Machinery,556,15182.0,118,21737.3,5.0,On Time,North
+2291.0,2024-02-01,Kanpur-Varanasi,Truck,Textiles,332,4822.0,90,4707.3,2.0,On Time,North
+2292.0,2023-02-08,Mumbai-Pune,Truck,Electronics,453,17872.0,111,8116.8,4.0,On Time,West
+2293.0,2025-06-05,Delhi-Jaipur,Rail,Textiles,1104,9011.0,86,9079.65,3.0,On Time,North
+2294.0,2025-03-07,Delhi-Jaipur,Air,Electronics,1456,3335.0,96,51460.25,6.0,Delayed,North
+2295.0,2023-06-06,Delhi-Mumbai,Truck,Food,538,4676.0,97,7157.4,3.0,On Time,West
+2296.0,2025-06-02,Delhi-Jaipur,Rail,Electronics,1498,1200.0,79,10666.0,5.0,On Time,North
+2297.0,2025-08-31,Delhi-Jaipur,Truck,Textiles,1415,8964.0,117,18324.6,4.0,On Time,North
+2298.0,2025-11-11,Lucknow-Kanpur,Truck,Machinery,444,8808.0,126,6649.2,3.0,On Time,North
+2299.0,2025-04-28,Lucknow-Kanpur,Truck,Machinery,763,19016.0,112,12008.4,2.0,On Time,North
+2300.0,2025-01-17,Kanpur-Varanasi,Rail,Machinery,1551,17265.0,129,13446.75,4.0,On Time,North
+2301.0,2025-09-15,Delhi-Mumbai,Rail,Electronics,756,14539.0,121,,5.0,On Time,West
+2302.0,2023-01-21,Lucknow-Delhi,Truck,Food,229,11850.0,72,4525.5,3.0,On Time,North
+2303.0,2023-10-30,Delhi-Mumbai,Truck,Electronics,240,9881.0,142,4362.15,2.0,,West
+2304.0,2025-05-18,Delhi-Mumbai,Truck,Machinery,514,5095.0,117,6932.25,5.0,On Time,West
+2305.0,2023-03-25,Mumbai-Pune,Truck,Textiles,1216,17985.0,118,17289.75,4.0,On Time,West
+2306.0,2024-07-23,Kanpur-Varanasi,Truck,Machinery,725,12086.0,70,10512.9,5.0,On Time,North
+2307.0,2025-07-22,Mumbai-Pune,Rail,Textiles,383,12610.0,78,4572.5,2.0,On Time,West
+2308.0,2025-10-05,Delhi-Mumbai,Rail,Food,1778,19564.0,156,15380.6,5.0,On Time,West
+2309.0,2025-03-03,Delhi-Mumbai,Rail,Textiles,322,9368.0,85,,5.0,On Time,West
+2310.0,2025-03-02,Delhi-Mumbai,Rail,Electronics,843,602.0,94,5991.3,5.0,On Time,West
+2311.0,2024-05-06,Delhi-Jaipur,Truck,Electronics,562,9631.0,132,8188.65,2.0,On Time,North
+2312.0,2023-07-27,Mumbai-Pune,Rail,Electronics,1668,8109.0,89,12892.35,7.0,Delayed,West
+2313.0,2025-12-19,Delhi-Mumbai,Truck,Textiles,1399,17107.0,111,19354.05,4.0,On Time,West
+2314.0,2024-03-05,Lucknow-Kanpur,Truck,Electronics,1263,11642.0,82,16902.3,6.0,Delayed,North
+2315.0,2025-09-11,Kanpur-Varanasi,Truck,Electronics,456,17534.0,107,8102.1,1.0,On Time,North
+2316.0,2024-06-03,Kanpur-Varanasi,Truck,Electronics,1146,17813.0,66,16423.95,3.0,On Time,North
+2317.0,2024-08-13,Lucknow-Kanpur,Truck,Food,0,13535.0,86,18746.25,6.0,Delayed,North
+2318.0,2025-11-16,Kanpur-Varanasi,Truck,Textiles,958,4214.0,139,12128.1,3.0,On Time,North
+2319.0,2025-15-40,Delhi-Jaipur,truck ,Textiles,764,13668.0,113,7398.2,3.0,On Time,North
+2320.0,2024-01-22,Delhi-Jaipur,Truck,Machinery,1456,,113,17992.05,3.0,On Time,North
+2321.0,2023-12-15,Lucknow-Delhi,Truck,Textiles,1114,8195.0,111,14597.25,7.0,Delayed,North
+2322.0,2025-08-17,Lucknow-Delhi,Air,Food,184,5241.0,111,7226.15,3.0,On Time,North
+2323.0,2024-11-23,Lucknow-Delhi,Truck,Textiles,720,4051.0,122,9247.65,3.0,On Time,North
+2324.0,2024-01-13,Kanpur-Varanasi,Truck,Food,1154,14987.0,75,16096.05,4.0,On Time,North
+2325.0,2025-06-17,Delhi-Jaipur,Truck,Food,339,1673.0,87,4318.95,4.0,On Time,North
+2326.0,2025-07-04,Delhi-Jaipur,Truck,Textiles,462,13459.0,116,7562.85,5.0,On Time,North
+2327.0,2024-06-10,Delhi-Jaipur,Truck,Machinery,921,19118.0,93,13919.7,5.0,On Time,North
+2328.0,2025-01-03,Lucknow-Kanpur,Truck,Electronics,1512,2868.0,100,18574.2,9.0,Delayed,North
+2329.0,2023-07-25,Delhi-Jaipur,Truck,Electronics,1776,5402.0,119,22122.3,5.0,On Time,North
+2330.0,2024-03-30,Lucknow-Kanpur,Truck,Textiles,767,13846.0,71,11280.9,2.0,On Time,North
+2331.0,2024-06-04,Lucknow-Delhi,Truck,Textiles,1422,1311.0,67,17260.65,3.0,,North
+2332.0,2025-10-13,Lucknow-Delhi,Truck,Food,1494,15545.0,88,20259.75,6.0,Delayed,North
+2333.0,2025-08-13,Kanpur-Varanasi,Truck,Textiles,198,15915.0,97,4763.25,2.0,On Time,North
+2334.0,2024-12-26,Lucknow-Delhi,Rail,Food,146,1260.0,134,1211.0,1.0,On Time,North
+2335.0,2025-10-10,Kanpur-Varanasi,Truck,Machinery,938,7141.0,-10,12327.15,5.0,On Time,North
+2336.0,2024-05-15,Delhi-Mumbai,Truck,Textiles,521,18867.0,105,9082.05,4.0,On Time,West
+2337.0,2023-04-27,Delhi-Mumbai,Rail,Electronics,1603,10946.0,92,12862.9,3.0,On Time,West
+2338.0,2024-01-21,Mumbai-Pune,Truck,Electronics,1702,5976.0,100,21320.4,5.0,On Time,West
+2339.0,2024-08-06,Kanpur-Varanasi,Truck,Textiles,161,12989.0,92,3880.35,3.0,On Time,North
+2340.0,2024-01-30,Mumbai-Pune,Truck,Food,1232,13982.0,67,16881.3,4.0,On Time,West
+2341.0,2025-12-23,Mumbai-Pune,Rail,Electronics,1672,14838.0,200,13929.7,5.0,On Time,West
+2342.0,2024-12-21,Delhi-Mumbai,truck ,Food,1242,1195.0,144,8873.25,6.0,Delayed,West
+2343.0,2023-03-13,Kanpur-Varanasi,Truck,Textiles,1109,6001.0,104,14208.15,2.0,On Time,North
+2344.0,2023-10-01,Delhi-Mumbai,Rail,Textiles,697,8315.0,146,6126.25,3.0,On Time,West
+2345.0,2023-12-04,Mumbai-Pune,Truck,Electronics,1505,13011.0,148,20011.65,6.0,Delayed,West
+2346.0,2024-08-29,Kanpur-Varanasi,Truck,Textiles,unknown,14223.0,87,8025.45,2.0,On Time,North
+2347.0,2023-06-15,Mumbai-Pune,Truck,Machinery,1076,1179.0,79,13088.85,5.0,On Time,West
+2348.0,2023-01-11,Delhi-Jaipur,Truck,Machinery,1175,12610.0,112,15991.5,4.0,On Time,North
+2349.0,2024-12-29,Kanpur-Varanasi,Rail,Electronics,702,19331.0,140,7813.65,5.0,On Time,North
+2350.0,2025-03-11,Kanpur-Varanasi,Truck,Machinery,1412,18444.0,84,19710.6,5.0,On Time,North
+2351.0,2023-04-12,Mumbai-Pune,Truck,Food,436,1573.0,128,5467.95,3.0,On Time,West
+2352.0,2025-02-17,Delhi-Jaipur,Air,Electronics,909,4988.0,106,32563.2,5.0,On Time,North
+2353.0,2023-08-02,Lucknow-Kanpur,Truck,Electronics,1327,5079.0,103,16685.85,4.0,On Time,North
+2354.0,2024-02-05,Delhi-Mumbai,Truck,Food,unknown,1312.0,128,16528.8,2.0,On Time,West
+2355.0,2024-08-10,Mumbai-Pune,Truck,Machinery,1505,9101.0,90,19425.15,6.0,Delayed,West
+2356.0,2025-06-07,Kanpur-Varanasi,Rail,Machinery,1790,13348.0,96,14532.2,6.0,Delayed,North
+2357.0,2025-12-05,Delhi-Mumbai,Rail,Machinery,851,519.0,151,6034.85,4.0,On Time,West
+2358.0,2024-08-14,Delhi-Mumbai,Truck,Electronics,1259,15708.0,77,17464.2,4.0,On Time,West
+2359.0,2023-04-02,Delhi-Mumbai,Rail,Electronics,1530,3759.0,101,11273.85,5.0,On Time,West
+2360.0,2024-11-03,Lucknow-Kanpur,Truck,Machinery,1631,5383.0,133,20379.45,9.0,Delayed,North
+2361.0,2024-12-14,Lucknow-Delhi,Rail,Textiles,1485,10815.0,105,12017.25,3.0,On Time,North
+2362.0,2025-07-24,Mumbai-Pune,Truck,Machinery,1504,16265.0,132,20487.75,6.0,Delayed,West
+2363.0,2023-08-30,Lucknow-Delhi,Truck,Food,980,1440.0,65,11976.0,3.0,On Time,North
+2364.0,2023-01-02,Lucknow-Delhi,Air,Electronics,1699,14905.0,74,61700.75,5.0,On Time,North
+2365.0,2023-08-13,Lucknow-Delhi,Truck,Food,734,10684.0,114,10410.6,3.0,On Time,North
+2366.0,2025-03-11,Delhi-Mumbai,Truck,Food,353,14880.0,114,6468.0,1.0,On Time,West
+2367.0,2024-08-11,Delhi-Jaipur,Truck,Electronics,1600,5237.0,72,19985.55,6.0,Delayed,North
+2368.0,2023-04-26,Delhi-Mumbai,truck ,Textiles,1237,17845.0,112,45971.75,7.0,Delayed,West
+2369.0,2025-07-06,Delhi-Mumbai,Truck,Machinery,119,691.0,116,1531.65,2.0,On Time,West
+2370.0,2023-07-13,Kanpur-Varanasi,Truck,Food,627,626.0,89,7617.9,3.0,On Time,North
+2371.0,2025-05-20,Kanpur-Varanasi,Truck,Electronics,1268,7955.0,152,16409.25,3.0,On Time,North
+2372.0,2023-03-31,Lucknow-Delhi,Truck,Food,1331,10795.0,66,17591.25,6.0,Delayed,North
+2373.0,2023-05-02,Delhi-Mumbai,Truck,Machinery,1654,1392.0,114,20056.8,9.0,Delayed,West
+2374.0,2023-05-23,Lucknow-Delhi,Rail,Textiles,475,18138.0,123,6045.7,2.0,On Time,North
+2375.0,2025-09-20,Kanpur-Varanasi,Air,Textiles,1627,16671.0,118,59445.65,5.0,On Time,North
+2376.0,2023-04-16,Delhi-Jaipur,Truck,Textiles,265,19242.0,96,6066.3,1.0,On Time,North
+2377.0,2025-06-05,Mumbai-Pune,Truck,Electronics,1673,8725.0,85,21384.75,5.0,On Time,West
+2378.0,2024-03-03,Lucknow-Delhi,Truck,Electronics,1304,,109,16627.65,1.0,On Time,North
+2379.0,2023-11-13,Delhi-Jaipur,Truck,Textiles,960,16026.0,151,13923.9,4.0,On Time,North
+2380.0,2024-09-26,Mumbai-Pune,Rail,Machinery,716,11804.0,112,6782.6,2.0,On Time,West
+2381.0,2023-01-09,Lucknow-Kanpur,Truck,Machinery,711,537.0,121,8612.55,1.0,On Time,North
+2382.0,2025-02-12,Lucknow-Delhi,Truck,Electronics,1725,10880.0,80,22332.0,7.0,Delayed,North
+2383.0,2023-08-11,Lucknow-Delhi,Rail,Textiles,1567,17316.0,86,13566.4,4.0,On Time,North
+2384.0,2024-07-06,Lucknow-Kanpur,Truck,Machinery,1455,9088.0,73,18823.2,5.0,On Time,North
+2385.0,2024-12-16,Lucknow-Kanpur,Truck,Machinery,602,9053.0,120,8581.95,5.0,On Time,North
+2386.0,2023-04-21,Lucknow-Delhi,Truck,Machinery,1012,5894.0,120,13028.1,2.0,On Time,North
+2387.0,2023-09-08,Lucknow-Kanpur,Rail,Electronics,178,3674.0,102,1797.1,1.0,On Time,North
+2388.0,2024-01-18,Delhi-Mumbai,Air,Textiles,684,16401.0,152,26400.15,3.0,On Time,West
+2389.0,2023-01-07,Mumbai-Pune,Truck,Food,787,784.0,104,9561.6,5.0,On Time,West
+2390.0,2024-04-03,Mumbai-Pune,Air,Textiles,495,4333.0,101,17974.95,1.0,On Time,West
+2391.0,2023-07-27,Mumbai-Pune,Truck,Textiles,1731,17061.0,92,23331.15,7.0,Delayed,West
+2392.0,2025-06-18,Delhi-Mumbai,Truck,Electronics,1226,13097.0,79,16676.55,5.0,On Time,West
+2393.0,2023-01-22,Lucknow-Kanpur,Truck,Machinery,501,8107.0,99,7228.05,1.0,On Time,North
+2394.0,2024-02-14,Delhi-Jaipur,Truck,Machinery,1074,16711.0,123,15394.65,5.0,On Time,North
+2395.0,2025-06-13,Lucknow-Kanpur,Truck,Electronics,323,2428.0,92,4240.2,3.0,On Time,North
+2396.0,2024-05-29,Lucknow-Delhi,Truck,Electronics,617,19215.0,84,10286.25,2.0,On Time,North
+2397.0,2025-03-19,Kanpur-Varanasi,Truck,Electronics,733,9119.0,81,10163.85,5.0,On Time,North
+2398.0,2025-05-23,Mumbai-Pune,Truck,Electronics,335,16914.0,91,6557.1,4.0,On Time,West
+2399.0,2023-01-14,Lucknow-Kanpur,Truck,Electronics,1550,,101,20003.25,6.0,Delayed,North
+2400.0,2025-08-28,Delhi-Jaipur,Rail,Food,215,18193.0,-10,4233.95,,On Time,North
+2401.0,2025-09-04,Lucknow-Delhi,Truck,Textiles,1286,5882.0,73,16314.3,3.0,On Time,North
+2402.0,2025-10-10,Delhi-Mumbai,Truck,Textiles,325,1334.0,122,4100.1,2.0,On Time,West
+2403.0,2025-11-01,Delhi-Mumbai,Truck,electronics,329,5305.0,134,4743.75,3.0,On Time,West
+2404.0,2023-03-28,Delhi-Jaipur,Truck,Machinery,281,1520.0,63,3600.0,1.0,On Time,North
+2405.0,2025-06-27,Lucknow-Delhi,Rail,Food,1372,17252.0,75,12191.8,2.0,On Time,North
+2406.0,2023-05-02,Mumbai-Pune,Truck,Textiles,1441,9696.0,86,18746.4,7.0,Delayed,West
+2407.0,2025-01-19,Lucknow-Kanpur,Truck,Machinery,309,19588.0,84,6646.2,2.0,On Time,North
+2408.0,2024-11-15,Lucknow-Delhi,Rail,Food,1779,4455.0,135,13121.25,6.0,Delayed,North
+2409.0,2023-11-05,Delhi-Mumbai,Truck,Food,1515,19789.0,126,21148.35,7.0,Delayed,West
+2410.0,2024-11-25,Delhi-Jaipur,Truck,Machinery,195,18022.0,116,5043.3,4.0,On Time,North
+2411.0,2023-10-15,Delhi-Jaipur,Truck,Food,993,17815.0,141,14588.25,1.0,On Time,North
+2412.0,2023-11-03,Lucknow-Kanpur,Air,Machinery,855,8361.0,175,31179.15,4.0,On Time,North
+2413.0,2025-07-02,Delhi-Jaipur,Truck,Textiles,1209,13865.0,120,16587.75,2.0,On Time,North
+2414.0,2024-10-23,Delhi-Jaipur,truck ,Machinery,514,6044.0,80,7074.6,3.0,on time ,North
+2415.0,2024-07-02,Lucknow-Delhi,Truck,Food,493,7226.0,-10,6999.9,3.0,On Time,North
+2416.0,2023-11-08,Mumbai-Pune,Truck,Textiles,795,16964.0,125,12084.6,4.0,On Time,West
+2417.0,2025-05-22,Lucknow-Kanpur,Truck,Textiles,1756,5363.0,103,21876.45,5.0,On Time,North
+2418.0,2025-12-18,Lucknow-Delhi,Truck,Electronics,943,15400.0,120,13626.0,1.0,On Time,North
+2419.0,2025-07-12,Mumbai-Pune,Truck,Electronics,1624,2893.0,92,19921.95,5.0,On Time,West
+2420.0,2025-01-24,Lucknow-Delhi,Air,Food,703,2992.0,103,25053.8,4.0,On Time,North
+2421.0,2023-02-04,Kanpur-Varanasi,Rail,Machinery,681,1298.0,88,4961.7,4.0,On Time,North
+2422.0,2024-03-20,Lucknow-Delhi,Truck,Machinery,232,18856.0,82,5612.4,1.0,On Time,North
+2423.0,2023-04-03,Delhi-Jaipur,Rail,Food,890,18376.0,91,8986.4,,On Time,North
+2424.0,2023-12-19,Mumbai-Pune,Truck,Textiles,748,-500.0,136,9273.45,2.0,On Time,West
+2425.0,2025-06-21,Lucknow-Kanpur,Truck,Food,1437,897.0,101,17378.55,6.0,on time ,North
+2426.0,2025-05-11,Lucknow-Kanpur,Truck,Food,320,8309.0,117,5086.35,1.0,On Time,North
+2427.0,2023-06-08,Mumbai-Pune,Rail,Textiles,1075,8335.0,81,8775.25,4.0,On Time,West
+2428.0,2025-08-14,Delhi-Jaipur,Rail,Machinery,1561,16638.0,95,13422.7,7.0,Delayed,North
+2429.0,2023-01-24,Delhi-Mumbai,Truck,Food,1169,15357.0,119,16331.55,2.0,On Time,West
+2430.0,2024-02-08,Lucknow-Delhi,Air,Machinery,1315,,123,47247.5,4.0,On Time,North
+2431.0,2025-03-15,Delhi-Jaipur,Truck,Food,1643,6047.0,99,20623.05,6.0,Delayed,North
+2432.0,2024-05-30,Kanpur-Varanasi,Rail,Textiles,1502,9717.0,96,11971.55,9.0,Delayed,North
+2433.0,2025-01-01,Mumbai-Pune,Air,Textiles,887,1992.0,104,31343.8,2.0,On Time,West
+2434.0,2024-06-15,Lucknow-Delhi,Truck,Electronics,790,3524.0,69,10008.6,6.0,Delayed,North
+2435.0,2025-08-13,Lucknow-Kanpur,Rail,Textiles,1457,9550.0,87,11631.5,8.0,Delayed,North
+2436.0,2023-06-01,Delhi-Mumbai,Truck,Electronics,138,13518.0,103,3683.7,1.0,On Time,West
+2437.0,2025-08-04,Kanpur-Varanasi,Truck,Food,1416,2115.0,102,17309.25,5.0,On Time,North
+2438.0,2024-08-30,Lucknow-Kanpur,Truck,Machinery,789,4933.0,85,10207.95,2.0,On Time,North
+2439.0,2024-02-24,Mumbai-Pune,Truck,Textiles,261,9994.0,104,4631.1,2.0,On Time,West
+2440.0,2025-05-15,Lucknow-Delhi,Air,Textiles,unknown,16042.0,84,53296.3,3.0,On Time,North
+2441.0,2024-07-31,Mumbai-Pune,Rail,Textiles,1227,9165.0,103,9963.75,4.0,On Time,West
+2442.0,2023-12-01,Lucknow-Delhi,Truck,Food,260,665.0,128,3219.75,4.0,On Time,North
+2443.0,2025-07-20,Delhi-Jaipur,Rail,Electronics,1758,not available,85,13432.8,5.0,On Time,North
+2444.0,2023-10-22,Delhi-Mumbai,Air,Food,1177,18502.0,121,43970.3,4.0,On Time,West
+2445.0,2025-01-24,Delhi-Jaipur,Truck,Machinery,1157,10177.0,99,15410.55,2.0,On Time,North
+2446.0,2023-07-05,Delhi-Jaipur,Air,Food,341,10415.0,82,13497.25,3.0,On Time,North
+2447.0,2024-09-28,Mumbai-Pune,Truck,Machinery,1066,12934.0,113,14732.1,4.0,On Time,West
+2448.0,2024-06-13,Delhi-Mumbai,Rail,Textiles,989,2414.0,83,7285.1,4.0,On Time,West
+2449.0,2023-01-21,Lucknow-Delhi,Truck,Machinery,212,4512.0,132,3220.8,1.0,On Time,North
+2450.0,2025-06-29,Lucknow-Delhi,Truck,Machinery,1113,3983.0,116,13953.45,4.0,On Time,North
+2451.0,2025-05-16,Kanpur-Varanasi,Truck,Electronics,417,11484.0,82,6726.6,3.0,On Time,North
+2452.0,2025-03-04,Lucknow-Kanpur,Truck,Machinery,122,10151.0,101,2986.65,1.0,On Time,North
+2453.0,2023-04-10,Kanpur-Varanasi,Truck,Unknown Cargo,1681,8316.0,87,21419.4,6.0,Delayed,North
+2454.0,2025-01-21,Kanpur-Varanasi,Truck,Food,923,11795.0,93,12845.25,4.0,On Time,North
+2455.0,2024-04-22,Lucknow-Delhi,Truck,Textiles,1770,8002.0,140,22440.3,8.0,Delayed,North
+2456.0,2025-07-28,Mumbai-Pune,Air,Food,1241,13287.0,84,45428.05,6.0,Delayed,West
+2457.0,2024-06-09,Delhi-Jaipur,Truck,Food,unknown,17673.0,96,12250.95,4.0,On Time,North
+2458.0,2023-11-30,Delhi-Jaipur,truck ,Textiles,1766,12388.0,144,23050.2,8.0,Delayed,North
+2459.0,2025-15-40,Delhi-Jaipur,Truck,Textiles,1118,14310.0,80,15562.5,5.0,On Time,North
+2460.0,2024-01-10,Delhi-Mumbai,Truck,Machinery,1335,6984.0,83,17067.6,7.0,Delayed,West
+2461.0,2023-10-20,Lucknow-Delhi,Rail,Machinery,1541,19641.0,99,13733.15,6.0,Delayed,North
+2462.0,2025-04-16,Mumbai-Pune,Rail,Electronics,1236,10659.0,82,10250.85,2.0,On Time,West
+2463.0,2025-10-01,Delhi-Mumbai,Truck,Food,1167,18225.0,56,16737.75,6.0,Delayed,West
+2464.0,2024-07-06,Lucknow-Kanpur,Truck,Textiles,227,3788.0,100,3292.2,2.0,On Time,North
+2465.0,2023-11-14,Mumbai-Pune,Rail,Machinery,975,14214.0,183,8957.1,4.0,On Time,West
+2466.0,2024-01-16,Kanpur-Varanasi,Truck,Textiles,257,5469.0,103,3904.35,2.0,On Time,North
+2467.0,2023-01-14,Mumbai-Pune,Rail,Machinery,926,12038.0,72,8287.7,3.0,On Time,West
+2468.0,2024-05-18,Mumbai-Pune,Truck,Electronics,1517,4123.0,87,18822.45,6.0,Delayed,West
+2469.0,2023-08-19,Delhi-Jaipur,Rail,Electronics,951,16082.0,82,9069.3,3.0,On Time,North
+2470.0,2023-05-10,Mumbai-Pune,Truck,Textiles,611,17200.0,80,9912.0,5.0,On Time,West
+2471.0,2025-04-17,Kanpur-Varanasi,Truck,Electronics,144,4067.0,117,2338.05,1.0,On Time,North
+2472.0,2025-06-09,Kanpur-Varanasi,Air,Textiles,1231,7523.0,105,4421345.0,4.0,On Time,North
+2473.0,2023-01-28,Lucknow-Delhi,Truck,Machinery,318,6550.0,77,4798.5,1.0,On Time,North
+2474.0,2023-03-07,Mumbai-Pune,Truck,Food,542,12313.0,115,8350.95,3.0,On Time,West
+2475.0,2023-09-18,Delhi-Jaipur,Truck,Electronics,414,3315.0,131,5465.25,2.0,On Time,North
+2476.0,2024-04-04,Mumbai-Pune,Truck,Machinery,276,490.0,138,3385.5,2.0,On Time,West
+2477.0,2023-10-28,Lucknow-Kanpur,Truck,Food,327,19521.0,204,6852.15,1.0,On Time,North
+2478.0,2025-07-07,Lucknow-Kanpur,Truck,Food,1795,332.0,74,21589.8,4.0,On Time,North
+2479.0,2023-10-14,Delhi-Jaipur,Truck,Food,366,19615.0,203,7334.25,3.0,On Time,North
+2480.0,2025-10-30,Lucknow-Delhi,Truck,Machinery,969,7734.0,121,12788.1,6.0,Delayed,North
+2481.0,2024-09-21,Lucknow-Delhi,Rail,Machinery,937,11598.0,88,8298.7,2.0,On Time,North
+2482.0,2023-09-27,Kanpur-Varanasi,Truck,Textiles,1502,11016.0,107,19676.4,8.0,Delayed,North
+2483.0,2024-08-14,Kanpur-Varanasi,Truck,Food,588,333.0,80,7105.95,3.0,On Time,North
+2484.0,2025-04-23,Delhi-Mumbai,Rail,Food,801,1491.0,108,5830.65,3.0,on time ,West
+2485.0,2025-05-11,Delhi-Jaipur,Truck,Food,786,11184.0,74,11109.6,3.0,On Time,North
+2486.0,2023-05-13,Mumbai-Pune,Truck,Textiles,1413,9547.0,95,18388.05,3.0,On Time,West
+2487.0,2025-08-29,Delhi-Jaipur,Truck,Food,1095,14284.0,113,15282.6,6.0,Delayed,North
+2488.0,2024-05-27,Delhi-Mumbai,Truck,Machinery,456,11982.0,99,7269.3,1.0,On Time,West
+2489.0,2023-11-09,Kanpur-Varanasi,Truck,Food,1780,14938.0,134,23600.7,5.0,On Time,North
+2490.0,2024-07-29,Delhi-Jaipur,Truck,Electronics,971,17373.0,99,14257.95,5.0,On Time,North
+2491.0,2025-06-04,Delhi-Jaipur,Truck,Machinery,303,8002.0,111,4836.3,1.0,On Time,North
+2492.0,2024-11-17,Kanpur-Varanasi,Truck,Textiles,1336,12979.0,87,17978.85,3.0,On Time,North
+2493.0,2023-06-14,Delhi-Mumbai,Truck,Food,651,17229.0,101,10396.35,3.0,On Time,West
+2494.0,2023-11-01,Kanpur-Varanasi,Truck,Electronics,422,10011.0,123,6565.65,3.0,On Time,North
+2495.0,2023-06-05,Lucknow-Delhi,Truck,Textiles,693,527.0,93,8395.05,4.0,On Time,North
+2496.0,2024-09-11,Mumbai-Pune,Rail,Textiles,280,831.0,121,2084.65,1.0,On Time,West
+2497.0,2025-08-14,Kanpur-Varanasi,Truck,Machinery,598,899.0,69,7310.85,7.0,Delayed,North
+2498.0,2023-11-30,Delhi-Mumbai,Truck,Textiles,1443,7125.0,104,18384.75,5.0,On Time,West
+2499.0,2025-08-26,Lucknow-Kanpur,Truck,Textiles,182,14581.0,55,4371.15,1.0,On Time,North
+2500.0,2024-05-25,Lucknow-Delhi,Truck,Textiles,402,7724.0,89,5982.6,1.0,On Time,North
+2501.0,2025-11-09,Lucknow-Kanpur,Truck,Textiles,361,,165,6591.15,2.0,On Time,North
+2502.0,2023-10-09,Kanpur-Varanasi,Truck,Food,883,19022.0,127,13449.3,4.0,On Time,North
+2503.0,2025-03-07,Lucknow-Delhi,Rail,Food,1323,8332.0,73,10510.8,7.0,Delayed,North
+2504.0,2025-10-21,Mumbai-Pune,Truck,Food,1363,3467.0,117,16876.05,3.0,On Time,West
+2505.0,2023-04-29,Kanpur-Varanasi,Air,Food,1013,13362.0,70,37459.3,4.0,On Time,North
+2506.0,2025-11-24,Mumbai-Pune,Truck,Electronics,791,5329.0,101,10291.35,4.0,On Time,West
+2507.0,2023-07-17,Delhi-Jaipur,Truck,Food,1043,18899.0,97,15350.85,5.0,On Time,North
+2508.0,2024-04-29,Lucknow-Kanpur,Truck,Unknown Cargo,782,13847.0,77,11461.05,3.0,On Time,North
+2509.0,2025-12-18,Lucknow-Delhi,truck ,Food,1418,19433.0,159,19930.95,6.0,Delayed,North
+2510.0,2025-04-16,Mumbai-Pune,Truck,Food,1635,4361.0,99,20274.15,4.0,On Time,West
+2511.0,2025-10-05,Delhi-Mumbai,Truck,Machinery,788,3566.0,132,9990.9,6.0,Delayed,West
+2512.0,2024-11-21,Mumbai-Pune,Truck,Textiles,495,13885.0,123,8022.75,4.0,On Time,West
+2513.0,2025-11-01,Delhi-Mumbai,Air,Food,1261,3188.0,150,44613.2,3.0,On Time,West
+2514.0,2024-05-04,Kanpur-Varanasi,Rail,Food,938,13115.0,116,8533.25,2.0,On Time,North
+2515.0,2023-10-03,Lucknow-Delhi,Truck,Food,977,1215.0,139,11906.25,2.0,On Time,North
+2516.0,2024-11-23,Mumbai-Pune,Truck,Electronics,922,4678.0,145,,5.0,On Time,West
+2517.0,2023-08-30,Mumbai-Pune,Truck,Food,1252,2690.0,86,15427.5,3.0,On Time,West
+2518.0,2023-05-06,Lucknow-Delhi,Truck,Machinery,148,7472.0,111,2896.8,1.0,On Time,North
+2519.0,2023-08-05,Mumbai-Pune,Truck,Textiles,1799,3673.0,84,22138.95,7.0,Delayed,West
+2520.0,2025-11-28,Delhi-Mumbai,Truck,Textiles,888,3078.0,130,11117.7,3.0,On Time,West
+2521.0,2024-05-09,Mumbai-Pune,Truck,Food,392,10739.0,95,6314.85,3.0,On Time,West
+2522.0,2024-03-02,Lucknow-Kanpur,Truck,Food,1751,9522.0,91,22440.3,4.0,On Time,North
+2523.0,2025-07-07,Kanpur-Varanasi,Air,Food,635,10958.0,78,23868.7,4.0,On Time,North
+2524.0,2023-05-31,Delhi-Jaipur,Rail,Textiles,410,5075.0,109,3631.25,1.0,On Time,North
+2525.0,2024-01-19,Delhi-Mumbai,Air,Textiles,636,5025.0,126,23013.75,2.0,On Time,West
+2526.0,2023-11-04,Lucknow-Kanpur,Truck,Electronics,738,10886.0,160,10488.9,3.0,On Time,North
+2527.0,2025-01-15,Kanpur-Varanasi,Truck,Machinery,333,19914.0,75,6983.1,2.0,On Time,North
+2528.0,2025-06-10,Lucknow-Delhi,Truck,Electronics,1332,14816.0,113,18206.4,5.0,On Time,North
+2529.0,2024-01-10,Delhi-Mumbai,Truck,Machinery,704,2095.0,94,8762.25,2.0,On Time,West
+2530.0,2025-10-28,Delhi-Jaipur,Truck,Electronics,193,-500.0,146,4407.6,1.0,On Time,North
+2531.0,2023-05-09,Kanpur-Varanasi,Rail,Textiles,426,3991.0,82,3580.65,2.0,On Time,North
+2532.0,2025-10-11,Delhi-Jaipur,Truck,Electronics,324,15622.0,134,6231.3,1.0,On Time,North
+2533.0,2024-10-30,Lucknow-Delhi,Truck,Machinery,1066,7245.0,138,13878.75,3.0,On Time,North
+2534.0,2024-05-31,Lucknow-Delhi,Truck,Food,989,8598.0,70,13157.7,4.0,On Time,North
+2535.0,2023-03-27,Delhi-Mumbai,Truck,Machinery,110,9654.0,112,2768.1,1.0,On Time,West
+2536.0,2023-11-07,,Truck,Food,1452,2202.0,165,17754.3,7.0,Delayed,West
+2537.0,2024-03-02,Lucknow-Delhi,Truck,Textiles,1135,3130.0,97,14089.5,6.0,Delayed,North
+2538.0,2023-04-24,Kanpur-Varanasi,Truck,Machinery,134,8624.0,127,2901.6,1.0,On Time,North
+2539.0,2023-10-30,Mumbai-Pune,Truck,Electronics,546,,125,7783.05,5.0,On Time,West
+2540.0,2025-01-13,Lucknow-Kanpur,Air,Machinery,1575,16726.0,117,57633.9,5.0,On Time,North
+2541.0,2024-08-10,Delhi-Jaipur,Truck,Food,1343,18368.0,50,18871.2,5.0,On Time,North
+2542.0,2025-09-13,Mumbai-Pune,Rail,Textiles,540,15035.0,148,6035.25,2.0,On Time,West
+2543.0,2023-12-11,Delhi-Jaipur,Truck,Electronics,752,9724.0,169,10482.6,5.0,On Time,North
+2544.0,2025-03-24,Mumbai-Pune,Truck,Machinery,1658,15923.0,94,22284.45,6.0,Delayed,West
+2545.0,2025-03-11,Lucknow-Kanpur,Truck,Food,694,7963.0,61,9522.45,2.0,on time ,North
+2546.0,2025-10-21,Lucknow-Delhi,Truck,Electronics,328,3209.0,137,4417.35,1.0,On Time,North
+2547.0,2025-12-12,Lucknow-Kanpur,Truck,Textiles,443,18670.0,92,8116.5,1.0,On Time,North
+2548.0,2025-12-28,Lucknow-Delhi,Rail,Electronics,1203,12582.0,142,10308.3,5.0,On Time,North
+2549.0,2023-12-27,Lucknow-Delhi,Rail,Textiles,1476,1650.0,141,10579.5,6.0,Delayed,North
+2550.0,2025-10-06,Delhi-Jaipur,Truck,Electronics,1519,746.0,106,18339.9,6.0,Delayed,North
+2551.0,2024-12-04,Kanpur-Varanasi,Truck,Machinery,1413,13507.0,159,18982.05,5.0,On Time,North
+2552.0,2024-07-28,Lucknow-Kanpur,Air,Food,1578,12800.0,105,57150.0,4.0,On Time,North
+2553.0,2024-11-18,Mumbai-Pune,Truck,Machinery,1794,637.0,155,21623.55,5.0,On Time,West
+2554.0,2025-02-19,Lucknow-Kanpur,Truck,Machinery,1088,14266.0,100,15195.9,6.0,Delayed,North
+2555.0,2024-08-07,Delhi-Jaipur,Truck,Textiles,1251,6672.0,65,16012.8,4.0,On Time,North
+2556.0,2024-08-11,Lucknow-Delhi,Rail,Textiles,1008,334.0,108,7106.1,4.0,On Time,North
+2557.0,2024-05-03,Delhi-Jaipur,Air,Textiles,1666,14167.0,95,60435.05,4.0,On Time,North
+2558.0,2025-08-28,Delhi-Mumbai,Truck,Machinery,1482,9796.0,65,19253.4,6.0,Delayed,West
+2559.0,2024-05-08,Delhi-Mumbai,Rail,Electronics,626,14250.0,127,6519.5,2.0,On Time,West
+2560.0,2023-01-19,Mumbai-Pune,Rail,Electronics,1436,17858.0,142,12730.7,7.0,Delayed,West
+2561.0,2024-02-01,Delhi-Jaipur,Truck,Machinery,174,2009.0,99,2389.35,3.0,On Time,North
+2562.0,2025-09-27,Mumbai-Pune,Truck,Machinery,1669,12250.0,143,21865.5,5.0,,West
+2563.0,2025-04-30,Mumbai-Pune,Truck,Food,295,,102,3567.0,2.0,On Time,West
+2564.0,2025-04-01,Delhi-Mumbai,Air,Textiles,128,2183.0,92,4807.45,1.0,On Time,West
+2565.0,2024-03-30,Mumbai-Pune,Truck,Textiles,805,13478.0,87,11681.7,1.0,On Time,West
+2566.0,2024-12-25,Delhi-Mumbai,Rail,Machinery,1120,15317.0,173,10137.55,3.0,On Time,West
+2567.0,2025-12-24,Lucknow-Delhi,Truck,Machinery,115,18174.0,110,4106.1,2.0,On Time,North
+2568.0,2024-12-11,Delhi-Jaipur,Rail,Electronics,1546,17240.0,149,13408.0,6.0,Delayed,North
+2569.0,2023-05-23,,Truck,Machinery,1712,2770.0,89,20959.5,6.0,Delayed,West
+2570.0,2025-07-05,Delhi-Mumbai,Truck,Electronics,904,3851.0,82,11425.65,3.0,On Time,West
+2571.0,2025-04-07,Lucknow-Kanpur,Rail,Machinery,1716,11844.0,121,13788.6,7.0,Delayed,North
+2572.0,,Mumbai-Pune,Rail,Food,1528,5361.0,83,11500.15,5.0,On Time,West
+2573.0,2023-11-01,Kanpur-Varanasi,Rail,Food,1039,14791.0,119,9491.65,5.0,On Time,North
+2574.0,2025-01-05,Lucknow-Delhi,Truck,Electronics,1759,6952.0,123,22150.8,3.0,On Time,North
+2575.0,2023-10-18,Lucknow-Delhi,Rail,Textiles,1654,1594.0,172,11817.1,1.0,On Time,North
+2576.0,2023-04-12,Lucknow-Kanpur,Truck,Food,1066,17385.0,113,15399.75,4.0,On Time,North
+2577.0,2025-05-16,Delhi-Mumbai,Truck,Electronics,1737,772.0,87,20959.8,4.0,on time ,West
+2578.0,2025-08-25,Mumbai-Pune,Truck,Machinery,1200,8730.0,81,15709.5,4.0,On Time,West
+2579.0,2025-08-31,Delhi-Mumbai,Truck,Machinery,328,10368.0,91,5491.2,1.0,On Time,West
+2580.0,2025-04-21,Lucknow-Delhi,Truck,Electronics,1061,544.0,106,12813.6,6.0,Delayed,North
+2581.0,2025-08-19,Delhi-Mumbai,Air,Textiles,1420,9257.0,72,51088.55,6.0,Delayed,West
+2582.0,2025-07-30,Lucknow-Delhi,Truck,Electronics,1633,12082.0,103,21408.3,6.0,Delayed,North
+2583.0,2025-10-23,Delhi-Mumbai,Rail,Electronics,814,8755.0,132,7011.25,5.0,On Time,West
+2584.0,2023-03-26,Lucknow-Kanpur,Truck,Food,1083,18682.0,66,15798.3,5.0,On Time,North
+2585.0,2023-11-24,Delhi-Jaipur,Truck,Electronics,672,2387.0,106,8422.05,2.0,On Time,North
+2586.0,2025-03-26,Lucknow-Kanpur,Truck,Electronics,1661,12057.0,90,21740.55,7.0,Delayed,North
+2587.0,2024-03-29,Lucknow-Kanpur,Air,Machinery,1706,4108.0,99,60326.2,4.0,On Time,North
+2588.0,2024-09-20,Delhi-Jaipur,Rail,Food,714,11796.0,138,6767.4,4.0,On Time,North
+2589.0,2024-10-26,Delhi-Jaipur,Air,Machinery,425,9204.0,136,16255.6,1.0,On Time,North
+2590.0,2023-01-12,Mumbai-Pune,Air,Machinery,1486,596.0,83,52099.4,6.0,Delayed,West
+2591.0,2023-10-31,Mumbai-Pune,Truck,Textiles,1792,1563.0,136,21738.45,6.0,Delayed,West
+2592.0,2025-09-01,Lucknow-Kanpur,Truck,Textiles,974,12559.0,93,13571.85,6.0,Delayed,North
+2593.0,2025-02-21,Lucknow-Kanpur,Rail,Food,458,16977.0,106,5752.55,1.0,On Time,North
+2594.0,2023-02-12,Lucknow-Delhi,Truck,Food,423,17910.0,112,7762.5,1.0,On Time,North
+2595.0,2025-08-01,Lucknow-Delhi,Truck,Textiles,1449,,112,18885.6,6.0,Delayed,North
+2596.0,2023-12-09,Mumbai-Pune,Truck,Textiles,1748,18277.0,129,23717.55,6.0,Delayed,West
+2597.0,2024-05-12,Kanpur-Varanasi,Truck,Textiles,264,2823.0,133,3591.45,2.0,On Time,North
+2598.0,2023-12-30,Kanpur-Varanasi,Truck,Textiles,1696,17142.0,154,,4.0,On Time,North
+2599.0,2025-06-09,Mumbai-Pune,Truck,Textiles,1727,4861.0,77,21453.15,5.0,On Time,West
+2600.0,2024-03-02,Lucknow-Delhi,Truck,Machinery,897,7730.0,144,11923.5,5.0,On Time,North
+2601.0,2025-10-01,Lucknow-Delhi,Truck,Food,554,16475.0,139,9119.25,3.0,On Time,North
+2602.0,2023-01-21,Kanpur-Varanasi,Truck,Machinery,1276,8841.0,83,16638.15,5.0,On Time,North
+2603.0,2024-02-11,Delhi-Mumbai,Truck,Machinery,1250,4450.0,133,15667.5,4.0,On Time,West
+2604.0,2024-09-10,Delhi-Mumbai,Rail,Electronics,292,307.0,142,2090.05,1.0,On Time,West
+2605.0,2025-10-11,Lucknow-Delhi,Truck,Machinery,726,4290.0,129,9355.5,4.0,On Time,North
+2606.0,2023-12-02,Delhi-Mumbai,Truck,Textiles,629,1983.0,117,7845.45,4.0,On Time,West
+2607.0,2024-02-03,Delhi-Jaipur,Rail,Textiles,1133,2986.0,97,8378.9,8.0,Delayed,North
+2608.0,2025-03-03,Mumbai-Pune,Truck,Electronics,191,16961.0,114,4836.15,1.0,On Time,West
+2609.0,2024-12-15,,Truck,Electronics,238,9053.0,163,4213.95,3.0,On Time,West
+2610.0,2023-02-20,Lucknow-Delhi,Rail,Electronics,580,8481.0,111,5332.15,1.0,On Time,North
+2611.0,2023-11-20,Lucknow-Kanpur,Truck,Electronics,548,13895.0,133,8660.25,3.0,On Time,North
+2612.0,2025-02-27,Kanpur-Varanasi,Rail,Electronics,1456,17239.0,130,12777.85,7.0,Delayed,North
+2613.0,2023-05-21,Lucknow-Delhi,Rail,Machinery,968,9738.0,94,8236.7,1.0,On Time,North
+2614.0,2024-04-14,Delhi-Mumbai,Truck,Electronics,439,5031.0,121,6022.65,2.0,On Time,West
+2615.0,2025-02-25,Kanpur-Varanasi,Truck,Machinery,1175,9955.0,94,15593.25,4.0,On Time,North
+2616.0,2025-08-21,Lucknow-Kanpur,Truck,Food,565,5824.0,98,7653.6,2.0,On Time,North
+2617.0,2025-10-04,Delhi-Mumbai,Truck,Electronics,817,12520.0,127,11682.0,4.0,On Time,West
+2618.0,2024-01-08,Delhi-Jaipur,Truck,Electronics,898,4160.0,99,11400.0,5.0,On Time,North
+2619.0,2024-05-08,Delhi-Mumbai,Truck,Machinery,574,4865.0,92,7617.75,2.0,On Time,West
+2620.0,2025-01-20,Delhi-Jaipur,Helicopter,Food,500,6653.0,127,6997.95,3.0,On Time,North
+2621.0,2023-10-18,Kanpur-Varanasi,Truck,Machinery,1562,7478.0,111,19865.7,6.0,Delayed,North
+2622.0,2023-04-16,Delhi-Jaipur,Truck,electronics,704,,85,11173.95,3.0,On Time,North
+2623.0,2024-10-31,Kanpur-Varanasi,Truck,Electronics,1031,17800.0,185,15042.0,2.0,On Time,North
+2624.0,2023-01-02,Kanpur-Varanasi,Truck,Textiles,1096,7230.0,120,14236.5,6.0,Delayed,North
+2625.0,2024-08-11,Kanpur-Varanasi,Rail,Textiles,1021,3286.0,47,7639.9,4.0,On Time,North
+2626.0,2024-10-05,Kanpur-Varanasi,Truck,Machinery,920,5889.0,115,11923.35,4.0,On Time,North
+2627.0,2023-03-31,Kanpur-Varanasi,Truck,Electronics,756,16222.0,64,11505.3,2.0,On Time,North
+2628.0,2023-12-16,Delhi-Mumbai,Air,Food,697,17629.0,105,27039.35,2.0,On Time,West
+2629.0,2025-11-28,Kanpur-Varanasi,Truck,Textiles,1632,8042.0,48,20790.3,5.0,On Time,North
+2630.0,2025-06-27,Delhi-Mumbai,Truck,Food,1276,7648.0,88,16459.2,2.0,On Time,West
+2631.0,2023-06-08,Kanpur-Varanasi,Truck,Textiles,613,17044.0,69,9912.6,1.0,On Time,North
+2632.0,2025-08-16,Delhi-Jaipur,Truck,Electronics,1626,18396.0,-10,22271.4,5.0,On Time,North
+2633.0,2023-11-08,Kanpur-Varanasi,Truck,Machinery,1799,18348.0,88,24340.2,7.0,Delayed,North
+2634.0,2024-03-20,Lucknow-Kanpur,Truck,Food,1129,396.0,102,13607.4,3.0,On Time,North
+2635.0,2023-10-25,Kanpur-Varanasi,Truck,Food,599,2509.0,119,7564.35,1.0,On Time,North
+2636.0,2025-08-09,Kanpur-Varanasi,Rail,electronics,1784,1561.0,117,12722.15,5.0,On Time,North
+2637.0,2023-02-05,Delhi-Jaipur,Truck,Food,816,,128,10147.2,3.0,On Time,North
+2638.0,2024-07-12,Mumbai-Pune,Truck,Textiles,1241,17478.0,104,17513.7,4.0,On Time,West
+2639.0,2025-06-09,Delhi-Jaipur,Rail,Machinery,1608,6654.0,84,12254.1,9.0,Delayed,North
+2640.0,2023-05-21,Lucknow-Kanpur,Truck,Textiles,700,16491.0,140,10873.65,5.0,On Time,North
+2641.0,2025-06-05,Mumbai-Pune,Rail,Textiles,765,18999.0,62,8204.85,5.0,on time ,West
+2642.0,2024-12-26,Lucknow-Delhi,Truck,Electronics,567,17901.0,94,9489.15,4.0,On Time,North
+2643.0,2025-11-15,Lucknow-Delhi,Rail,Textiles,260,18800.0,128,4640.0,1.0,,North
+2644.0,2024-06-04,Lucknow-Kanpur,Truck,Electronics,369,7458.0,131,5546.7,1.0,On Time,North
+2645.0,2023-01-10,Delhi-Jaipur,Rail,Food,1179,17771.0,96,10918.65,3.0,On Time,North
+2646.0,2025-09-10,Delhi-Mumbai,Air,Food,327,17602.0,96,14085.3,4.0,On Time,West
+2647.0,2024-01-13,Lucknow-Kanpur,Truck,electronics,948,7737.0,71,12536.55,3.0,On Time,North
+2648.0,2024-11-12,Mumbai-Pune,Truck,Textiles,248,760.0,155,3090.0,1.0,On Time,West
+2649.0,2024-08-06,Mumbai-Pune,Truck,Machinery,1169,9007.0,107,15379.05,4.0,On Time,West
+2650.0,2023-06-01,Kanpur-Varanasi,Truck,Machinery,1267,7022.0,104,16257.3,4.0,On Time,North
+,2024-12-20,Lucknow-Delhi,Truck,Electronics,731,12053.0,114,10579.95,3.0,On Time,North
+2652.0,2025-12-08,Mumbai-Pune,Truck,Food,1463,19013.0,112,20407.95,6.0,Delayed,West
+2653.0,,Lucknow-Kanpur,Truck,Food,512,4070.0,74,6754.5,1.0,On Time,North
+2654.0,2023-02-19,Mumbai-Pune,Truck,Machinery,619,3507.0,102,7954.05,4.0,On Time,West
+2655.0,2024-10-25,Lucknow-Kanpur,Truck,Electronics,1467,9146.0,102,18975.9,4.0,On Time,North
+2656.0,2024-06-14,Delhi-Mumbai,Truck,Machinery,486,14647.0,69,8029.05,2.0,On Time,West
+2657.0,2025-12-19,Kanpur-Varanasi,Truck,Textiles,1596,not available,119,19881.0,7.0,Delayed,North
+2658.0,2025-05-06,Lucknow-Delhi,Truck,Textiles,374,18381.0,90,7245.15,1.0,On Time,North
+2659.0,2023-05-26,Mumbai-Pune,truck ,Electronics,452,13565.0,89,7458.75,1.0,On Time,West
+2660.0,2025-07-03,Lucknow-Kanpur,Truck,Electronics,1189,4187.0,98,14896.05,5.0,On Time,North
+2661.0,2025-09-19,Delhi-Jaipur,Truck,Textiles,1202,7707.0,102,15580.05,3.0,On Time,North
+2662.0,2023-08-30,Lucknow-Delhi,Truck,Food,697,4119.0,85,8981.85,2.0,On Time,North
+2663.0,2024-08-03,Delhi-Mumbai,Truck,Electronics,1759,915.0,93,21245.25,7.0,Delayed,West
+2664.0,2024-11-17,Lucknow-Kanpur,Rail,Textiles,1325,12663.0,104,11174.45,8.0,Delayed,North
+2665.0,2024-04-27,Kanpur-Varanasi,Truck,Textiles,1785,13392.0,102,23428.8,7.0,Delayed,North
+2666.0,2024-11-03,Kanpur-Varanasi,truck ,Food,657,16258.0,134,10322.7,4.0,On Time,North
+2667.0,2024-09-22,Delhi-Mumbai,Rail,Food,212,1022.0,70,1637.3,2.0,On Time,West
+2668.0,2024-10-22,Delhi-Mumbai,Rail,Food,1214,13029.0,156,10452.35,3.0,On Time,West
+2669.0,2024-10-23,Kanpur-Varanasi,Helicopter,Food,240,15025.0,107,10653.75,2.0,On Time,North
+2670.0,2025-03-15,Mumbai-Pune,Truck,Machinery,1412,17748.0,102,19606.2,5.0,On Time,West
+2671.0,2024-02-23,Mumbai-Pune,Truck,Food,829,11079.0,123,11609.85,4.0,On Time,West
+2672.0,2025-09-14,Lucknow-Kanpur,Rail,Machinery,688,2822.0,119,5239.3,3.0,On Time,North
+2673.0,2024-10-11,Delhi-Jaipur,Truck,Electronics,510,5455.0,131,6938.25,3.0,On Time,North
+2674.0,2025-08-26,Lucknow-Kanpur,truck ,Textiles,476,13401.0,83,7722.15,2.0,On Time,North
+2675.0,2024-08-12,Delhi-Jaipur,Rail,Machinery,1507,2650.0,107,10946.5,5.0,On Time,North
+2676.0,2024-05-23,Delhi-Mumbai,Rail,Electronics,1275,11241.0,113,10611.15,3.0,on time ,West
+2677.0,2024-03-16,Lucknow-Delhi,Air,Electronics,850,18157.0,88,32473.55,3.0,On Time,North
+2678.0,2025-07-09,Lucknow-Kanpur,Air,Machinery,0,11384.0,76,27117.6,5.0,On Time,North
+2679.0,2025-02-08,Lucknow-Kanpur,Rail,Electronics,1442,18150.0,59,12816.5,6.0,Delayed,North
+2680.0,2023-09-20,Delhi-Jaipur,Truck,Electronics,1492,1484.0,103,18126.6,5.0,On Time,North
+2681.0,2024-09-28,Delhi-Mumbai,Rail,Machinery,1729,8352.0,98,13355.8,9.0,Delayed,West
+2682.0,2024-04-03,Delhi-Mumbai,Truck,Electronics,1094,7338.0,123,14228.7,2.0,On Time,West
+2683.0,2025-09-25,Delhi-Jaipur,Truck,Food,1683,6126.0,107,21114.9,4.0,On Time,North
+2684.0,2024-11-30,Delhi-Mumbai,Rail,Food,802,10582.0,165,7201.3,6.0,Delayed,West
+2685.0,2023-10-29,Kanpur-Varanasi,Truck,Textiles,561,13901.0,112,8817.15,3.0,On Time,North
+2686.0,2024-07-07,Mumbai-Pune,Truck,Electronics,unknown,16220.0,110,3765.0,1.0,On Time,West
+2687.0,2023-10-15,,Truck,Textiles,1279,15680.0,116,17700.0,3.0,On Time,North
+2688.0,2024-09-12,Lucknow-Delhi,Rail,Food,576,8764.0,116,5346.6,3.0,On Time,North
+2689.0,2025-10-02,Lucknow-Kanpur,Truck,Food,1038,,92,15072.3,5.0,On Time,North
+2690.0,2023-02-05,Lucknow-Delhi,Rail,Food,500,593.0,105,3588.95,1.0,On Time,North
+2691.0,2025-01-13,Lucknow-Kanpur,Helicopter,Electronics,907,16565.0,60,13368.75,3.0,On Time,North
+2692.0,2023-12-19,Mumbai-Pune,Rail,Electronics,276,7099.0,123,2996.85,1.0,On Time,West
+2693.0,2023-03-14,Delhi-Mumbai,Rail,Food,1464,13933.0,109,12337.95,6.0,Delayed,West
+2694.0,2024-10-09,Kanpur-Varanasi,Truck,Textiles,156,3070.0,116,2332.5,1.0,On Time,North
+2695.0,2025-12-29,Delhi-Jaipur,Truck,Textiles,547,111.0,103,6580.65,4.0,On Time,North
+2696.0,2024-02-29,Kanpur-Varanasi,Truck,Machinery,302,15651.0,117,5971.65,3.0,On Time,North
+2697.0,2025-09-25,Mumbai-Pune,Air,Food,1756,17245.0,98,64046.75,5.0,On Time,West
+2698.0,2024-12-08,Lucknow-Delhi,Truck,Textiles,837,3285.0,117,10536.75,3.0,On Time,North
+2699.0,2024-07-14,Delhi-Jaipur,Air,Food,301,16509.0,91,13011.35,2.0,On Time,North
+2700.0,2025-04-07,Delhi-Mumbai,Truck,Textiles,1453,1906.0,153,17721.9,4.0,On Time,West
+2701.0,2025-08-13,Mumbai-Pune,Rail,Machinery,462,5764.0,111,4098.6,2.0,On Time,West
+2702.0,2024-05-31,Delhi-Jaipur,Rail,Machinery,991,14226.0,123,9070.9,3.0,On Time,North
+2703.0,2024-03-03,Mumbai-Pune,truck ,Food,553,12994.0,109,5820.1,5.0,On Time,West
+2704.0,2023-06-09,Mumbai-Pune,Air,Textiles,455,5254.0,93,16713.1,4.0,On Time,West
+2705.0,2023-05-29,Delhi-Mumbai,Truck,Electronics,315,13867.0,52,5860.05,3.0,On Time,West
+2706.0,2025-02-14,Lucknow-Kanpur,Truck,Machinery,1071,15326.0,86,15150.9,5.0,On Time,North
+2707.0,2023-03-08,Delhi-Jaipur,Rail,Food,654,1625.0,90,4821.75,1.0,On Time,North
+2708.0,2025-10-10,Delhi-Mumbai,Rail,Food,986,860.0,81,7031.0,4.0,On Time,West
+2709.0,2024-01-16,Mumbai-Pune,Truck,Textiles,122,17078.0,77,4025.7,3.0,On Time,West
+2710.0,2023-02-27,Delhi-Mumbai,Truck,Food,254,13980.0,60,5145.0,1.0,On Time,West
+2711.0,2023-12-08,Lucknow-Kanpur,truck ,Machinery,1309,1155.0,129,15881.25,6.0,Delayed,North
+2712.0,2024-12-27,Kanpur-Varanasi,Truck,Food,348,10146.0,151,5697.9,5.0,On Time,North
+2713.0,2025-02-08,Delhi-Jaipur,Truck,Food,848,3183.0,122,10653.45,5.0,On Time,North
+2714.0,2024-09-05,Lucknow-Kanpur,Truck,Electronics,904,15778.0,108,13214.7,6.0,Delayed,North
+2715.0,2023-12-20,Lucknow-Delhi,Rail,Electronics,233,12208.0,105,3462.2,2.0,On Time,North
+2716.0,2023-04-26,Delhi-Jaipur,Truck,Machinery,420,9750.0,61,6502.5,4.0,On Time,North
+2717.0,2024-10-23,Lucknow-Kanpur,Truck,Textiles,489,6057.0,84,6776.55,1.0,On Time,North
+2718.0,2024-03-28,Mumbai-Pune,Truck,Electronics,533,5355.0,75,7199.25,4.0,On Time,West
+2719.0,2023-10-14,Delhi-Jaipur,Truck,Textiles,1145,9511.0,107,15166.65,5.0,On Time,North
+2720.0,2025-10-13,Delhi-Jaipur,Rail,Machinery,972,16444.0,126,9270.6,4.0,On Time,North
+2721.0,2023-11-07,Delhi-Mumbai,Air,Electronics,1723,9791.0,104,61773.65,8.0,Delayed,West
+2722.0,2023-07-27,Mumbai-Pune,Truck,Textiles,1788,18314.0,96,24203.1,5.0,On Time,West
+2723.0,2024-09-09,Lucknow-Delhi,Rail,Electronics,1248,3495.0,95,9260.25,4.0,On Time,North
+2724.0,2024-03-21,Kanpur-Varanasi,Rail,Machinery,1202,1303.0,100,8609.45,5.0,,North
+2725.0,2024-10-31,Lucknow-Kanpur,Rail,Machinery,957,19294.0,160,9593.1,2.0,On Time,North
+2726.0,2024-09-24,Delhi-Mumbai,Truck,Electronics,150,19576.0,76,4736.4,2.0,On Time,West
+2727.0,2023-02-24,Lucknow-Kanpur,Air,Textiles,275,3144.0,108,10096.6,1.0,On Time,North
+2728.0,2025-06-30,Lucknow-Delhi,Truck,Food,969,7372.0,90,12733.8,5.0,On Time,North
+2729.0,2025-11-01,Lucknow-Delhi,Truck,Food,352,3614.0,121,4766.1,2.0,On Time,North
+2730.0,2024-10-18,Delhi-Jaipur,Truck,Electronics,1065,10090.0,153,14293.5,3.0,On Time,North
+2731.0,2025-09-06,Lucknow-Delhi,truck ,Textiles,1369,,118,17371.8,4.0,On Time,North
+2732.0,2024-05-29,Lucknow-Kanpur,Truck,Food,838,10867.0,81,,3.0,On Time,North
+2733.0,2023-08-25,Mumbai-Pune,Truck,Machinery,1229,16628.0,87,17242.2,6.0,Delayed,West
+2734.0,2023-12-14,Mumbai-Pune,Truck,Textiles,1316,7607.0,137,16933.05,6.0,Delayed,West
+2735.0,2024-09-18,Delhi-Jaipur,Rail,Food,1439,4957.0,95,10816.55,4.0,On Time,North
+2736.0,2024-09-21,Kanpur-Varanasi,Rail,Textiles,401,12218.0,112,,1.0,On Time,North
+2737.0,2023-12-30,Lucknow-Kanpur,Truck,Electronics,647,17861.0,137,10443.15,4.0,On Time,North
+2738.0,2023-11-17,Lucknow-Kanpur,Rail,Textiles,815,3246.0,178,6191.9,2.0,On Time,North
+2739.0,2023-10-13,Lucknow-Delhi,Rail,Food,878,17277.0,90,8737.55,4.0,On Time,North
+2740.0,2023-05-29,Lucknow-Kanpur,Rail,Electronics,367,5856.0,98,3447.4,2.0,On Time,North
+2741.0,2024-02-10,Delhi-Mumbai,Truck,Textiles,1293,4514.0,82,16193.1,5.0,On Time,West
+2742.0,2025-09-04,Kanpur-Varanasi,Rail,Machinery,1109,17594.0,112,10402.1,5.0,On Time,North
+2743.0,2024-03-31,Lucknow-Delhi,Air,Food,650,4037.0,68,23355.55,1.0,On Time,North
+2744.0,2025-03-10,Delhi-Mumbai,Rail,Electronics,1578,4063.0,107,11655.45,3.0,On Time,West
+2745.0,2025-10-09,Delhi-Jaipur,Truck,Textiles,1774,5997.0,114,22187.55,5.0,On Time,North
+2746.0,2025-02-22,Mumbai-Pune,Truck,Machinery,1415,9074.0,85,,8.0,Delayed,West
+2747.0,2024-04-04,Delhi-Jaipur,Truck,Food,1687,14477.0,71,22415.55,9.0,Delayed,North
+2748.0,2025-01-07,Mumbai-Pune,Truck,Machinery,1264,17600.0,91,17808.0,7.0,Delayed,West
+2749.0,2024-05-23,Delhi-Jaipur,truck ,Textiles,1269,16156.0,122,17651.4,4.0,On Time,North
+2750.0,2024-04-25,Lucknow-Kanpur,Truck,Textiles,1548,1850.0,99,18853.5,3.0,On Time,North
+2751.0,2023-04-24,Delhi-Mumbai,Rail,Electronics,413,4127.0,113,3510.05,1.0,On Time,West
+2752.0,2025-01-18,Mumbai-Pune,Rail,Machinery,283,11628.0,133,3725.2,1.0,On Time,West
+2753.0,2023-12-27,Lucknow-Delhi,Truck,Electronics,1787,5845.0,137,22320.75,6.0,Delayed,North
+2754.0,2023-12-07,Delhi-Mumbai,Air,Food,812,9779.0,115,29886.85,5.0,On Time,West
+2755.0,2025-02-08,Lucknow-Delhi,Truck,Electronics,227,6038.0,109,3629.7,3.0,On Time,North
+2756.0,2025-01-30,Delhi-Mumbai,Rail,Food,1410,12250.0,89,11707.5,5.0,On Time,West
+2757.0,2025-08-26,Delhi-Mumbai,Rail,Textiles,1376,13506.0,81,11657.9,4.0,On Time,West
+2758.0,2024-03-24,Delhi-Jaipur,Rail,Textiles,799,-500.0,70,8575.15,2.0,On Time,North
+2759.0,2025-04-14,Mumbai-Pune,Air,Machinery,485,17843.0,119,19651.45,3.0,on time ,West
+2760.0,2023-11-07,Mumbai-Pune,Truck,Food,1353,4953.0,120,16978.95,6.0,Delayed,West
+2761.0,2023-09-19,Delhi-Mumbai,Rail,Textiles,370,18425.0,104,5353.75,3.0,On Time,West
+2762.0,2024-02-10,Lucknow-Kanpur,Truck,Machinery,910,3248.0,79,11407.2,2.0,On Time,North
+2763.0,2023-05-23,Lucknow-Kanpur,Rail,Machinery,514,16343.0,109,6049.45,3.0,On Time,North
+2764.0,2023-12-08,Lucknow-Delhi,Rail,Electronics,297,8033.0,110,3283.95,2.0,On Time,North
+2765.0,2023-09-01,Lucknow-Delhi,Rail,Machinery,1446,9536.0,97,11552.4,4.0,On Time,North
+2766.0,2024-05-04,Delhi-Jaipur,Truck,Textiles,1179,17769.0,118,16813.35,3.0,On Time,North
+2767.0,2023-01-12,Delhi-Mumbai,Rail,Electronics,930,6574.0,116,7496.1,5.0,On Time,West
+2768.0,2024-07-14,Lucknow-Delhi,Truck,Food,1326,14779.0,90,18128.85,4.0,On Time,North
+2769.0,2023-02-11,Lucknow-Delhi,Truck,Food,1744,11328.0,65,22627.2,8.0,Delayed,North
+2770.0,2024-11-08,Kanpur-Varanasi,Rail,Textiles,727,870.0,208,5219.5,4.0,On Time,North
+2771.0,2024-08-16,Delhi-Mumbai,Truck,Textiles,703,1943.0,121,8727.45,2.0,On Time,West
+2772.0,2023-05-14,Delhi-Jaipur,Rail,Electronics,1261,173.0,114,8852.95,5.0,On Time,North
+2773.0,2025-12-26,,Truck,Electronics,1545,18144.0,110,21261.6,6.0,Delayed,North
+2774.0,2025-10-27,Delhi-Jaipur,Truck,Textiles,1180,16159.0,127,16583.85,3.0,On Time,North
+2775.0,2025-08-05,Mumbai-Pune,Rail,Textiles,1685,8100.0,80,13010.0,4.0,On Time,West
+2776.0,2023-03-14,Delhi-Jaipur,Truck,Food,1109,13373.0,125,15313.95,5.0,On Time,North
+2777.0,2024-02-03,Lucknow-Kanpur,Truck,Food,170,16221.0,105,4473.15,3.0,On Time,North
+2778.0,2024-07-31,Lucknow-Kanpur,Helicopter,Food,1010,431.0,76,7134.65,5.0,On Time,North
+2779.0,2025-05-08,Delhi-Jaipur,Truck,Textiles,693,17905.0,91,11001.75,5.0,On Time,North
+2780.0,2023-05-10,Lucknow-Kanpur,Truck,Machinery,1495,7612.0,122,19081.8,4.0,On Time,North
+2781.0,2025-07-19,Mumbai-Pune,Truck,Textiles,1740,,119,21634.65,8.0,Delayed,West
+2782.0,2023-09-23,Delhi-Mumbai,Rail,Textiles,699,12842.0,131,6819.3,2.0,On Time,West
+2783.0,2025-03-03,Lucknow-Kanpur,Rail,electronics,613,13526.0,115,6319.9,1.0,On Time,North
+2784.0,2023-09-10,Lucknow-Kanpur,truck ,Textiles,183,5213.0,95,2062.95,1.0,On Time,North
+2785.0,2025-04-01,Delhi-Jaipur,Truck,Electronics,1093,8519.0,35,14393.85,3.0,On Time,North
+2786.0,2023-06-13,Mumbai-Pune,Rail,Textiles,1166,2981.0,95,8609.15,4.0,On Time,West
+2787.0,2023-04-05,Delhi-Mumbai,Rail,Textiles,1789,13245.0,100,14509.75,7.0,Delayed,West
+2788.0,2025-04-12,Delhi-Jaipur,Rail,Textiles,938,13656.0,103,8614.4,4.0,On Time,North
+2789.0,2023-12-02,Delhi-Jaipur,Truck,Textiles,705,19349.0,131,11362.35,1.0,On Time,North
+2790.0,2025-04-01,Kanpur-Varanasi,Rail,Machinery,909,2675.0,73,6764.25,3.0,On Time,North
+2791.0,2023-08-26,Mumbai-Pune,Rail,Textiles,232,12814.0,100,3546.1,1.0,On Time,West
+2792.0,2024-01-16,Delhi-Mumbai,Truck,electronics,1518,6285.0,113,19158.75,3.0,On Time,West
+2793.0,2025-06-17,Mumbai-Pune,Truck,Electronics,1188,8756.0,102,15569.4,3.0,On Time,West
+2794.0,2024-04-27,Delhi-Mumbai,truck ,Textiles,389,5841.0,119,3599.15,1.0,On Time,West
+2795.0,2025-06-20,Mumbai-Pune,Truck,Food,475,16761.0,101,8214.15,5.0,On Time,West
+2796.0,2025-11-14,Delhi-Jaipur,Air,Machinery,868,165.0,119,30404.75,4.0,On Time,North
+2797.0,2024-04-26,Delhi-Jaipur,Rail,Textiles,566,4362.0,99,4616.3,4.0,On Time,North
+2798.0,2025-07-05,Lucknow-Delhi,Truck,Textiles,1336,5804.0,92,16902.6,3.0,On Time,North
+2799.0,2025-09-20,Lucknow-Kanpur,Truck,Textiles,1271,15455.0,102,17570.25,6.0,Delayed,North
+2800.0,2025-08-21,Kanpur-Varanasi,Truck,Food,1696,8694.0,108,21656.1,8.0,Delayed,North
+1770.0,2023-09-27,Lucknow-Delhi,Truck,Food,1077,4693.0,98,13627.95,2.0,On Time,North
+1483.0,,Delhi-Jaipur,Air,Textiles,1661,15970.0,85,60530.5,6.0,Delayed,North
+2099.0,2023-07-07,Kanpur-Varanasi,Rail,Food,1413,4470.0,71,10561.5,8.0,Delayed,North
+2637.0,2023-02-05,Delhi-Jaipur,Truck,Food,816,,128,10147.2,3.0,On Time,North
+1294.0,2023-05-30,Mumbai-Pune,Truck,Electronics,unknown,17777.0,86,5534.55,1.0,On Time,West
+2105.0,2025-09-09,Delhi-Mumbai,Truck,Textiles,309,4284.0,135,4350.6,3.0,On Time,West
+1916.0,2023-01-18,Kanpur-Varanasi,Truck,Food,562,3988.0,85,7342.2,3.0,On Time,North
+1875.0,2023-03-16,Lucknow-Delhi,Truck,Food,372,12851.0,66,6391.65,3.0,On Time,North
+2226.0,2023-05-13,Lucknow-Kanpur,Truck,Food,164,7468.0,90,3088.2,2.0,On Time,North
+1037.0,2024-08-23,Mumbai-Pune,Truck,Food,1384,4911.0,63,17344.65,2.0,On Time,West
