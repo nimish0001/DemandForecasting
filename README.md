@@ -33,7 +33,7 @@ Logistics companies lose money when they plan capacity blindly: too few vehicles
 
 ## 🎯 Objectives
 
-1. Generate a realistic, messy freight dataset
+1. Generate a realistic, messy freight dataset due to unavailability of realistic data
 2. Clean and validate the data with a documented, repeatable process
 3. Explore demand, cost, and delivery patterns visually
 4. Answer 15 business questions using SQL
